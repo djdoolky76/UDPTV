@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
- <a href="https://discord.gg/DAvhENGyXU"><img src="https://img.shields.io/discord/1380603044261134398?label=Discord&logo=discord&style=for-the-badge&color=purple"></a>
+ <a href="https://discord.gg/civ4"><img src="https://img.shields.io/discord/1380603044261134398?label=Discord&logo=discord&style=for-the-badge&color=purple"></a>
 </p>
 
 > [!Note]
