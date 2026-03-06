@@ -114947,660 +114947,10 @@
   </channel>
   <channel id="plex.tv.ANIME.x.HIDIVE.plex">
     <display-name lang="en">ANIME x HIDIVE</display-name>
-    <icon src="https://metadata-static.plex.tv/5/gracenote/5df8d6929b0a6cc76976d9fe0f623352.jpg" />
-    <icon src="https://metadata-static.plex.tv/5/gracenote/5df8d6929b0a6cc76976d9fe0f623352.jpg" />
+    <icon src="https://metadata-static.plex.tv/a/gracenote/aae6f97de8513d0adeb6612a5908874a.jpg" />
+    <icon src="https://metadata-static.plex.tv/a/gracenote/aae6f97de8513d0adeb6612a5908874a.jpg" />
     <url>http://www.plex.tv</url>
   </channel>
-  <programme start="20260305000000 +0000" stop="20260305002900 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">Princess Principal</title>
-    <sub-title lang="en">Roaming Pigeons</sub-title>
-    <desc lang="en">The girls are sent to retrieve a prototype from the Kingdom; Dorothy must keep a close eye on a friend.</desc>
-    <date>2017</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Action</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/3/gracenote/3e98a34deca85b68717ca6091500a034.jpg" />
-    <episode-num system="onscreen">S1 E4</episode-num>
-  </programme>
-  <programme start="20260305002900 +0000" stop="20260305005800 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">Princess Principal</title>
-    <sub-title lang="en">Bullet &amp; Blade's Ballad</sub-title>
-    <desc lang="en">Assassins target the princess and her guest Lord Horikawa during his visit to the Kingdom of Albion.</desc>
-    <date>2017</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Action</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/3/gracenote/3e98a34deca85b68717ca6091500a034.jpg" />
-    <episode-num system="onscreen">S1 E5</episode-num>
-  </programme>
-  <programme start="20260305005800 +0000" stop="20260305012700 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">Princess Principal</title>
-    <sub-title lang="en">Loudly Laundry</sub-title>
-    <desc lang="en">The girls have their next assignment, and they must infiltrate a laundry mill to find a deadly weapon; in the mill, they catch a glimpse of the workers' conditions.</desc>
-    <date>2017</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Action</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/3/gracenote/3e98a34deca85b68717ca6091500a034.jpg" />
-    <episode-num system="onscreen">S1 E7</episode-num>
-  </programme>
-  <programme start="20260305012700 +0000" stop="20260305015600 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">Princess Principal</title>
-    <sub-title lang="en">Rouge Morgue</sub-title>
-    <desc lang="en">Dorothy is assigned a mission to recover a code cipher hidden in the body of a deceased Kingdom agent, her father.</desc>
-    <date>2017</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Action</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/3/gracenote/3e98a34deca85b68717ca6091500a034.jpg" />
-    <episode-num system="onscreen">S1 E6</episode-num>
-  </programme>
-  <programme start="20260305015600 +0000" stop="20260305022500 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">Princess Principal</title>
-    <sub-title lang="en">Pell-mell Duel</sub-title>
-    <desc lang="en">Chise writes to her sister in Japan about her new life in Albion, the people around her, and her job as a part of the spy team.</desc>
-    <date>2017</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Action</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/3/gracenote/3e98a34deca85b68717ca6091500a034.jpg" />
-    <episode-num system="onscreen">S1 E9</episode-num>
-  </programme>
-  <programme start="20260305022500 +0000" stop="20260305025400 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">Princess Principal</title>
-    <sub-title lang="en">Ripper Dipper</sub-title>
-    <desc lang="en">Team members take turns maintaining surveillance of Lord O'Reilly; Ange meets a little girl.</desc>
-    <date>2017</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Action</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/3/gracenote/3e98a34deca85b68717ca6091500a034.jpg" />
-    <episode-num system="onscreen">S1 E8</episode-num>
-  </programme>
-  <programme start="20260305025400 +0000" stop="20260305032300 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">Princess Principal</title>
-    <sub-title lang="en">Comfort Comrade</sub-title>
-    <desc lang="en">Ange, Dorothy, and Beatrice are assigned a mission to steal secret documents from the First Lord of the Admiralty.</desc>
-    <date>2017</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Action</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/3/gracenote/3e98a34deca85b68717ca6091500a034.jpg" />
-    <episode-num system="onscreen">S1 E10</episode-num>
-  </programme>
-  <programme start="20260305032300 +0000" stop="20260305035200 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">Princess Principal</title>
-    <sub-title lang="en">Humble Double</sub-title>
-    <desc lang="en">Ange must now fulfill her newest orders to assassinate the princess.</desc>
-    <date>2017</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Action</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/3/gracenote/3e98a34deca85b68717ca6091500a034.jpg" />
-    <episode-num system="onscreen">S1 E11</episode-num>
-  </programme>
-  <programme start="20260305035200 +0000" stop="20260305042100 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">Princess Principal</title>
-    <sub-title lang="en">Fall of the Wall</sub-title>
-    <desc lang="en">Zelda reveals that the Commonwealth is arranging for the assassination of the queen and making the princess into a scapegoat.</desc>
-    <date>2017</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Action</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/3/gracenote/3e98a34deca85b68717ca6091500a034.jpg" />
-    <episode-num system="onscreen">S1 E12</episode-num>
-  </programme>
-  <programme start="20260305042100 +0000" stop="20260305045000 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">Princess Principal</title>
-    <sub-title lang="en">Wired Liar</sub-title>
-    <desc lang="en">After receiving a plea for help from scientist Eric, Ange and her fellow spies agree to smuggle him to safety; things get complicated when he asks that his little sister be rescued as well.</desc>
-    <date>2017</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Action</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/3/gracenote/3e98a34deca85b68717ca6091500a034.jpg" />
-    <episode-num system="onscreen">S1 E1</episode-num>
-  </programme>
-  <programme start="20260305045000 +0000" stop="20260305051900 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">Princess Principal</title>
-    <sub-title lang="en">Dancy Conspiracy</sub-title>
-    <desc lang="en">Ange begins her undercover assignment at Queen's Mayfaire Academy and attempts to make contact with the princess to bring her into the fold.</desc>
-    <date>2017</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Action</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/3/gracenote/3e98a34deca85b68717ca6091500a034.jpg" />
-    <episode-num system="onscreen">S1 E2</episode-num>
-  </programme>
-  <programme start="20260305051900 +0000" stop="20260305054800 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">Princess Principal</title>
-    <sub-title lang="en">Vice Voice</sub-title>
-    <desc lang="en">The connection between Ange and the princess comes to light; the girls discover Beatrice's extraordinary talents.</desc>
-    <date>2017</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Action</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/3/gracenote/3e98a34deca85b68717ca6091500a034.jpg" />
-    <episode-num system="onscreen">S1 E3</episode-num>
-  </programme>
-  <programme start="20260305054800 +0000" stop="20260305061700 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">Princess Principal</title>
-    <sub-title lang="en">Roaming Pigeons</sub-title>
-    <desc lang="en">The girls are sent to retrieve a prototype from the Kingdom; Dorothy must keep a close eye on a friend.</desc>
-    <date>2017</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Action</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/3/gracenote/3e98a34deca85b68717ca6091500a034.jpg" />
-    <episode-num system="onscreen">S1 E4</episode-num>
-  </programme>
-  <programme start="20260305061700 +0000" stop="20260305064600 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">Princess Principal</title>
-    <sub-title lang="en">Bullet &amp; Blade's Ballad</sub-title>
-    <desc lang="en">Assassins target the princess and her guest Lord Horikawa during his visit to the Kingdom of Albion.</desc>
-    <date>2017</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Action</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/3/gracenote/3e98a34deca85b68717ca6091500a034.jpg" />
-    <episode-num system="onscreen">S1 E5</episode-num>
-  </programme>
-  <programme start="20260305064600 +0000" stop="20260305071500 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">Princess Principal</title>
-    <sub-title lang="en">Loudly Laundry</sub-title>
-    <desc lang="en">The girls have their next assignment, and they must infiltrate a laundry mill to find a deadly weapon; in the mill, they catch a glimpse of the workers' conditions.</desc>
-    <date>2017</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Action</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/3/gracenote/3e98a34deca85b68717ca6091500a034.jpg" />
-    <episode-num system="onscreen">S1 E7</episode-num>
-  </programme>
-  <programme start="20260305071500 +0000" stop="20260305074400 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">Princess Principal</title>
-    <sub-title lang="en">Rouge Morgue</sub-title>
-    <desc lang="en">Dorothy is assigned a mission to recover a code cipher hidden in the body of a deceased Kingdom agent, her father.</desc>
-    <date>2017</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Action</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/3/gracenote/3e98a34deca85b68717ca6091500a034.jpg" />
-    <episode-num system="onscreen">S1 E6</episode-num>
-  </programme>
-  <programme start="20260305074400 +0000" stop="20260305081300 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">Princess Principal</title>
-    <sub-title lang="en">Pell-mell Duel</sub-title>
-    <desc lang="en">Chise writes to her sister in Japan about her new life in Albion, the people around her, and her job as a part of the spy team.</desc>
-    <date>2017</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Action</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/3/gracenote/3e98a34deca85b68717ca6091500a034.jpg" />
-    <episode-num system="onscreen">S1 E9</episode-num>
-  </programme>
-  <programme start="20260305081300 +0000" stop="20260305084200 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">Princess Principal</title>
-    <sub-title lang="en">Ripper Dipper</sub-title>
-    <desc lang="en">Team members take turns maintaining surveillance of Lord O'Reilly; Ange meets a little girl.</desc>
-    <date>2017</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Action</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/3/gracenote/3e98a34deca85b68717ca6091500a034.jpg" />
-    <episode-num system="onscreen">S1 E8</episode-num>
-  </programme>
-  <programme start="20260305084200 +0000" stop="20260305091100 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">Princess Principal</title>
-    <sub-title lang="en">Comfort Comrade</sub-title>
-    <desc lang="en">Ange, Dorothy, and Beatrice are assigned a mission to steal secret documents from the First Lord of the Admiralty.</desc>
-    <date>2017</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Action</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/3/gracenote/3e98a34deca85b68717ca6091500a034.jpg" />
-    <episode-num system="onscreen">S1 E10</episode-num>
-  </programme>
-  <programme start="20260305091100 +0000" stop="20260305094000 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">Princess Principal</title>
-    <sub-title lang="en">Humble Double</sub-title>
-    <desc lang="en">Ange must now fulfill her newest orders to assassinate the princess.</desc>
-    <date>2017</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Action</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/3/gracenote/3e98a34deca85b68717ca6091500a034.jpg" />
-    <episode-num system="onscreen">S1 E11</episode-num>
-  </programme>
-  <programme start="20260305094000 +0000" stop="20260305100900 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">Princess Principal</title>
-    <sub-title lang="en">Fall of the Wall</sub-title>
-    <desc lang="en">Zelda reveals that the Commonwealth is arranging for the assassination of the queen and making the princess into a scapegoat.</desc>
-    <date>2017</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Adventure</category>
-    <category lang="en">Action</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/3/gracenote/3e98a34deca85b68717ca6091500a034.jpg" />
-    <episode-num system="onscreen">S1 E12</episode-num>
-  </programme>
-  <programme start="20260305100900 +0000" stop="20260305103800 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">Yuko Awakens! For Family Reasons You're Now a Demon Girl</sub-title>
-    <desc lang="en">Following a strange dream, Yuko Yoshida wakes up to find she has grown demon horns and a tail; her mother Seiko reveals that their family are the descendants of a dark clan who live in poverty because of the opposing light clan.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E1</episode-num>
-  </programme>
-  <programme start="20260305103800 +0000" stop="20260305110700 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">Just How Sporty Are You!? Everything Is Fluctuating</sub-title>
-    <desc lang="en">Yuko challenges Momo to a battle during the weekend, which ends up turning into an all-day running session; another demon girl prepares to set Yuko back on the right path.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E2</episode-num>
-  </programme>
-  <programme start="20260305110700 +0000" stop="20260305113600 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">Nightmare or Forebear?! The Doorstop of Darkness Descends</sub-title>
-    <desc lang="en">Yuko's demon ancestor Lilith appears in her dream to give her some advice, only for her to forget everything she said when she wakes up.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E3</episode-num>
-  </programme>
-  <programme start="20260305113600 +0000" stop="20260305120500 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">Sharpen Your Mind!! The Newly Awakened Powers of the Magical Girl</sub-title>
-    <desc lang="en">Momo discovers a switch on the bottom of the statue that Yuko carries around; upon being flipped, it gives Lilith the opportunity to possess Yuko's body.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E4</episode-num>
-  </programme>
-  <programme start="20260305120500 +0000" stop="20260305123400 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">A Town Full of Traps?? The Demon on the Brink Awakens a New Ability</sub-title>
-    <desc lang="en">Yuko buys a camera with the money she was going to use to pay off her debt.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E5</episode-num>
-  </programme>
-  <programme start="20260305123400 +0000" stop="20260305130300 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">Courage to Face the Future!! The Heavy Roller Won't Stop</sub-title>
-    <desc lang="en">Lilith sends Yuko into Momo's subconscious, where she ends up tidying the dark muck surrounding her dreams.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E6</episode-num>
-  </programme>
-  <programme start="20260305130300 +0000" stop="20260305133200 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">The Pink Method!! The Wheel of Fate is a Round Tire!!</sub-title>
-    <desc lang="en">The Yoshida family celebrate by holding an okonomiyaki party after discovering that Yuko's actions have lifted the curse limiting their family to a tight monthly budget.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E7</episode-num>
-  </programme>
-  <programme start="20260305133200 +0000" stop="20260305140100 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">The Cursed Fruit!! Beware the Sour Mikan!!</sub-title>
-    <desc lang="en">The magical girl, Mikan Hinatsuki, is called by Momo to assist her with Yuko's training; Yuko learns that magical girls disappear if they use up all of their magic.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E8</episode-num>
-  </programme>
-  <programme start="20260305140100 +0000" stop="20260305143000 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">Final Exams!! Today I'm One of Those Brainy Demons!!</sub-title>
-    <desc lang="en">Wanting Momo to take her more seriously, Yuko proposes a friendly duel to determine who can score best on history during the final exams.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E9</episode-num>
-  </programme>
-  <programme start="20260305143000 +0000" stop="20260305145800 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">The Ancestor Evolves!! A Pair of Glasses Reflect Within a Dark Lab</sub-title>
-    <desc lang="en">Yuko's occult-obsessed classmate, Sion Ogura, brings her and Momo to the Black Magic Studies Lab to try some experiments on Lilith's statue.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E10</episode-num>
-  </programme>
-  <programme start="20260305145800 +0000" stop="20260305152700 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">Diving into Dreams Once Again!! Break Through the Pink Defense Line</sub-title>
-    <desc lang="en">Wanting to get Momo to open up to her, Yuko once again dives into her dream; this time she has to break through her outer defenses.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E11</episode-num>
-  </programme>
-  <programme start="20260305152700 +0000" stop="20260305155600 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">Feelings to Convey!! A New Leap Forward for Demonkind!!</sub-title>
-    <desc lang="en">Chasing after Momo after she runs off, Yuko proposes that she quit being a magical girl and become her vassal so she can search for Sakura.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E12</episode-num>
-  </programme>
-  <programme start="20260305155600 +0000" stop="20260305162500 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">Yuko Awakens! For Family Reasons You're Now a Demon Girl</sub-title>
-    <desc lang="en">Following a strange dream, Yuko Yoshida wakes up to find she has grown demon horns and a tail; her mother Seiko reveals that their family are the descendants of a dark clan who live in poverty because of the opposing light clan.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E1</episode-num>
-  </programme>
-  <programme start="20260305162500 +0000" stop="20260305165400 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">Just How Sporty Are You!? Everything Is Fluctuating</sub-title>
-    <desc lang="en">Yuko challenges Momo to a battle during the weekend, which ends up turning into an all-day running session; another demon girl prepares to set Yuko back on the right path.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E2</episode-num>
-  </programme>
-  <programme start="20260305165400 +0000" stop="20260305172300 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">Nightmare or Forebear?! The Doorstop of Darkness Descends</sub-title>
-    <desc lang="en">Yuko's demon ancestor Lilith appears in her dream to give her some advice, only for her to forget everything she said when she wakes up.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E3</episode-num>
-  </programme>
-  <programme start="20260305172300 +0000" stop="20260305175200 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">Sharpen Your Mind!! The Newly Awakened Powers of the Magical Girl</sub-title>
-    <desc lang="en">Momo discovers a switch on the bottom of the statue that Yuko carries around; upon being flipped, it gives Lilith the opportunity to possess Yuko's body.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E4</episode-num>
-  </programme>
-  <programme start="20260305175200 +0000" stop="20260305182100 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">A Town Full of Traps?? The Demon on the Brink Awakens a New Ability</sub-title>
-    <desc lang="en">Yuko buys a camera with the money she was going to use to pay off her debt.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E5</episode-num>
-  </programme>
-  <programme start="20260305182100 +0000" stop="20260305185000 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">Courage to Face the Future!! The Heavy Roller Won't Stop</sub-title>
-    <desc lang="en">Lilith sends Yuko into Momo's subconscious, where she ends up tidying the dark muck surrounding her dreams.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E6</episode-num>
-  </programme>
-  <programme start="20260305185000 +0000" stop="20260305191900 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">The Pink Method!! The Wheel of Fate is a Round Tire!!</sub-title>
-    <desc lang="en">The Yoshida family celebrate by holding an okonomiyaki party after discovering that Yuko's actions have lifted the curse limiting their family to a tight monthly budget.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E7</episode-num>
-  </programme>
-  <programme start="20260305191900 +0000" stop="20260305194800 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">The Cursed Fruit!! Beware the Sour Mikan!!</sub-title>
-    <desc lang="en">The magical girl, Mikan Hinatsuki, is called by Momo to assist her with Yuko's training; Yuko learns that magical girls disappear if they use up all of their magic.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E8</episode-num>
-  </programme>
-  <programme start="20260305194800 +0000" stop="20260305201700 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">Final Exams!! Today I'm One of Those Brainy Demons!!</sub-title>
-    <desc lang="en">Wanting Momo to take her more seriously, Yuko proposes a friendly duel to determine who can score best on history during the final exams.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E9</episode-num>
-  </programme>
-  <programme start="20260305201700 +0000" stop="20260305204600 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">The Ancestor Evolves!! A Pair of Glasses Reflect Within a Dark Lab</sub-title>
-    <desc lang="en">Yuko's occult-obsessed classmate, Sion Ogura, brings her and Momo to the Black Magic Studies Lab to try some experiments on Lilith's statue.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E10</episode-num>
-  </programme>
-  <programme start="20260305204600 +0000" stop="20260305211500 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">Diving into Dreams Once Again!! Break Through the Pink Defense Line</sub-title>
-    <desc lang="en">Wanting to get Momo to open up to her, Yuko once again dives into her dream; this time she has to break through her outer defenses.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E11</episode-num>
-  </programme>
-  <programme start="20260305211500 +0000" stop="20260305214400 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">Feelings to Convey!! A New Leap Forward for Demonkind!!</sub-title>
-    <desc lang="en">Chasing after Momo after she runs off, Yuko proposes that she quit being a magical girl and become her vassal so she can search for Sakura.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E12</episode-num>
-  </programme>
-  <programme start="20260305214400 +0000" stop="20260305221300 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">Yuko Awakens! For Family Reasons You're Now a Demon Girl</sub-title>
-    <desc lang="en">Following a strange dream, Yuko Yoshida wakes up to find she has grown demon horns and a tail; her mother Seiko reveals that their family are the descendants of a dark clan who live in poverty because of the opposing light clan.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E1</episode-num>
-  </programme>
-  <programme start="20260305221300 +0000" stop="20260305224200 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">Just How Sporty Are You!? Everything Is Fluctuating</sub-title>
-    <desc lang="en">Yuko challenges Momo to a battle during the weekend, which ends up turning into an all-day running session; another demon girl prepares to set Yuko back on the right path.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E2</episode-num>
-  </programme>
-  <programme start="20260305224200 +0000" stop="20260305231100 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">Nightmare or Forebear?! The Doorstop of Darkness Descends</sub-title>
-    <desc lang="en">Yuko's demon ancestor Lilith appears in her dream to give her some advice, only for her to forget everything she said when she wakes up.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E3</episode-num>
-  </programme>
-  <programme start="20260305231100 +0000" stop="20260305234000 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">Sharpen Your Mind!! The Newly Awakened Powers of the Magical Girl</sub-title>
-    <desc lang="en">Momo discovers a switch on the bottom of the statue that Yuko carries around; upon being flipped, it gives Lilith the opportunity to possess Yuko's body.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E4</episode-num>
-  </programme>
-  <programme start="20260305234000 +0000" stop="20260306000900 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
-    <title lang="en">The Demon Girl Next Door</title>
-    <sub-title lang="en">A Town Full of Traps?? The Demon on the Brink Awakens a New Ability</sub-title>
-    <desc lang="en">Yuko buys a camera with the money she was going to use to pay off her debt.</desc>
-    <date>2019</date>
-    <category lang="en">Anime</category>
-    <category lang="en">Comedy</category>
-    <category lang="en">Fantasy</category>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Gaming + Anime</category>
-    <icon src="https://metadata-static.plex.tv/e/gracenote/ecbedba9c812658f15a415fdeb314d5d.jpg" />
-    <episode-num system="onscreen">S1 E5</episode-num>
-  </programme>
   <programme start="20260306000900 +0000" stop="20260306003800 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
     <title lang="en">The Demon Girl Next Door</title>
     <sub-title lang="en">Courage to Face the Future!! The Heavy Roller Won't Stop</sub-title>
@@ -117024,6 +116374,20 @@
     <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
     <episode-num system="onscreen">S1 E10</episode-num>
   </programme>
+  <programme start="20260308065400 +0000" stop="20260308071800 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
+    <sub-title lang="en">Dad Gets into an Elegant Pickle!</sub-title>
+    <desc lang="en">HD Version. Subtitled. The student council decides to put on a gender-swapping play with Anna in the lead role! Unfortunately, Anna overworks herself to the point of collapse.</desc>
+    <date>2025</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Comedy drama</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
+    <episode-num system="onscreen">S1 E11</episode-num>
+  </programme>
   <programme start="20260308071800 +0000" stop="20260308074600 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
     <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
     <sub-title lang="en">Dad Becomes a Sorcerer</sub-title>
@@ -117149,6 +116513,20 @@
     <category lang="en">Comedy</category>
     <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
     <episode-num system="onscreen">S1 E10</episode-num>
+  </programme>
+  <programme start="20260308113000 +0000" stop="20260308115800 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
+    <sub-title lang="en">Dad Gets into an Elegant Pickle!</sub-title>
+    <desc lang="en">HD Version. Subtitled. The student council decides to put on a gender-swapping play with Anna in the lead role! Unfortunately, Anna overworks herself to the point of collapse.</desc>
+    <date>2025</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Comedy drama</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
+    <episode-num system="onscreen">S1 E11</episode-num>
   </programme>
   <programme start="20260308115800 +0000" stop="20260308122600 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
     <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
@@ -117463,6 +116841,651 @@
     <category lang="en">Comedy</category>
     <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
     <episode-num system="onscreen">S1 E1</episode-num>
+  </programme>
+  <programme start="20260309001300 +0000" stop="20260309004100 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
+    <sub-title lang="en">Dad Becomes a Sorcerer</sub-title>
+    <desc lang="en">It is only proper that Kenzaburo commits himself to Grace's villainous role in the original story; unfortunately, decades of learned habits are difficult to break.</desc>
+    <date>2025</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Comedy drama</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
+    <episode-num system="onscreen">S1 E2</episode-num>
+  </programme>
+  <programme start="20260309004100 +0000" stop="20260309010900 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
+    <sub-title lang="en">Dad Makes a Pun!</sub-title>
+    <desc lang="en">Grace, aka Kenzaburo, integrates himself into the student council; he may be an effective bureaucrat, but his resourcefulness and modesty are raising unnecessary love flags.</desc>
+    <date>2025</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Comedy drama</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
+    <episode-num system="onscreen">S1 E3</episode-num>
+  </programme>
+  <programme start="20260309010900 +0000" stop="20260309013700 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
+    <sub-title lang="en">Dad Summons a Beast</sub-title>
+    <desc lang="en">The day the students' familiars hatch arrives at long last; in another world, two women must come to terms with the fate of a beloved husband and father.</desc>
+    <date>2025</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Comedy drama</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
+    <episode-num system="onscreen">S1 E4</episode-num>
+  </programme>
+  <programme start="20260309013700 +0000" stop="20260309020500 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
+    <sub-title lang="en">Dad Gets Into Dual-Wielding</sub-title>
+    <desc lang="en">Impressed by a rare accomplishment, the principal asks Grace a.k.a. Kenzaburo to participate in the Magic Exhibition.</desc>
+    <date>2025</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Comedy drama</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
+    <episode-num system="onscreen">S1 E5</episode-num>
+  </programme>
+  <programme start="20260309020500 +0000" stop="20260309023300 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
+    <sub-title lang="en">Dad Is Moved to Tears</sub-title>
+    <desc lang="en">Grace and Anna have both proven their worth time and time again; there are those who insist on sowing division between them.</desc>
+    <date>2025</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Comedy drama</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
+    <episode-num system="onscreen">S1 E6</episode-num>
+  </programme>
+  <programme start="20260309023300 +0000" stop="20260309030100 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
+    <sub-title lang="en">Dad Puts on an Exhibition</sub-title>
+    <desc lang="en">Grace's father returns after a business trip, but proves he doesn't know his daughter very well; however, as a fellow father, Kenzaburo understands that the man is trying.</desc>
+    <date>2025</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Comedy drama</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
+    <episode-num system="onscreen">S1 E7</episode-num>
+  </programme>
+  <programme start="20260309030100 +0000" stop="20260309032900 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
+    <sub-title lang="en">Dad Becomes a Maid</sub-title>
+    <desc lang="en">Grace aka Kenzaburo invites Anna to stay at the Auvergne estate over the summer when it becomes clear she still needs to learn the ins and outs of high society.</desc>
+    <date>2025</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Comedy drama</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
+    <episode-num system="onscreen">S1 E8</episode-num>
+  </programme>
+  <programme start="20260309032900 +0000" stop="20260309035700 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
+    <sub-title lang="en">Dad Gets Trapped</sub-title>
+    <desc lang="en">When the student council gets trapped in a labyrinth, it's up to Grace a.k.a. Kenzaburo and Anna to save everyone.</desc>
+    <date>2025</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Comedy drama</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
+    <episode-num system="onscreen">S1 E9</episode-num>
+  </programme>
+  <programme start="20260309035700 +0000" stop="20260309042500 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
+    <sub-title lang="en">Dad Cross-Dresses</sub-title>
+    <desc lang="en">Grace a.k.a. Kenzaburo goes incognito to visit the bakery that Anna's family runs, but Anna's mother quickly deduces Grace's identity.</desc>
+    <date>2025</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Comedy drama</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
+    <episode-num system="onscreen">S1 E10</episode-num>
+  </programme>
+  <programme start="20260309045300 +0000" stop="20260309052100 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
+    <sub-title lang="en">Dad Celebrates at the Campus Festival</sub-title>
+    <desc lang="en">The Elegance Cheat has a fatal flaw, Grace a.k.a. Kenzaburo can't perform without everything becoming unnecessarily fancy!</desc>
+    <date>2025</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Comedy drama</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
+    <episode-num system="onscreen">S1 E12</episode-num>
+  </programme>
+  <programme start="20260309052100 +0000" stop="20260309054900 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
+    <sub-title lang="en">Dad Becomes a Villainess</sub-title>
+    <desc lang="en">Kenzaburo Tondabayashi is a 52-year-old bureaucrat until he seemingly dies in a traffic accident; he is then reincarnated into the world of the Otome game.</desc>
+    <date>2025</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Comedy drama</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
+    <episode-num system="onscreen">S1 E1</episode-num>
+  </programme>
+  <programme start="20260309054900 +0000" stop="20260309061700 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
+    <sub-title lang="en">Dad Becomes a Sorcerer</sub-title>
+    <desc lang="en">It is only proper that Kenzaburo commits himself to Grace's villainous role in the original story; unfortunately, decades of learned habits are difficult to break.</desc>
+    <date>2025</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Comedy drama</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
+    <episode-num system="onscreen">S1 E2</episode-num>
+  </programme>
+  <programme start="20260309061700 +0000" stop="20260309064500 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
+    <sub-title lang="en">Dad Makes a Pun!</sub-title>
+    <desc lang="en">Grace, aka Kenzaburo, integrates himself into the student council; he may be an effective bureaucrat, but his resourcefulness and modesty are raising unnecessary love flags.</desc>
+    <date>2025</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Comedy drama</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
+    <episode-num system="onscreen">S1 E3</episode-num>
+  </programme>
+  <programme start="20260309064500 +0000" stop="20260309071300 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
+    <sub-title lang="en">Dad Summons a Beast</sub-title>
+    <desc lang="en">The day the students' familiars hatch arrives at long last; in another world, two women must come to terms with the fate of a beloved husband and father.</desc>
+    <date>2025</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Comedy drama</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
+    <episode-num system="onscreen">S1 E4</episode-num>
+  </programme>
+  <programme start="20260309071300 +0000" stop="20260309074100 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
+    <sub-title lang="en">Dad Gets Into Dual-Wielding</sub-title>
+    <desc lang="en">Impressed by a rare accomplishment, the principal asks Grace a.k.a. Kenzaburo to participate in the Magic Exhibition.</desc>
+    <date>2025</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Comedy drama</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
+    <episode-num system="onscreen">S1 E5</episode-num>
+  </programme>
+  <programme start="20260309074100 +0000" stop="20260309080900 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
+    <sub-title lang="en">Dad Is Moved to Tears</sub-title>
+    <desc lang="en">Grace and Anna have both proven their worth time and time again; there are those who insist on sowing division between them.</desc>
+    <date>2025</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Comedy drama</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
+    <episode-num system="onscreen">S1 E6</episode-num>
+  </programme>
+  <programme start="20260309080900 +0000" stop="20260309083700 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
+    <sub-title lang="en">Dad Puts on an Exhibition</sub-title>
+    <desc lang="en">Grace's father returns after a business trip, but proves he doesn't know his daughter very well; however, as a fellow father, Kenzaburo understands that the man is trying.</desc>
+    <date>2025</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Comedy drama</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
+    <episode-num system="onscreen">S1 E7</episode-num>
+  </programme>
+  <programme start="20260309083700 +0000" stop="20260309090500 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
+    <sub-title lang="en">Dad Becomes a Maid</sub-title>
+    <desc lang="en">Grace aka Kenzaburo invites Anna to stay at the Auvergne estate over the summer when it becomes clear she still needs to learn the ins and outs of high society.</desc>
+    <date>2025</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Comedy drama</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
+    <episode-num system="onscreen">S1 E8</episode-num>
+  </programme>
+  <programme start="20260309090500 +0000" stop="20260309093300 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
+    <sub-title lang="en">Dad Gets Trapped</sub-title>
+    <desc lang="en">When the student council gets trapped in a labyrinth, it's up to Grace a.k.a. Kenzaburo and Anna to save everyone.</desc>
+    <date>2025</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Comedy drama</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
+    <episode-num system="onscreen">S1 E9</episode-num>
+  </programme>
+  <programme start="20260309093300 +0000" stop="20260309100100 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
+    <sub-title lang="en">Dad Cross-Dresses</sub-title>
+    <desc lang="en">Grace a.k.a. Kenzaburo goes incognito to visit the bakery that Anna's family runs, but Anna's mother quickly deduces Grace's identity.</desc>
+    <date>2025</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Comedy drama</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
+    <episode-num system="onscreen">S1 E10</episode-num>
+  </programme>
+  <programme start="20260309102900 +0000" stop="20260309105700 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">From Bureaucrat To Villainess: Dad's Been Reincarnated!</title>
+    <sub-title lang="en">Dad Celebrates at the Campus Festival</sub-title>
+    <desc lang="en">The Elegance Cheat has a fatal flaw, Grace a.k.a. Kenzaburo can't perform without everything becoming unnecessarily fancy!</desc>
+    <date>2025</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Comedy drama</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://metadata-static.plex.tv/f/gracenote/f48fde3970c8020dc15328d6b92a3ec6.jpg" />
+    <episode-num system="onscreen">S1 E12</episode-num>
+  </programme>
+  <programme start="20260309105700 +0000" stop="20260309112600 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Outbreak Company</title>
+    <sub-title lang="en">I Landed in Another World</sub-title>
+    <desc lang="en">A lowly otaku is transported to a magic kingdom to bring his nerdy hobbies to the populace in a cultural exchange program.</desc>
+    <date>2013</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/2/gracenote/2756b9b11abbeb267ac698fb102067ba.jpg" />
+    <episode-num system="onscreen">S1 E1</episode-num>
+  </programme>
+  <programme start="20260309112600 +0000" stop="20260309115500 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Outbreak Company</title>
+    <sub-title lang="en">I-I'd Better Watch It..</sub-title>
+    <desc lang="en">Shinichi begins the arduous task of finding the right stuff to bring to the Eldant Emipre; the Queen appears and demands that he read to her.</desc>
+    <date>2013</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/2/gracenote/2756b9b11abbeb267ac698fb102067ba.jpg" />
+    <episode-num system="onscreen">S1 E2</episode-num>
+  </programme>
+  <programme start="20260309115500 +0000" stop="20260309122400 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Outbreak Company</title>
+    <sub-title lang="en">Thou Art Invaders</sub-title>
+    <desc lang="en">Shinichi's vision of a school in Eldant is realized, but some citizens see it as a threat to their dominance over others.</desc>
+    <date>2013</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/2/gracenote/2756b9b11abbeb267ac698fb102067ba.jpg" />
+    <episode-num system="onscreen">S1 E3</episode-num>
+  </programme>
+  <programme start="20260309122400 +0000" stop="20260309125300 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Outbreak Company</title>
+    <sub-title lang="en">Furry Spy</sub-title>
+    <desc lang="en">After an advanced lesson on Otaku culture, Shinichi finds himself defending a foreign spy that also happens to be a wolf girl.</desc>
+    <date>2013</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/2/gracenote/2756b9b11abbeb267ac698fb102067ba.jpg" />
+    <episode-num system="onscreen">S1 E4</episode-num>
+  </programme>
+  <programme start="20260309125300 +0000" stop="20260309132200 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Outbreak Company</title>
+    <sub-title lang="en">This Really Is Another World</sub-title>
+    <desc lang="en">While his students adopt the otaku culture at breakneck speed, Shinichi has a sneaking suspicion that Elbia is playing both sides.</desc>
+    <date>2013</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/2/gracenote/2756b9b11abbeb267ac698fb102067ba.jpg" />
+    <episode-num system="onscreen">S1 E5</episode-num>
+  </programme>
+  <programme start="20260309132200 +0000" stop="20260309135100 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Outbreak Company</title>
+    <sub-title lang="en">Soccer...Soccer?</sub-title>
+    <desc lang="en">To foster improved relations between the elves and dwarves, Shinichi proposes a friendly soccer game.</desc>
+    <date>2013</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/2/gracenote/2756b9b11abbeb267ac698fb102067ba.jpg" />
+    <episode-num system="onscreen">S1 E6</episode-num>
+  </programme>
+  <programme start="20260309135100 +0000" stop="20260309142000 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Outbreak Company</title>
+    <sub-title lang="en">Maid in Japan</sub-title>
+    <desc lang="en">Shinichi succesfully petitions to be allowed back to Japan for better materials, unknowingly bringing Myucel along for the ride.</desc>
+    <date>2013</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/2/gracenote/2756b9b11abbeb267ac698fb102067ba.jpg" />
+    <episode-num system="onscreen">S1 E7</episode-num>
+  </programme>
+  <programme start="20260309142000 +0000" stop="20260309144900 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Outbreak Company</title>
+    <sub-title lang="en">The Melancholy of Her Imperial Majesty</sub-title>
+    <desc lang="en">Petralka stumbles into the hikikomori lifestyle; the only way for Shinichi to bring her back is to dive in head first.</desc>
+    <date>2013</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/2/gracenote/2756b9b11abbeb267ac698fb102067ba.jpg" />
+    <episode-num system="onscreen">S1 E8</episode-num>
+  </programme>
+  <programme start="20260309144900 +0000" stop="20260309151800 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Outbreak Company</title>
+    <sub-title lang="en">Swimsuit of the Dead</sub-title>
+    <desc lang="en">An ambush awaits amid a parade of swimsuits.</desc>
+    <date>2013</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/2/gracenote/2756b9b11abbeb267ac698fb102067ba.jpg" />
+    <episode-num system="onscreen">S1 E9</episode-num>
+  </programme>
+  <programme start="20260309151800 +0000" stop="20260309154700 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Outbreak Company</title>
+    <sub-title lang="en">Magical Girl Petralka</sub-title>
+    <desc lang="en">The soccer match footage is leaked in the real world; Shinichi decides to make it part of a movie, with Petralka as the main character.</desc>
+    <date>2013</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/2/gracenote/2756b9b11abbeb267ac698fb102067ba.jpg" />
+    <episode-num system="onscreen">S1 E10</episode-num>
+  </programme>
+  <programme start="20260309154700 +0000" stop="20260309161600 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Outbreak Company</title>
+    <sub-title lang="en">Plot Silent, Plot Deep</sub-title>
+    <desc lang="en">As Shinichi witnesses a breakdown in social normalcy among the Eldant citizens, Matoba reveals the real reason that otaku culture is being brought to this new world.</desc>
+    <date>2013</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/2/gracenote/2756b9b11abbeb267ac698fb102067ba.jpg" />
+    <episode-num system="onscreen">S1 E11</episode-num>
+  </programme>
+  <programme start="20260309161600 +0000" stop="20260309164500 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Outbreak Company</title>
+    <sub-title lang="en">Shoot the Invaders!</sub-title>
+    <desc lang="en">With the Japanese Government's true intentions clear, Shinichi must be protected from harm at all times.</desc>
+    <date>2013</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/2/gracenote/2756b9b11abbeb267ac698fb102067ba.jpg" />
+    <episode-num system="onscreen">S1 E12</episode-num>
+  </programme>
+  <programme start="20260309164500 +0000" stop="20260309171400 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Outbreak Company</title>
+    <sub-title lang="en">I Landed in Another World</sub-title>
+    <desc lang="en">A lowly otaku is transported to a magic kingdom to bring his nerdy hobbies to the populace in a cultural exchange program.</desc>
+    <date>2013</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/2/gracenote/2756b9b11abbeb267ac698fb102067ba.jpg" />
+    <episode-num system="onscreen">S1 E1</episode-num>
+  </programme>
+  <programme start="20260309171400 +0000" stop="20260309174300 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Outbreak Company</title>
+    <sub-title lang="en">I-I'd Better Watch It..</sub-title>
+    <desc lang="en">Shinichi begins the arduous task of finding the right stuff to bring to the Eldant Emipre; the Queen appears and demands that he read to her.</desc>
+    <date>2013</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/2/gracenote/2756b9b11abbeb267ac698fb102067ba.jpg" />
+    <episode-num system="onscreen">S1 E2</episode-num>
+  </programme>
+  <programme start="20260309174300 +0000" stop="20260309181200 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Outbreak Company</title>
+    <sub-title lang="en">Thou Art Invaders</sub-title>
+    <desc lang="en">Shinichi's vision of a school in Eldant is realized, but some citizens see it as a threat to their dominance over others.</desc>
+    <date>2013</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/2/gracenote/2756b9b11abbeb267ac698fb102067ba.jpg" />
+    <episode-num system="onscreen">S1 E3</episode-num>
+  </programme>
+  <programme start="20260309181200 +0000" stop="20260309184100 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Outbreak Company</title>
+    <sub-title lang="en">Furry Spy</sub-title>
+    <desc lang="en">After an advanced lesson on Otaku culture, Shinichi finds himself defending a foreign spy that also happens to be a wolf girl.</desc>
+    <date>2013</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/2/gracenote/2756b9b11abbeb267ac698fb102067ba.jpg" />
+    <episode-num system="onscreen">S1 E4</episode-num>
+  </programme>
+  <programme start="20260309184100 +0000" stop="20260309191000 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Outbreak Company</title>
+    <sub-title lang="en">This Really Is Another World</sub-title>
+    <desc lang="en">While his students adopt the otaku culture at breakneck speed, Shinichi has a sneaking suspicion that Elbia is playing both sides.</desc>
+    <date>2013</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/2/gracenote/2756b9b11abbeb267ac698fb102067ba.jpg" />
+    <episode-num system="onscreen">S1 E5</episode-num>
+  </programme>
+  <programme start="20260309191000 +0000" stop="20260309193900 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Outbreak Company</title>
+    <sub-title lang="en">Soccer...Soccer?</sub-title>
+    <desc lang="en">To foster improved relations between the elves and dwarves, Shinichi proposes a friendly soccer game.</desc>
+    <date>2013</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/2/gracenote/2756b9b11abbeb267ac698fb102067ba.jpg" />
+    <episode-num system="onscreen">S1 E6</episode-num>
+  </programme>
+  <programme start="20260309193900 +0000" stop="20260309200800 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Outbreak Company</title>
+    <sub-title lang="en">Maid in Japan</sub-title>
+    <desc lang="en">Shinichi succesfully petitions to be allowed back to Japan for better materials, unknowingly bringing Myucel along for the ride.</desc>
+    <date>2013</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/2/gracenote/2756b9b11abbeb267ac698fb102067ba.jpg" />
+    <episode-num system="onscreen">S1 E7</episode-num>
+  </programme>
+  <programme start="20260309200800 +0000" stop="20260309203700 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Outbreak Company</title>
+    <sub-title lang="en">The Melancholy of Her Imperial Majesty</sub-title>
+    <desc lang="en">Petralka stumbles into the hikikomori lifestyle; the only way for Shinichi to bring her back is to dive in head first.</desc>
+    <date>2013</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/2/gracenote/2756b9b11abbeb267ac698fb102067ba.jpg" />
+    <episode-num system="onscreen">S1 E8</episode-num>
+  </programme>
+  <programme start="20260309203700 +0000" stop="20260309210600 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Outbreak Company</title>
+    <sub-title lang="en">Swimsuit of the Dead</sub-title>
+    <desc lang="en">An ambush awaits amid a parade of swimsuits.</desc>
+    <date>2013</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/2/gracenote/2756b9b11abbeb267ac698fb102067ba.jpg" />
+    <episode-num system="onscreen">S1 E9</episode-num>
+  </programme>
+  <programme start="20260309210600 +0000" stop="20260309213500 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Outbreak Company</title>
+    <sub-title lang="en">Magical Girl Petralka</sub-title>
+    <desc lang="en">The soccer match footage is leaked in the real world; Shinichi decides to make it part of a movie, with Petralka as the main character.</desc>
+    <date>2013</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/2/gracenote/2756b9b11abbeb267ac698fb102067ba.jpg" />
+    <episode-num system="onscreen">S1 E10</episode-num>
+  </programme>
+  <programme start="20260309213500 +0000" stop="20260309220400 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Outbreak Company</title>
+    <sub-title lang="en">Plot Silent, Plot Deep</sub-title>
+    <desc lang="en">As Shinichi witnesses a breakdown in social normalcy among the Eldant citizens, Matoba reveals the real reason that otaku culture is being brought to this new world.</desc>
+    <date>2013</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/2/gracenote/2756b9b11abbeb267ac698fb102067ba.jpg" />
+    <episode-num system="onscreen">S1 E11</episode-num>
+  </programme>
+  <programme start="20260309220400 +0000" stop="20260309223300 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Outbreak Company</title>
+    <sub-title lang="en">Shoot the Invaders!</sub-title>
+    <desc lang="en">With the Japanese Government's true intentions clear, Shinichi must be protected from harm at all times.</desc>
+    <date>2013</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Comedy</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/2/gracenote/2756b9b11abbeb267ac698fb102067ba.jpg" />
+    <episode-num system="onscreen">S1 E12</episode-num>
+  </programme>
+  <programme start="20260309223300 +0000" stop="20260309230200 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Chaika the Coffin Princess</title>
+    <sub-title lang="en">The Girl Who Bears the Coffin</sub-title>
+    <desc lang="en">Unemployed saboteur Toru encounters Chaika Trabant, a young wizard carrying a coffin who needs help recovering an artifact.</desc>
+    <date>2014</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Action</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/e/gracenote/ece2113feb392138be73c4fac959f7d6.jpg" />
+    <episode-num system="onscreen">S1 E1</episode-num>
+  </programme>
+  <programme start="20260309230200 +0000" stop="20260309233100 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Chaika the Coffin Princess</title>
+    <sub-title lang="en">The Lazy Man's Choice</sub-title>
+    <desc lang="en">Chaika and Akari search Roberto Abarth's mansion for the source of his magic; Chaika reveals the true nature of her quest.</desc>
+    <date>2014</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Action</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/e/gracenote/ece2113feb392138be73c4fac959f7d6.jpg" />
+    <episode-num system="onscreen">S1 E2</episode-num>
+  </programme>
+  <programme start="20260309233100 +0000" stop="20260310000000 +0000" channel="plex.tv.ANIME.x.HIDIVE.plex">
+    <title lang="en">Chaika the Coffin Princess</title>
+    <sub-title lang="en">The Forest Where the Hero Dwells</sub-title>
+    <desc lang="en">The trio search for another of the Eight Heroes who has a part of Arthur's remains.</desc>
+    <date>2014</date>
+    <category lang="en">Anime</category>
+    <category lang="en">Action</category>
+    <category lang="en">Fantasy</category>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Gaming + Anime</category>
+    <icon src="https://metadata-static.plex.tv/e/gracenote/ece2113feb392138be73c4fac959f7d6.jpg" />
+    <episode-num system="onscreen">S1 E3</episode-num>
   </programme>
   <channel id="MOVIES.NOW.in">
     <icon src="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/rFi98AYq.png" />
