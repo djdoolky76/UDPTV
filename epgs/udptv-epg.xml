@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv date="20260816130628 +0000" generator-info-name="UDPTV-EPG-Grabber/3.0" generator-info-url="https://github.com/djdoolky76/UDPTV" source-info-name="UDPTV consolidated EPG">
+<tv date="20260816134505 +0000" generator-info-name="UDPTV-EPG-Grabber/3.0" generator-info-url="https://github.com/djdoolky76/UDPTV" source-info-name="UDPTV consolidated EPG">
   <channel id="100.astro">
     <display-name lang="en">Astro30</display-name>
     <display-name lang="en">100</display-name>
@@ -24650,6 +24650,11 @@
     <desc lang="en">Billiards</desc>
     <icon src="https://m.media-amazon.com/images/I/B1OKkOM5HPL._UR1920,1080_FMpng_.jpg" />
   </programme>
+  <programme start="20260816210000 +0000" stop="20260816213000 +0000" channel="Amazon.US.BilliardTV">
+    <title lang="en">One Year of Pool Knowledge in 35 Minutes</title>
+    <desc lang="en">Billiards</desc>
+    <icon src="https://m.media-amazon.com/images/I/B1Wv2MIgZwL._UR1920,1080_FMpng_.jpg" />
+  </programme>
   <programme start="20260816120000 +0000" stop="20260816130000 +0000" channel="Amazon.US.CBSNewsChicago">
     <title lang="en">CBS News Chicago Sunday at 7am</title>
     <desc lang="en">Live Newscast Simulcast.</desc>
@@ -24749,11 +24754,6 @@
     <title lang="en">Latest New York News &amp; Headlines</title>
     <desc lang="en">Top stories in New York.</desc>
     <icon src="https://m.media-amazon.com/images/I/A1atAuIrb0L._UR1920,1080_FMpng_.jpg" />
-  </programme>
-  <programme start="20260816120256 +0000" stop="20260816130743 +0000" channel="Amazon.US.HBOBoxing">
-    <title lang="en">World Championship Boxing: Floyd Mayweather vs. Miguel Cotto</title>
-    <desc lang="en">World Championship Boxing, from Las Vegas, Nevada, Floyd Mayweather, Miguel Cotto. May 5, 2012.</desc>
-    <icon src="https://m.media-amazon.com/images/I/71Q6NhRArbL._UR1920,1080_FMpng_.jpg" />
   </programme>
   <programme start="20260816130743 +0000" stop="20260816140304 +0000" channel="Amazon.US.HBOBoxing">
     <title lang="en">World Championship Boxing: Juan Manuel Marquez vs. Michael Katsidis</title>

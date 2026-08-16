@@ -4,7 +4,7 @@
     "buko"
   ],
   "failed_sources": [],
-  "generated_at": "2026-08-16T13:06:28.893759+00:00",
+  "generated_at": "2026-08-16T13:45:05.251782+00:00",
   "programme_count": 20080,
   "requested_channel_count": 205,
   "selected_source_by_channel": {
@@ -39,10 +39,10 @@
     "AMC.HD.us2": "EPGShare US",
     "ANC": "StarHub",
     "ANIPLUS.HD.sg": "epg.pw Aniplus HD",
-    "Amazon.US.BBCFood": "Amazon FAST",
+    "Amazon.US.BBCFood": "previous published output",
     "Amazon.US.BilliardTV": "Amazon FAST",
-    "Amazon.US.CBSNewsChicago": "Amazon FAST",
-    "Amazon.US.CBSNewsNewYork": "Amazon FAST",
+    "Amazon.US.CBSNewsChicago": "previous published output",
+    "Amazon.US.CBSNewsNewYork": "previous published output",
     "Amazon.US.HBOBoxing": "Amazon FAST",
     "Animax HD": "StarHub",
     "BBC Lifestyle": "StarHub",
