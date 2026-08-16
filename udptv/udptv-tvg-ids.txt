@@ -226,6 +226,10 @@ Disney.Junior.Canada.ca
 Nicktoons.lt
 Paramount.Network.USA.-.Eastern.Feed.us
 MOVIES.NOW.in
+MNX.in
+MoviesNowPlus.in
+StarMovies.in
+StarMoviesSelect.in
 Astro.Sports.UHD.my
 Sky.Cinema.Drama.it
 skyuk/skycinema2024picks
