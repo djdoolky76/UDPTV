@@ -4,8 +4,8 @@
     "buko"
   ],
   "failed_sources": [],
-  "generated_at": "2026-08-19T03:14:47.700230+00:00",
-  "programme_count": 20892,
+  "generated_at": "2026-08-19T14:07:43.206300+00:00",
+  "programme_count": 20697,
   "requested_channel_count": 205,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -39,7 +39,7 @@
     "AMC.HD.us2": "EPGShare US",
     "ANC": "StarHub",
     "ANIPLUS.HD.sg": "epg.pw Aniplus HD",
-    "Amazon.US.BBCFood": "Amazon FAST",
+    "Amazon.US.BBCFood": "previous published output",
     "Amazon.US.BilliardTV": "Amazon FAST",
     "Amazon.US.CBSNewsChicago": "Amazon FAST",
     "Amazon.US.CBSNewsNewYork": "Amazon FAST",
