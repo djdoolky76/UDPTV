@@ -1,11 +1,12 @@
 {
-  "channels_with_epg_count": 204,
+  "channels_with_epg_count": 203,
   "channels_without_epg": [
+    "Amazon.US.BBCFood",
     "buko"
   ],
   "failed_sources": [],
-  "generated_at": "2026-08-19T14:07:43.206300+00:00",
-  "programme_count": 20697,
+  "generated_at": "2026-08-20T03:13:52.844522+00:00",
+  "programme_count": 20923,
   "requested_channel_count": 205,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -38,8 +39,7 @@
     "ABC.News.Live.us2": "EPGShare US",
     "AMC.HD.us2": "EPGShare US",
     "ANC": "StarHub",
-    "ANIPLUS.HD.sg": "epg.pw Aniplus HD",
-    "Amazon.US.BBCFood": "previous published output",
+    "ANIPLUS.HD.sg": "EPGShare Singapore",
     "Amazon.US.BilliardTV": "Amazon FAST",
     "Amazon.US.CBSNewsChicago": "Amazon FAST",
     "Amazon.US.CBSNewsNewYork": "Amazon FAST",
@@ -71,7 +71,7 @@
     "Fox.News.Channel.HD.us2": "EPGShare US",
     "Fox.Sports.4K.us2": "EPGShare US",
     "GMA.Life.TV.us2": "EPGShare US",
-    "GMA.News.TV.hk": "epg.pw GMA News TV",
+    "GMA.News.TV.hk": "previous published output",
     "GMA.Pinoy.TV.us2": "EPGShare US",
     "Golf.Channel.HD.ca2": "EPGShare Canada",
     "Golf.Channel.HD.us2": "EPGShare US",
