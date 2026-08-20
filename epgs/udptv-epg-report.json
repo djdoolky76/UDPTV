@@ -1,12 +1,12 @@
 {
   "channels_with_epg_count": 203,
   "channels_without_epg": [
-    "Amazon.US.BBCFood",
-    "buko"
+    "buko",
+    "GMA.News.TV.hk"
   ],
   "failed_sources": [],
-  "generated_at": "2026-08-20T03:13:52.844522+00:00",
-  "programme_count": 20923,
+  "generated_at": "2026-08-20T14:10:50.133159+00:00",
+  "programme_count": 20684,
   "requested_channel_count": 205,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -40,10 +40,11 @@
     "AMC.HD.us2": "EPGShare US",
     "ANC": "StarHub",
     "ANIPLUS.HD.sg": "EPGShare Singapore",
-    "Amazon.US.BilliardTV": "Amazon FAST",
+    "Amazon.US.BBCFood": "Amazon FAST",
+    "Amazon.US.BilliardTV": "previous published output",
     "Amazon.US.CBSNewsChicago": "Amazon FAST",
     "Amazon.US.CBSNewsNewYork": "Amazon FAST",
-    "Amazon.US.HBOBoxing": "Amazon FAST",
+    "Amazon.US.HBOBoxing": "previous published output",
     "Animax HD": "StarHub",
     "BBC Lifestyle": "StarHub",
     "Big.Ten.Network.HD.us2": "EPGShare US",
@@ -71,7 +72,6 @@
     "Fox.News.Channel.HD.us2": "EPGShare US",
     "Fox.Sports.4K.us2": "EPGShare US",
     "GMA.Life.TV.us2": "EPGShare US",
-    "GMA.News.TV.hk": "previous published output",
     "GMA.Pinoy.TV.us2": "EPGShare US",
     "Golf.Channel.HD.ca2": "EPGShare Canada",
     "Golf.Channel.HD.us2": "EPGShare US",
