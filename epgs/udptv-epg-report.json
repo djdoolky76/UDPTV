@@ -4,8 +4,8 @@
     "buko"
   ],
   "failed_sources": [],
-  "generated_at": "2026-08-21T14:07:17.727244+00:00",
-  "programme_count": 20448,
+  "generated_at": "2026-08-22T03:10:06.108044+00:00",
+  "programme_count": 20555,
   "requested_channel_count": 205,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -41,8 +41,8 @@
     "ANIPLUS.HD.sg": "epg.pw Aniplus HD",
     "Amazon.US.BBCFood": "Amazon FAST",
     "Amazon.US.BilliardTV": "Amazon FAST",
-    "Amazon.US.CBSNewsChicago": "Amazon FAST",
-    "Amazon.US.CBSNewsNewYork": "Amazon FAST",
+    "Amazon.US.CBSNewsChicago": "previous published output",
+    "Amazon.US.CBSNewsNewYork": "previous published output",
     "Amazon.US.HBOBoxing": "Amazon FAST",
     "Animax HD": "StarHub",
     "BBC Lifestyle": "StarHub",
@@ -209,7 +209,7 @@
     "premiersports2hd": "Mediaquest Cignal",
     "solar-flix.click": "Cignal fallback",
     "truTV.HD.us2": "EPGShare US",
-    "truefm_tv": "Mediaquest Cignal",
+    "truefm_tv": "previous published output",
     "tv5.click": "Cignal fallback",
     "viva-cinema.click": "Cignal fallback"
   }
