@@ -7,8 +7,8 @@
     "truefm_tv"
   ],
   "failed_sources": [],
-  "generated_at": "2026-08-24T03:50:13.580449+00:00",
-  "programme_count": 20620,
+  "generated_at": "2026-08-24T14:26:43.596306+00:00",
+  "programme_count": 20394,
   "requested_channel_count": 205,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -42,9 +42,9 @@
     "AMC.HD.us2": "EPGShare US",
     "ANC": "StarHub",
     "ANIPLUS.HD.sg": "epg.pw Aniplus HD",
-    "Amazon.US.BBCFood": "previous published output",
-    "Amazon.US.CBSNewsChicago": "Amazon FAST",
-    "Amazon.US.CBSNewsNewYork": "Amazon FAST",
+    "Amazon.US.BBCFood": "Amazon FAST",
+    "Amazon.US.CBSNewsChicago": "previous published output",
+    "Amazon.US.CBSNewsNewYork": "previous published output",
     "Animax HD": "StarHub",
     "BBC Lifestyle": "StarHub",
     "Big.Ten.Network.HD.us2": "EPGShare US",
