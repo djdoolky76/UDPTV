@@ -28,6 +28,7 @@ an ID when they carry the same schedule.
 | Cinemo PH | `CineMo.ph` |
 | DZMM Teleradyo SD | `DZMM.Radyo.Patrol.us2` |
 | DZRH TV | `gsat.DZRH_NEWS_TV` |
+| Metro Channel | `MetroChannel.ph` |
 | SMNI | `gsat.SMNI` |
 | Tap Action Flix | `TAPACTIONFLIX.ph` |
 | UNTV | `gsat.UNTV` |
@@ -58,6 +59,7 @@ custom timetable is authoritative for them:
 | SMNI | `gsat.SMNI` | [SMNI schedule](https://tvradioschedules.fandom.com/wiki/SMNI_Program_Schedule) |
 | Cinemo PH | `CineMo.ph` | [CineMo! schedule](https://philippinetelevision.fandom.com/wiki/CineMo!_Program_Schedule) |
 | Cinemo Global | `CineMoGlobal.ph` | User-provided weekly schedule |
+| Metro Channel | `MetroChannel.ph` | [Metro Channel schedule](https://russel.fandom.com/wiki/Metro_Channel_Program_Schedule) |
 
 The programme pages are community-maintained references, not live XMLTV feeds.
 When a broadcaster changes its lineup, update the matching schedule constants
@@ -69,12 +71,11 @@ These were deliberately not assigned an unrelated schedule:
 
 - Aliw TV
 - CLTV 36
-- Metro Channel
 - MYX PH
 - Arena Sport Premium 1–5
 - WNBA Event 1–3
 - Abu Dhabi Sports 1–2
 
-Some providers declare Metro Channel, MYX PH, and Abu Dhabi Sports but currently
-return zero programme entries. They should only be mapped after their feeds
-begin publishing real schedules.
+Some providers declare MYX PH and Abu Dhabi Sports but currently return zero
+programme entries. They should only be mapped after their feeds begin
+publishing real schedules.

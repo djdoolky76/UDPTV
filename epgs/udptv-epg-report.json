@@ -1,5 +1,5 @@
 {
-  "channels_with_epg_count": 201,
+  "channels_with_epg_count": 202,
   "channels_without_epg": [
     "Amazon.US.BilliardTV",
     "Amazon.US.CBSNewsChicago",
@@ -12,14 +12,15 @@
     "CineMo.ph": "https://philippinetelevision.fandom.com/wiki/CineMo!_Program_Schedule",
     "CineMoGlobal.ph": "User-provided recurring schedule",
     "DZMM.Radyo.Patrol.us2": "https://tvradioschedules.fandom.com/wiki/DZMM_%26_DZMM_TeleRadyo_Program_Schedule_(TBA)",
+    "MetroChannel.ph": "https://russel.fandom.com/wiki/Metro_Channel_Program_Schedule",
     "gsat.DZRH_NEWS_TV": "https://russel.fandom.com/wiki/DZRH_TV_Program_Schedule",
     "gsat.SMNI": "https://tvradioschedules.fandom.com/wiki/SMNI_Program_Schedule",
     "gsat.UNTV": "https://russel.fandom.com/wiki/UNTV_Program_Schedule"
   },
   "failed_sources": [],
-  "generated_at": "2026-08-29T12:35:36.348717+00:00",
-  "programme_count": 21382,
-  "requested_channel_count": 207,
+  "generated_at": "2026-08-29T12:44:49.465943+00:00",
+  "programme_count": 21913,
+  "requested_channel_count": 208,
   "selected_source_by_channel": {
     "100.astro": "Astro",
     "120.astro": "Astro",
@@ -113,6 +114,7 @@
     "MSG.SportsZone.us2": "EPGShare US",
     "MYX.Channel.us2": "EPGShare US",
     "MeTV.Toons.us2": "EPGShare US",
+    "MetroChannel.ph": "custom recurring schedule",
     "MoviesNowPlus.in": "epg.pw MN+",
     "NBA.TV.HD.us2": "EPGShare US",
     "NBC.Sports.Bay.Area.HD.us2": "EPGShare US",

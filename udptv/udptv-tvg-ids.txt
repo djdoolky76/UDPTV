@@ -211,3 +211,4 @@ Golf.Channel.HD.ca2
 # Local channels generated from recurring weekly schedules.
 CineMo.ph
 CineMoGlobal.ph
+MetroChannel.ph
