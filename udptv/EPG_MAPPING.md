@@ -61,7 +61,6 @@ custom timetable is authoritative for them:
 | SNMI | `snmi.ph` | [SMNI schedule](https://tvradioschedules.fandom.com/wiki/SMNI_Program_Schedule) |
 | Cinemo PH | `cinemo.ph` | [CineMo! schedule](https://philippinetelevision.fandom.com/wiki/CineMo!_Program_Schedule) |
 | Cinemo Global | `cinemo.global` | User-provided weekly schedule |
-| Metro Channel | `metrochannel.ph` | [Metro Channel schedule](https://russel.fandom.com/wiki/Metro_Channel_Program_Schedule) |
 | CLTV36 | `cltv36.ph` | [CLTV36 programs](https://cltv36.tv/tv-programs/) plus current CLTV36 announcements |
 
 The recurring programme pages are references, not live XMLTV feeds. When a
@@ -70,6 +69,11 @@ broadcaster changes its lineup, update the matching schedule constants in
 the broadcaster has not published an exact programme.
 
 ## Dynamic local schedule
+
+Metro Channel uses `metrochannel.ph`. The grabber downloads all dated listings
+available from [On TV Tonight](https://www.ontvtonight.com/guide/listings/channel/1473142439/metro-channel-philippines.html)
+on every run and combines their overlapping boundaries. The former weekly
+schedule remains only as a fallback for a temporary website outage.
 
 Cinema One PH uses `cinemaone.ph`. The consolidator rewrites the existing
 `cinema-one.click` provider ID and supplements missing start times from the

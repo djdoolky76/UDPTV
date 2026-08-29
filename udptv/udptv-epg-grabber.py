@@ -4,8 +4,10 @@ from __future__ import annotations
 
 import copy
 import gzip
+import html as html_lib
 import json
 import os
+import re
 import tempfile
 import time
 import urllib.parse
@@ -37,6 +39,11 @@ CINEMA_ONE_ID = "cinemaone.ph"
 CINEMA_ONE_PAGE_URL = "https://www.clickthecity.com/tv/channels/cinema-one"
 CINEMA_ONE_API_URL = (
     "https://www.clickthecity.com/api/tv/channels/cinema-one/schedule"
+)
+METRO_CHANNEL_ID = "metrochannel.ph"
+METRO_CHANNEL_URL = (
+    "https://www.ontvtonight.com/guide/listings/channel/1473142439/"
+    "metro-channel-philippines.html"
 )
 
 
@@ -758,6 +765,21 @@ CLTV_SUNDAY = slots(
     ("19:00", "CLTV36 Programming"),
 )
 
+METRO_FALLBACK_CHANNEL = CustomChannel(
+    METRO_CHANNEL_ID,
+    ("Metro Channel",),
+    "https://russel.fandom.com/wiki/Metro_Channel_Program_Schedule",
+    {
+        0: METRO_MONDAY,
+        1: METRO_TUESDAY,
+        2: METRO_WEDNESDAY,
+        3: METRO_THURSDAY,
+        4: METRO_FRIDAY,
+        5: METRO_SATURDAY,
+        6: METRO_SUNDAY,
+    },
+)
+
 CUSTOM_CHANNELS = (
     CustomChannel(
         "dzmm.teleradyo.ph",
@@ -818,20 +840,6 @@ CUSTOM_CHANNELS = (
             CINEMO_GLOBAL_SATURDAY,
             CINEMO_GLOBAL_SUNDAY,
         ),
-    ),
-    CustomChannel(
-        "metrochannel.ph",
-        ("Metro Channel",),
-        "https://russel.fandom.com/wiki/Metro_Channel_Program_Schedule",
-        {
-            0: METRO_MONDAY,
-            1: METRO_TUESDAY,
-            2: METRO_WEDNESDAY,
-            3: METRO_THURSDAY,
-            4: METRO_FRIDAY,
-            5: METRO_SATURDAY,
-            6: METRO_SUNDAY,
-        },
     ),
     CustomChannel(
         "cltv36.ph",
@@ -1116,6 +1124,137 @@ def download_clickthecity_cinema_one(
     return channel, programmes
 
 
+def download_ontvtonight_metro(
+    session: requests.Session,
+) -> tuple[ET.Element, list[ET.Element]]:
+    """Fetch and combine On TV Tonight's dated Metro Channel pages."""
+
+    def fetch_page(url: str) -> str:
+        last_error: Exception | None = None
+        for attempt in range(1, MAX_ATTEMPTS + 1):
+            try:
+                response = session.get(
+                    url,
+                    headers={"Accept": "text/html,application/xhtml+xml"},
+                    timeout=REQUEST_TIMEOUT,
+                )
+                response.raise_for_status()
+                return response.text
+            except requests.RequestException as exc:
+                last_error = exc
+                if attempt < MAX_ATTEMPTS:
+                    time.sleep(min(2 ** (attempt - 1), 4))
+        raise SourceError(f"On TV Tonight request failed: {last_error}")
+
+    def plain_text(fragment: str) -> str:
+        without_tags = re.sub(r"<[^>]+>", "", fragment)
+        return re.sub(r"\s+", " ", html_lib.unescape(without_tags)).strip()
+
+    landing_page = fetch_page(METRO_CHANNEL_URL)
+    available_dates = sorted(
+        {
+            datetime.strptime(value, "%Y-%m-%d").date()
+            for value in re.findall(
+                r'<option\s+value="(\d{4}-\d{2}-\d{2})"', landing_page
+            )
+        }
+    )
+    selected_match = re.search(
+        r'<option\s+value="(\d{4}-\d{2}-\d{2})"\s+selected', landing_page
+    )
+    selected_date = (
+        datetime.strptime(selected_match.group(1), "%Y-%m-%d").date()
+        if selected_match
+        else datetime.now(MANILA_TIMEZONE).date()
+    )
+    if not available_dates:
+        available_dates = [selected_date]
+
+    events: dict[datetime, str] = {}
+    for listing_date in available_dates:
+        page = (
+            landing_page
+            if listing_date == selected_date
+            else fetch_page(f"{METRO_CHANNEL_URL}?dt={listing_date.isoformat()}")
+        )
+        current_date = listing_date
+        previous_minutes: int | None = None
+        for row in re.findall(r"<tr\b[^>]*>(.*?)</tr>", page, re.DOTALL | re.I):
+            if "ott-channel-time-cell" not in row:
+                continue
+            time_match = re.search(
+                r'<h5[^>]*class="[^"]*ott-channel-time[^"]*"[^>]*>'
+                r"(.*?)</h5>",
+                row,
+                re.DOTALL | re.I,
+            )
+            title_match = re.search(
+                r'<h5[^>]*class="[^"]*ott-channel-show__title[^"]*"[^>]*>'
+                r".*?<a[^>]*>(.*?)</a>",
+                row,
+                re.DOTALL | re.I,
+            )
+            if not time_match or not title_match:
+                continue
+            try:
+                parsed_time = datetime.strptime(
+                    plain_text(time_match.group(1)).upper(), "%I:%M %p"
+                ).time()
+            except ValueError as exc:
+                raise SourceError(f"Unexpected Metro listing time: {exc}") from exc
+
+            note_match = re.search(
+                r'<i[^>]*class="[^"]*ott-channel-date-note[^"]*"[^>]*>'
+                r"(.*?)</i>",
+                row,
+                re.DOTALL | re.I,
+            )
+            if note_match:
+                try:
+                    current_date = datetime.strptime(
+                        plain_text(note_match.group(1)), "%Y-%m-%d"
+                    ).date()
+                except ValueError as exc:
+                    raise SourceError(f"Unexpected Metro listing date: {exc}") from exc
+
+            minutes = parsed_time.hour * 60 + parsed_time.minute
+            if note_match is None and previous_minutes is not None and minutes < previous_minutes:
+                current_date += timedelta(days=1)
+            previous_minutes = minutes
+            title = plain_text(title_match.group(1))
+            if title:
+                start = datetime.combine(current_date, parsed_time, MANILA_TIMEZONE)
+                events.setdefault(start, title)
+
+    ordered_events = sorted(events.items())
+    if len(ordered_events) < 10:
+        raise SourceError(
+            f"On TV Tonight returned only {len(ordered_events)} Metro listings"
+        )
+
+    programmes: list[ET.Element] = []
+    for index, (start, title) in enumerate(ordered_events):
+        stop = (
+            ordered_events[index + 1][0]
+            if index + 1 < len(ordered_events)
+            else start + timedelta(hours=2)
+        )
+        programme = ET.Element(
+            "programme",
+            {
+                "start": xmltv_timestamp(start),
+                "stop": xmltv_timestamp(stop),
+                "channel": METRO_CHANNEL_ID,
+            },
+        )
+        ET.SubElement(programme, "title", {"lang": "en"}).text = title
+        programmes.append(programme)
+
+    channel = ET.Element("channel", {"id": METRO_CHANNEL_ID})
+    ET.SubElement(channel, "display-name", {"lang": "en"}).text = "Metro Channel"
+    return channel, programmes
+
+
 def programme_key(programme: ET.Element) -> tuple[str, str, str]:
     return (
         programme.get("start", ""),
@@ -1202,7 +1341,9 @@ def xmltv_timestamp(value: datetime) -> str:
 
 
 def generate_custom_guides(
-    target_ids: set[str], now: datetime | None = None
+    target_ids: set[str],
+    now: datetime | None = None,
+    custom_channels: tuple[CustomChannel, ...] = CUSTOM_CHANNELS,
 ) -> tuple[
     dict[str, ET.Element],
     dict[str, list[ET.Element]],
@@ -1221,7 +1362,7 @@ def generate_custom_guides(
     programmes: dict[str, list[ET.Element]] = {}
     source_urls: dict[str, str] = {}
 
-    for custom in CUSTOM_CHANNELS:
+    for custom in custom_channels:
         if custom.channel_id not in target_ids:
             continue
         if set(custom.schedule_by_weekday) != set(range(7)):
@@ -1355,6 +1496,38 @@ def build_epg() -> tuple[int, int, int]:
         session.headers.update(
             {"Accept": "application/xml,text/xml,*/*", "User-Agent": USER_AGENT}
         )
+        if METRO_CHANNEL_ID in target_ids:
+            print(f"Fetching On TV Tonight Metro Channel: {METRO_CHANNEL_URL}")
+            try:
+                metro_channel, metro_programmes = download_ontvtonight_metro(session)
+            except SourceError as exc:
+                failed_sources.append("On TV Tonight Metro Channel")
+                print(f"Using recurring Metro Channel fallback: {exc}")
+                fallback_channels, fallback_programmes, fallback_sources = (
+                    generate_custom_guides(
+                        target_ids,
+                        custom_channels=(METRO_FALLBACK_CHANNEL,),
+                    )
+                )
+                selected_channels.update(fallback_channels)
+                selected_programmes.update(fallback_programmes)
+                custom_source_urls.update(fallback_sources)
+                if METRO_CHANNEL_ID in fallback_programmes:
+                    selected_sources[METRO_CHANNEL_ID] = (
+                        "custom recurring schedule (On TV Tonight fallback)"
+                    )
+            else:
+                selected_channels[METRO_CHANNEL_ID] = metro_channel
+                selected_programmes[METRO_CHANNEL_ID] = clean_programmes(
+                    metro_programmes
+                )
+                selected_sources[METRO_CHANNEL_ID] = "On TV Tonight Metro Channel"
+                dynamic_source_urls[METRO_CHANNEL_ID] = METRO_CHANNEL_URL
+                print(
+                    f"Selected {len(metro_programmes)} Metro Channel programme(s) "
+                    "from On TV Tonight"
+                )
+
         for source in SOURCES:
             remaining = target_ids - selected_programmes.keys()
             if not remaining:

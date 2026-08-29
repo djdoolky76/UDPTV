@@ -14,16 +14,16 @@
     "cltv36.ph": "https://cltv36.tv/tv-programs/",
     "dzmm.teleradyo.ph": "https://tvradioschedules.fandom.com/wiki/DZMM_%26_DZMM_TeleRadyo_Program_Schedule_(TBA)",
     "dzrhnewstv.ph": "https://russel.fandom.com/wiki/DZRH_TV_Program_Schedule",
-    "metrochannel.ph": "https://russel.fandom.com/wiki/Metro_Channel_Program_Schedule",
     "snmi.ph": "https://tvradioschedules.fandom.com/wiki/SMNI_Program_Schedule",
     "untv.ph": "https://russel.fandom.com/wiki/UNTV_Program_Schedule"
   },
   "dynamic_schedule_sources": {
-    "cinemaone.ph": "https://www.clickthecity.com/tv/channels/cinema-one"
+    "cinemaone.ph": "https://www.clickthecity.com/tv/channels/cinema-one",
+    "metrochannel.ph": "https://www.ontvtonight.com/guide/listings/channel/1473142439/metro-channel-philippines.html"
   },
   "failed_sources": [],
-  "generated_at": "2026-08-29T13:00:27.520999+00:00",
-  "programme_count": 22017,
+  "generated_at": "2026-08-29T13:29:31.808984+00:00",
+  "programme_count": 21688,
   "requested_channel_count": 209,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -217,7 +217,7 @@
     "kix_hd1": "Mediaquest Cignal",
     "knowledge_channel": "Mediaquest Cignal",
     "lotusmacau_prd": "Mediaquest Cignal",
-    "metrochannel.ph": "custom recurring schedule",
+    "metrochannel.ph": "On TV Tonight Metro Channel",
     "net-25.click": "Cignal fallback",
     "onenews_hd1": "Mediaquest Cignal",
     "oneph_sd": "Mediaquest Cignal",
