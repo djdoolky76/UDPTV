@@ -24,14 +24,16 @@ an ID when they carry the same schedule.
 | Channel | Set `tvg_id` to |
 | --- | --- |
 | Aniplus | `ANIPLUS.HD.sg` |
-| Cinemo Global | `CineMoGlobal.ph` |
-| Cinemo PH | `CineMo.ph` |
-| DZMM Teleradyo SD | `DZMM.Radyo.Patrol.us2` |
-| DZRH TV | `gsat.DZRH_NEWS_TV` |
-| Metro Channel | `MetroChannel.ph` |
-| SMNI | `gsat.SMNI` |
+| Cinema One PH | `cinemaone.ph` |
+| Cinemo Global | `cinemo.global` |
+| Cinemo PH | `cinemo.ph` |
+| CLTV36 | `cltv36.ph` |
+| DZMM Teleradyo | `dzmm.teleradyo.ph` |
+| DZRH News TV | `dzrhnewstv.ph` |
+| Metro Channel | `metrochannel.ph` |
+| SNMI | `snmi.ph` |
 | Tap Action Flix | `TAPACTIONFLIX.ph` |
-| UNTV | `gsat.UNTV` |
+| UNTV | `untv.ph` |
 | AMC | `AMC.HD.us2` |
 | BBC Food | `Amazon.US.BBCFood` |
 | FOX11 | `KTTV-DT.us_locals1` |
@@ -53,24 +55,32 @@ custom timetable is authoritative for them:
 
 | Channel | XMLTV ID | Schedule source |
 | --- | --- | --- |
-| DZMM TeleRadyo | `DZMM.Radyo.Patrol.us2` | [DZMM schedule](https://tvradioschedules.fandom.com/wiki/DZMM_%26_DZMM_TeleRadyo_Program_Schedule_(TBA)) |
-| UNTV | `gsat.UNTV` | [UNTV schedule](https://russel.fandom.com/wiki/UNTV_Program_Schedule) |
-| DZRH TV | `gsat.DZRH_NEWS_TV` | [DZRH TV schedule](https://russel.fandom.com/wiki/DZRH_TV_Program_Schedule) |
-| SMNI | `gsat.SMNI` | [SMNI schedule](https://tvradioschedules.fandom.com/wiki/SMNI_Program_Schedule) |
-| Cinemo PH | `CineMo.ph` | [CineMo! schedule](https://philippinetelevision.fandom.com/wiki/CineMo!_Program_Schedule) |
-| Cinemo Global | `CineMoGlobal.ph` | User-provided weekly schedule |
-| Metro Channel | `MetroChannel.ph` | [Metro Channel schedule](https://russel.fandom.com/wiki/Metro_Channel_Program_Schedule) |
+| DZMM TeleRadyo | `dzmm.teleradyo.ph` | [DZMM schedule](https://tvradioschedules.fandom.com/wiki/DZMM_%26_DZMM_TeleRadyo_Program_Schedule_(TBA)) |
+| UNTV | `untv.ph` | [UNTV schedule](https://russel.fandom.com/wiki/UNTV_Program_Schedule) |
+| DZRH News TV | `dzrhnewstv.ph` | [DZRH TV schedule](https://russel.fandom.com/wiki/DZRH_TV_Program_Schedule) |
+| SNMI | `snmi.ph` | [SMNI schedule](https://tvradioschedules.fandom.com/wiki/SMNI_Program_Schedule) |
+| Cinemo PH | `cinemo.ph` | [CineMo! schedule](https://philippinetelevision.fandom.com/wiki/CineMo!_Program_Schedule) |
+| Cinemo Global | `cinemo.global` | User-provided weekly schedule |
+| Metro Channel | `metrochannel.ph` | [Metro Channel schedule](https://russel.fandom.com/wiki/Metro_Channel_Program_Schedule) |
+| CLTV36 | `cltv36.ph` | [CLTV36 programs](https://cltv36.tv/tv-programs/) plus current CLTV36 announcements |
 
-The programme pages are community-maintained references, not live XMLTV feeds.
-When a broadcaster changes its lineup, update the matching schedule constants
-in `udptv-epg-grabber.py`.
+The recurring programme pages are references, not live XMLTV feeds. When a
+broadcaster changes its lineup, update the matching schedule constants in
+`udptv-epg-grabber.py`. CLTV36 uses `CLTV36 Programming` during hours for which
+the broadcaster has not published an exact programme.
+
+## Dynamic local schedule
+
+Cinema One PH uses `cinemaone.ph`. The consolidator rewrites the existing
+`cinema-one.click` provider ID and supplements missing start times from the
+[ClickTheCity Cinema One schedule](https://www.clickthecity.com/tv/channels/cinema-one)
+on every run.
 
 ## No trustworthy current XMLTV mapping
 
 These were deliberately not assigned an unrelated schedule:
 
 - Aliw TV
-- CLTV 36
 - MYX PH
 - Arena Sport Premium 1–5
 - WNBA Event 1–3

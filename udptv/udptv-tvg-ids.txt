@@ -14,10 +14,10 @@ cartoonnetworkhd
 celmovie_pinoy_sd
 cg_dreamworks_hd1
 Cinema One Global
-cinema-one.click
+cinemaone.ph
 cg_cnnhd
 cg_dreamworktag
-DZMM.Radyo.Patrol.us2
+dzmm.teleradyo.ph
 gma.click
 GMA.Life.TV.us2
 GMA.News.TV.hk
@@ -193,10 +193,10 @@ ITV4.HD.uk
 
 # Verified EPG IDs for channels that were blank in the exported library.
 ANIPLUS.HD.sg
-gsat.DZRH_NEWS_TV
-gsat.SMNI
+dzrhnewstv.ph
+snmi.ph
 TAPACTIONFLIX.ph
-gsat.UNTV
+untv.ph
 AMC.HD.us2
 Amazon.US.BBCFood
 KTTV-DT.us_locals1
@@ -209,6 +209,7 @@ Virgin.Media.Four.HD.ie
 Golf.Channel.HD.ca2
 
 # Local channels generated from recurring weekly schedules.
-CineMo.ph
-CineMoGlobal.ph
-MetroChannel.ph
+cinemo.ph
+cinemo.global
+metrochannel.ph
+cltv36.ph

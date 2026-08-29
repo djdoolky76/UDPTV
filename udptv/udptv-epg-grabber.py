@@ -33,6 +33,11 @@ TVG_IDS_FILE = SCRIPT_DIR / f"{NAME}-tvg-ids.txt"
 OUTPUT_FILE = OUTPUT_DIR / f"{NAME}-epg.xml"
 OUTPUT_FILE_GZ = OUTPUT_FILE.with_suffix(OUTPUT_FILE.suffix + ".gz")
 REPORT_FILE = OUTPUT_DIR / f"{NAME}-epg-report.json"
+CINEMA_ONE_ID = "cinemaone.ph"
+CINEMA_ONE_PAGE_URL = "https://www.clickthecity.com/tv/channels/cinema-one"
+CINEMA_ONE_API_URL = (
+    "https://www.clickthecity.com/api/tv/channels/cinema-one/schedule"
+)
 
 
 @dataclass(frozen=True)
@@ -697,16 +702,72 @@ METRO_SUNDAY = slots(
     ("23:00", "Foodprints"),
 )
 
+# CLTV36 publishes only selected programme times rather than a complete grid.
+# Generic entries cover the unlisted hours. The July 2026 Bilyonaryo simulcast
+# announcement supersedes older overlapping evening times on the programs page.
+CLTV_WEEKDAY = slots(
+    ("00:00", "CLTV36 Programming"),
+    ("08:00", "Bitag Live"),
+    ("09:00", "CLTV36 Programming"),
+    ("18:00", "Agenda"),
+    ("19:30", "On Point"),
+    ("20:00", "CLTV36 Programming"),
+)
+CLTV_WEDNESDAY = slots(
+    ("00:00", "CLTV36 Programming"),
+    ("08:00", "Bitag Live"),
+    ("09:00", "CLTV36 Programming"),
+    ("17:00", "Bawal ing Tsismis kang Sonia Soto"),
+    ("18:00", "Agenda"),
+    ("19:30", "On Point"),
+    ("20:00", "CLTV36 Programming"),
+)
+CLTV_THURSDAY = slots(
+    ("00:00", "CLTV36 Programming"),
+    ("08:00", "Bitag Live"),
+    ("09:00", "CLTV36 Programming"),
+    ("18:00", "Agenda"),
+    ("19:30", "On Point"),
+    ("20:00", "Atin Kaming K!"),
+    ("20:30", "CLTV36 Programming"),
+)
+CLTV_FRIDAY = slots(
+    ("00:00", "CLTV36 Programming"),
+    ("08:00", "Bitag Live"),
+    ("09:00", "CLTV36 Programming"),
+    ("18:00", "Agenda"),
+    ("19:30", "On Point"),
+    ("20:00", "The ReImagine Podcast"),
+    ("21:00", "CLTV36 Programming"),
+)
+CLTV_SATURDAY = slots(
+    ("00:00", "CLTV36 Programming"),
+    ("18:00", "Agenda Weekend"),
+    ("19:00", "So To Speak"),
+    ("20:00", "Let's Talk Heart to Heart"),
+    ("20:30", "CLTV36 Programming"),
+)
+CLTV_SUNDAY = slots(
+    ("00:00", "CLTV36 Programming"),
+    ("08:30", "Kalusugang SiguraDOH"),
+    ("09:00", "CLTV36 Programming"),
+    ("15:00", "UN In Action"),
+    ("15:30", "Discover Japan"),
+    ("16:00", "CLTV36 Programming"),
+    ("18:00", "Agenda Weekend"),
+    ("19:00", "CLTV36 Programming"),
+)
+
 CUSTOM_CHANNELS = (
     CustomChannel(
-        "DZMM.Radyo.Patrol.us2",
+        "dzmm.teleradyo.ph",
         ("DZMM TeleRadyo", "DZMM Teleradyo SD"),
         "https://tvradioschedules.fandom.com/wiki/"
         "DZMM_%26_DZMM_TeleRadyo_Program_Schedule_(TBA)",
         weekly_schedule(DZMM_WEEKDAY, DZMM_SATURDAY, DZMM_SUNDAY),
     ),
     CustomChannel(
-        "gsat.UNTV",
+        "untv.ph",
         ("UNTV", "UNTV News and Rescue"),
         "https://russel.fandom.com/wiki/UNTV_Program_Schedule",
         weekly_schedule(
@@ -717,7 +778,7 @@ CUSTOM_CHANNELS = (
         ),
     ),
     CustomChannel(
-        "gsat.DZRH_NEWS_TV",
+        "dzrhnewstv.ph",
         ("DZRH TV", "DZRH News Television"),
         "https://russel.fandom.com/wiki/DZRH_TV_Program_Schedule",
         weekly_schedule(
@@ -728,8 +789,8 @@ CUSTOM_CHANNELS = (
         ),
     ),
     CustomChannel(
-        "gsat.SMNI",
-        ("SMNI", "SMNI News Channel"),
+        "snmi.ph",
+        ("SNMI", "SMNI", "SMNI News Channel"),
         "https://tvradioschedules.fandom.com/wiki/SMNI_Program_Schedule",
         weekly_schedule(
             SMNI_TUESDAY_THURSDAY,
@@ -739,7 +800,7 @@ CUSTOM_CHANNELS = (
         ),
     ),
     CustomChannel(
-        "CineMo.ph",
+        "cinemo.ph",
         ("Cinemo PH", "CineMo!", "CINEMO!"),
         "https://philippinetelevision.fandom.com/wiki/CineMo!_Program_Schedule",
         weekly_schedule(
@@ -749,7 +810,7 @@ CUSTOM_CHANNELS = (
         ),
     ),
     CustomChannel(
-        "CineMoGlobal.ph",
+        "cinemo.global",
         ("Cinemo Global", "CineMo Global"),
         "User-provided recurring schedule",
         weekly_schedule(
@@ -759,7 +820,7 @@ CUSTOM_CHANNELS = (
         ),
     ),
     CustomChannel(
-        "MetroChannel.ph",
+        "metrochannel.ph",
         ("Metro Channel",),
         "https://russel.fandom.com/wiki/Metro_Channel_Program_Schedule",
         {
@@ -771,6 +832,21 @@ CUSTOM_CHANNELS = (
             5: METRO_SATURDAY,
             6: METRO_SUNDAY,
         },
+    ),
+    CustomChannel(
+        "cltv36.ph",
+        ("CLTV36", "CLTV 36"),
+        "https://cltv36.tv/tv-programs/",
+        weekly_schedule(
+            CLTV_WEEKDAY,
+            CLTV_SATURDAY,
+            CLTV_SUNDAY,
+            {
+                2: CLTV_WEDNESDAY,
+                3: CLTV_THURSDAY,
+                4: CLTV_FRIDAY,
+            },
+        ),
     ),
 )
 
@@ -834,7 +910,7 @@ SOURCE_ID_ALIASES = {
     "543313": "StarMoviesSelect.in",
     "491159": "ANIPLUS.HD.sg",
     "491164": "GMA.News.TV.hk",
-    "464758": "DZMM.Radyo.Patrol.us2",
+    "464758": "dzmm.teleradyo.ph",
     "Movies.Now.in": "543174",
     "Movies.Now.HD.in": "543174",
     "MNX.in": "MNX.HD.in",
@@ -843,6 +919,11 @@ SOURCE_ID_ALIASES = {
     "Star.Movies.Select.HD.in": "StarMoviesSelect.in",
     "Buko.ph": "buko",
     "Tapactionflix.Hd.ph": "TAPACTIONFLIX.ph",
+    "cinema-one.click": "cinemaone.ph",
+    "DZMM.Radyo.Patrol.us2": "dzmm.teleradyo.ph",
+    "gsat.DZRH_NEWS_TV": "dzrhnewstv.ph",
+    "gsat.SMNI": "snmi.ph",
+    "gsat.UNTV": "untv.ph",
 }
 
 
@@ -966,6 +1047,75 @@ def download_source(
     raise SourceError(str(last_error or "unknown error"))
 
 
+def download_clickthecity_cinema_one(
+    session: requests.Session,
+) -> tuple[ET.Element, list[ET.Element]]:
+    """Fetch ClickTheCity's rolling Cinema One JSON schedule."""
+    try:
+        response = session.get(
+            CINEMA_ONE_API_URL,
+            headers={"Accept": "application/json"},
+            timeout=REQUEST_TIMEOUT,
+        )
+        response.raise_for_status()
+        payload = response.json()
+        data = payload["data"]
+        schedule_days = data["sched"]
+        details = data.get("details", {})
+    except (requests.RequestException, ValueError, KeyError, TypeError) as exc:
+        raise SourceError(f"Cinema One JSON API error: {exc}") from exc
+
+    local_today = datetime.now(MANILA_TIMEZONE).date()
+    events: list[tuple[datetime, str]] = []
+    for schedule_day in schedule_days:
+        try:
+            parsed_day = datetime.strptime(schedule_day["date"], "%A, %B %d")
+            candidate = parsed_day.replace(year=local_today.year).date()
+            if candidate < local_today - timedelta(days=180):
+                candidate = candidate.replace(year=candidate.year + 1)
+            elif candidate > local_today + timedelta(days=180):
+                candidate = candidate.replace(year=candidate.year - 1)
+            for item in schedule_day["sched"]:
+                parsed_time = datetime.strptime(item["time"], "%I:%M %p").time()
+                title = str(item["title"]).strip()
+                if title:
+                    events.append(
+                        (datetime.combine(candidate, parsed_time, MANILA_TIMEZONE), title)
+                    )
+        except (KeyError, TypeError, ValueError) as exc:
+            raise SourceError(f"Unexpected Cinema One schedule data: {exc}") from exc
+
+    events.sort(key=lambda item: item[0])
+    if not events:
+        raise SourceError("Cinema One JSON API returned no programmes")
+
+    programmes: list[ET.Element] = []
+    for index, (start, title) in enumerate(events):
+        stop = (
+            events[index + 1][0]
+            if index + 1 < len(events)
+            else start + timedelta(hours=2)
+        )
+        programme = ET.Element(
+            "programme",
+            {
+                "start": xmltv_timestamp(start),
+                "stop": xmltv_timestamp(stop),
+                "channel": CINEMA_ONE_ID,
+            },
+        )
+        ET.SubElement(programme, "title", {"lang": "en"}).text = title
+        programmes.append(programme)
+
+    channel = ET.Element("channel", {"id": CINEMA_ONE_ID})
+    ET.SubElement(channel, "display-name", {"lang": "en"}).text = "Cinema One PH"
+    ET.SubElement(channel, "display-name", {"lang": "en"}).text = "Cinema One"
+    logo = details.get("logo")
+    if isinstance(logo, str) and logo.startswith(("http://", "https://")):
+        ET.SubElement(channel, "icon", {"src": logo})
+    return channel, programmes
+
+
 def programme_key(programme: ET.Element) -> tuple[str, str, str]:
     return (
         programme.get("start", ""),
@@ -983,6 +1133,22 @@ def clean_programmes(programmes: list[ET.Element]) -> list[ET.Element]:
             seen.add(key)
             result.append(programme)
     return result
+
+
+def merge_programmes_by_start(
+    primary: list[ET.Element], fallback: list[ET.Element]
+) -> tuple[list[ET.Element], int]:
+    """Fill missing start times without creating overlapping duplicate listings."""
+    merged = clean_programmes(primary)
+    existing_starts = {programme.get("start", "") for programme in merged}
+    added = 0
+    for programme in fallback:
+        start = programme.get("start", "")
+        if start and start not in existing_starts:
+            merged.append(programme)
+            existing_starts.add(start)
+            added += 1
+    return clean_programmes(merged), added
 
 
 def xmltv_datetime(value: str) -> datetime | None:
@@ -1179,6 +1345,7 @@ def build_epg() -> tuple[int, int, int]:
         for channel_id in selected_programmes
     }
     failed_sources: list[str] = []
+    dynamic_source_urls: dict[str, str] = {}
 
     print(
         f"Generated recurring schedules for {len(selected_programmes)} custom channel(s)"
@@ -1215,6 +1382,36 @@ def build_epg() -> tuple[int, int, int]:
                 added += 1
             print(f"Selected {added} channel(s) from {source.name}")
 
+        if CINEMA_ONE_ID in target_ids:
+            print(f"Fetching ClickTheCity Cinema One: {CINEMA_ONE_API_URL}")
+            try:
+                cinema_channel, cinema_programmes = (
+                    download_clickthecity_cinema_one(session)
+                )
+            except SourceError as exc:
+                failed_sources.append("ClickTheCity Cinema One")
+                print(f"Skipping ClickTheCity Cinema One: {exc}")
+            else:
+                dynamic_source_urls[CINEMA_ONE_ID] = CINEMA_ONE_PAGE_URL
+                current_entries = selected_programmes.get(CINEMA_ONE_ID, [])
+                merged, added = merge_programmes_by_start(
+                    current_entries, cinema_programmes
+                )
+                selected_programmes[CINEMA_ONE_ID] = merged
+                selected_channels.setdefault(CINEMA_ONE_ID, cinema_channel)
+                if current_entries:
+                    if added:
+                        current_source = selected_sources[CINEMA_ONE_ID]
+                        selected_sources[CINEMA_ONE_ID] = (
+                            f"{current_source} + ClickTheCity"
+                        )
+                else:
+                    selected_sources[CINEMA_ONE_ID] = "ClickTheCity Cinema One"
+                print(
+                    f"Selected {added} additional Cinema One programme(s) "
+                    "from ClickTheCity"
+                )
+
     # A transient provider outage should not erase still-current data that was
     # published by the previous successful run.
     missing_ids = target_ids - selected_programmes.keys()
@@ -1227,6 +1424,16 @@ def build_epg() -> tuple[int, int, int]:
         selected_programmes[target_id] = cleaned
         selected_channels[target_id] = old_channels.get(target_id, make_channel(target_id))
         selected_sources[target_id] = "previous published output"
+
+    if CINEMA_ONE_ID in selected_programmes:
+        cinema_channel = ET.Element("channel", {"id": CINEMA_ONE_ID})
+        ET.SubElement(
+            cinema_channel, "display-name", {"lang": "en"}
+        ).text = "Cinema One PH"
+        ET.SubElement(
+            cinema_channel, "display-name", {"lang": "en"}
+        ).text = "Cinema One"
+        selected_channels[CINEMA_ONE_ID] = cinema_channel
 
     channel_count = len(selected_channels)
     programme_count = sum(len(items) for items in selected_programmes.values())
@@ -1264,6 +1471,7 @@ def build_epg() -> tuple[int, int, int]:
         "programme_count": programme_count,
         "channels_without_epg": missing_ids,
         "custom_schedule_sources": dict(sorted(custom_source_urls.items())),
+        "dynamic_schedule_sources": dict(sorted(dynamic_source_urls.items())),
         "failed_sources": failed_sources,
         "selected_source_by_channel": dict(sorted(selected_sources.items())),
     }
