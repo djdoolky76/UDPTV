@@ -1,12 +1,16 @@
 {
-  "channels_with_epg_count": 203,
+  "channels_with_epg_count": 199,
   "channels_without_epg": [
+    "Amazon.US.BilliardTV",
+    "Amazon.US.CBSNewsChicago",
+    "Amazon.US.CBSNewsNewYork",
+    "Amazon.US.HBOBoxing",
     "buko",
     "truefm_tv"
   ],
   "failed_sources": [],
-  "generated_at": "2026-08-29T00:09:01.421439+00:00",
-  "programme_count": 20560,
+  "generated_at": "2026-08-29T12:10:06.211587+00:00",
+  "programme_count": 20359,
   "requested_channel_count": 205,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -41,10 +45,6 @@
     "ANC": "StarHub",
     "ANIPLUS.HD.sg": "epg.pw Aniplus HD",
     "Amazon.US.BBCFood": "Amazon FAST",
-    "Amazon.US.BilliardTV": "Amazon FAST",
-    "Amazon.US.CBSNewsChicago": "Amazon FAST",
-    "Amazon.US.CBSNewsNewYork": "Amazon FAST",
-    "Amazon.US.HBOBoxing": "Amazon FAST",
     "Animax HD": "StarHub",
     "BBC Lifestyle": "StarHub",
     "Big.Ten.Network.HD.us2": "EPGShare US",
