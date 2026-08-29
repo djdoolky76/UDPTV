@@ -207,3 +207,7 @@ Virgin.Media.Two.HD.ie
 Virgin.Media.Three.HD.ie
 Virgin.Media.Four.HD.ie
 Golf.Channel.HD.ca2
+
+# Local channels generated from recurring weekly schedules.
+CineMo.ph
+CineMoGlobal.ph

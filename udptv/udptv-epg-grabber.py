@@ -14,6 +14,7 @@ from collections import defaultdict
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import requests
 
@@ -22,6 +23,9 @@ NAME = "udptv"
 MAX_ATTEMPTS = 3
 REQUEST_TIMEOUT = (15, 240)
 USER_AGENT = "UDPTV-EPG-Grabber/3.0"
+MANILA_TIMEZONE = ZoneInfo("Asia/Manila")
+CUSTOM_LOOKBACK_DAYS = 1
+CUSTOM_LOOKAHEAD_DAYS = 14
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 OUTPUT_DIR = SCRIPT_DIR.parent / "epgs"
@@ -35,6 +39,478 @@ REPORT_FILE = OUTPUT_DIR / f"{NAME}-epg-report.json"
 class Source:
     name: str
     url: str
+
+
+ScheduleEntry = tuple[int, int, str]
+
+
+@dataclass(frozen=True)
+class CustomChannel:
+    channel_id: str
+    display_names: tuple[str, ...]
+    source_url: str
+    schedule_by_weekday: dict[int, tuple[ScheduleEntry, ...]]
+
+
+def slots(*items: tuple[str, str]) -> tuple[ScheduleEntry, ...]:
+    """Convert readable HH:MM schedule entries to validated time tuples."""
+    result: list[ScheduleEntry] = []
+    previous_minutes = -1
+    for start, title in items:
+        hour, minute = (int(part) for part in start.split(":"))
+        total_minutes = hour * 60 + minute
+        if not 0 <= hour <= 23 or not 0 <= minute <= 59:
+            raise ValueError(f"Invalid custom schedule time: {start}")
+        if total_minutes <= previous_minutes:
+            raise ValueError(f"Custom schedule is not ordered at {start}: {title}")
+        if not title.strip():
+            raise ValueError(f"Custom schedule has an empty title at {start}")
+        result.append((hour, minute, title))
+        previous_minutes = total_minutes
+    return tuple(result)
+
+
+def weekly_schedule(
+    weekday: tuple[ScheduleEntry, ...],
+    saturday: tuple[ScheduleEntry, ...],
+    sunday: tuple[ScheduleEntry, ...],
+    overrides: dict[int, tuple[ScheduleEntry, ...]] | None = None,
+) -> dict[int, tuple[ScheduleEntry, ...]]:
+    schedule = {day: weekday for day in range(5)}
+    schedule[5] = saturday
+    schedule[6] = sunday
+    schedule.update(overrides or {})
+    return schedule
+
+
+DZMM_WEEKDAY = slots(
+    ("04:00", "Radyo Patrol Balita Alas-Kwatro"),
+    ("05:00", "Pasada Balita"),
+    ("06:00", "Gising Pilipinas"),
+    ("07:00", "Radyo Patrol Balita Alas-Siyete"),
+    ("07:30", "Gising Pilipinas"),
+    ("08:00", "Tandem ng Bayan"),
+    ("09:00", "Balitapatan"),
+    ("10:00", "Kabayan"),
+    ("11:00", "Nagseserbisyo, Nina Corpuz"),
+    ("12:00", "Headline Ngayon"),
+    ("12:30", "Maalaala Mo Kaya sa DZMM"),
+    ("13:00", "Hello Attorney"),
+    ("14:00", "Aksyon Ngayon"),
+    ("15:00", "Ako 'To, si Tyang Amy!"),
+    ("16:00", "Headline sa Hapon"),
+    ("16:30", "ATM: Ano'ng Take Mo?"),
+    ("17:30", "Isyu Spotted"),
+    ("18:30", "TV Patrol sa DZMM"),
+    ("20:00", "Spot Report"),
+    ("21:00", "Alam Na Dis!"),
+    ("22:00", "Love Konek"),
+)
+DZMM_SATURDAY = slots(
+    ("00:00", "Remember Your Music"),
+    ("04:00", "'Yan Tayo"),
+    ("06:00", "Ano'ng Ganap?"),
+    ("07:00", "Radyo Patrol Balita Alas-Siyete Weekend"),
+    ("07:30", "Ano'ng Ganap?"),
+    ("08:00", "Balita AnteMano"),
+    ("09:00", "Mutya ng Masa"),
+    ("10:00", "Win Today"),
+    ("11:00", "Wais Konsyumer"),
+    ("12:00", "Ligtas Dapat"),
+    ("13:30", "MariTres"),
+    ("15:00", "TrendJING"),
+    ("16:00", "Tara, Game! sa DZMM"),
+    ("17:00", "Pasado Serbisyo"),
+    ("17:45", "TV Patrol Weekend sa DZMM"),
+    ("18:45", "Kaagapay sa Kalusugan"),
+    ("19:45", "SOCO sa DZMM"),
+    ("20:30", "Feel Kita"),
+    ("22:00", "K-Paps Playlist"),
+)
+DZMM_SUNDAY = slots(
+    ("00:00", "Private Talks"),
+    ("04:00", "The Secret of Health"),
+    ("04:30", "Sunny Side Up"),
+    ("06:00", "Ano'ng Ganap?"),
+    ("07:00", "Radyo Patrol Balita Alas-Siyete Weekend"),
+    ("07:30", "Ano'ng Ganap?"),
+    ("08:00", "Dekalibreng Balita"),
+    ("09:30", "Panalong Diskarte"),
+    ("11:00", "Iwas Sakit, Iwas Gastos"),
+    ("12:00", "Bongga Ka Jhai!"),
+    ("13:30", "Konek Ka D'yan!"),
+    ("15:00", "Travel ni Ahwel"),
+    ("16:30", "TV Patrol Weekend sa DZMM"),
+    ("17:30", "Buhay at Kalusugan"),
+    ("18:30", "Story Outlook"),
+    ("20:00", "K-Paps Playlist"),
+    ("22:00", "Rosary Hour"),
+)
+
+UNTV_MONDAY = slots(
+    ("04:00", "UNTV Community Prayer"),
+    ("05:00", "Hataw Balita Ngayon"),
+    ("06:30", "Good Morning Kuya"),
+    ("09:00", "Itanong Mo Kay Soriano"),
+    ("11:30", "UNTV C-News"),
+    ("12:30", "UNTV Community Prayer"),
+    ("12:35", "Sumbong Nyo, Aksyon Agad"),
+    ("14:00", "Itanong Mo Kay Soriano"),
+    ("16:00", "Serbisyong Bayanihan"),
+    ("17:30", "Ito ang Balita"),
+    ("19:00", "Itanong Mo Kay Soriano"),
+    ("20:00", "UNTV Community Prayer"),
+    ("20:05", "Itanong Mo Kay Soriano"),
+    ("21:20", "MCGI Global Prayer for Humanity"),
+    ("21:30", "Itanong Mo Kay Soriano"),
+)
+UNTV_TUESDAY_FRIDAY = slots(
+    ("00:00", "Itanong Mo Kay Soriano"),
+    ("04:00", "UNTV Community Prayer"),
+    ("05:00", "Hataw Balita Ngayon"),
+    ("06:30", "Good Morning Kuya"),
+    ("09:00", "Itanong Mo Kay Soriano"),
+    ("11:30", "UNTV C-News"),
+    ("12:30", "UNTV Community Prayer"),
+    ("12:35", "Sumbong Nyo, Aksyon Agad"),
+    ("14:00", "Itanong Mo Kay Soriano"),
+    ("16:00", "Serbisyong Bayanihan"),
+    ("17:30", "Ito ang Balita"),
+    ("19:00", "Itanong Mo Kay Soriano"),
+    ("20:00", "Itanong Mo Kay Soriano"),
+    ("21:20", "MCGI Global Prayer for Humanity"),
+    ("21:30", "Itanong Mo Kay Soriano"),
+)
+UNTV_THURSDAY = tuple(
+    (hour, minute, "Itanong Mo Kay Soriano (Huntahang Ligal)")
+    if (hour, minute) == (19, 0)
+    else (hour, minute, title)
+    for hour, minute, title in UNTV_TUESDAY_FRIDAY
+)
+UNTV_SATURDAY = slots(
+    ("00:00", "Itanong Mo Kay Soriano"),
+    ("08:30", "MCGI Cares"),
+    ("09:00", "Itanong Mo Kay Soriano"),
+    ("12:00", "UNTV Community Prayer"),
+    ("12:05", "UNTV Ito ang Balita Weekend"),
+    ("13:00", "Itanong Mo Kay Soriano"),
+    ("18:00", "How Authentic, The Bible is..."),
+    ("18:15", "Itanong Mo Kay Soriano"),
+    ("19:00", "Pulis @ Ur Serbis"),
+    ("20:00", "Ang Inyong Kawal"),
+    ("21:00", "Itanong Mo Kay Soriano"),
+    ("21:15", "UNTV Community Prayer"),
+    ("21:20", "Itanong Mo Kay Soriano"),
+)
+UNTV_SUNDAY = slots(
+    ("04:55", "UNTV Community Prayer"),
+    ("05:00", "Itanong Mo Kay Soriano"),
+    ("06:00", "Itanong Mo Kay Soriano"),
+    ("07:30", "Ang Dating Daan Mandarin Edition"),
+    ("08:00", "UNTV Community Prayer"),
+    ("08:05", "Itanong Mo Kay Soriano"),
+    ("08:30", "Manibela"),
+    ("09:00", "Doctors on TV"),
+    ("10:00", "Lifesaver"),
+    ("10:30", "MCGI Cares"),
+    ("11:00", "The KNC Show"),
+    ("11:30", "Itanong Mo Kay Soriano"),
+    ("13:05", "UNTV Cup"),
+    ("15:00", "Itanong Mo Kay Soriano"),
+    ("16:00", "UNTV Community Prayer"),
+    ("16:05", "Itanong Mo Kay Soriano"),
+    ("18:00", "UNTV Community Prayer"),
+    ("18:05", "Itanong Mo Kay Soriano"),
+    ("20:00", "Itanong Mo Kay Soriano (pay TV) / Sign Off (free TV)"),
+    ("23:15", "Itanong Mo Kay Soriano"),
+)
+
+DZRH_WEEKDAY = slots(
+    ("00:00", "The Better News"),
+    ("00:30", "DZRH Trending 'N Viral Show"),
+    ("01:00", "NHK World-Japan"),
+    ("03:00", "Balitang Promdi"),
+    ("04:00", "Magandang Umaga, Pilipinas"),
+    ("06:00", "Dos Por Dos"),
+    ("08:00", "Damdamin Bayan"),
+    ("10:00", "Operation Tulong"),
+    ("11:00", "Magandang Umaga, Pilipinas (second hour replay)"),
+    ("12:00", "MBC TV Network News"),
+    ("13:00", "The Better News"),
+    ("13:30", "DZRH Trending 'N Viral Show"),
+    ("14:00", "Rapido Hataw Balita"),
+    ("15:00", "Public Service Hour"),
+    ("16:00", "Breaktime"),
+    ("17:00", "Balansyado"),
+    ("18:30", "Usapang Legal"),
+    ("19:30", "Lunas"),
+    ("20:30", "Lunas Extension"),
+    ("21:00", "TNT: Tomorrow's News Tonight"),
+    ("22:00", "Showbiz Talk Ganern"),
+    ("23:00", "MBC TV Network News (replay)"),
+)
+DZRH_THURSDAY = slots(
+    *((f"{hour:02d}:{minute:02d}", title) for hour, minute, title in DZRH_WEEKDAY if (hour, minute) < (22, 0)),
+    ("22:00", "Aksyon Kababaihan"),
+    ("22:30", "Showbiz Talk Ganern"),
+    ("23:00", "MBC TV Network News (replay)"),
+)
+DZRH_SATURDAY = slots(
+    ("00:00", "NHK World-Japan"),
+    ("02:00", "Tita EMS Magazine"),
+    ("04:00", "RH Balita"),
+    ("05:00", "Tambayan"),
+    ("06:00", "Adbokasiya"),
+    ("07:00", "SOS: Special On Saturday"),
+    ("09:00", "Executive Session"),
+    ("10:30", "KKK: Kaalaman at Kabuhayan"),
+    ("11:30", "Hoy Bawal Yan!"),
+    ("12:00", "Scene Zone"),
+    ("12:30", "Match Point"),
+    ("13:00", "Dear Ate Raquel"),
+    ("14:00", "Diskarte"),
+    ("15:00", "Agri Asenso"),
+    ("16:00", "Kaya Mo Yan!"),
+    ("17:00", "Kanya-Kanyang Problema"),
+    ("18:00", "Spotlight"),
+    ("19:00", "Hanap Buhay Diaries"),
+    ("19:30", "Lunas"),
+    ("20:30", "Lunas Extension"),
+    ("21:00", "Sapol Sabado"),
+    ("22:00", "Gabi ng Misteryo"),
+    ("23:00", "Gabi ng Bading"),
+)
+DZRH_SUNDAY = slots(
+    ("00:00", "NHK World-Japan"),
+    ("04:00", "Sunday Updates"),
+    ("06:00", "Mega Balita Linggo"),
+    ("07:00", "Maynila, Ito ang Pilipinas"),
+    ("08:00", "Isyung Pambayan"),
+    ("09:00", "DZRH Stories: Pinoy Documentaries"),
+    ("10:00", "Galing sa Puso"),
+    ("11:00", "Ang Galing Mo Doc"),
+    ("12:00", "Sa Likod ng Kontrobersya"),
+    ("13:00", "Health Check Plus"),
+    ("14:00", "Misa sa Veritas"),
+    ("15:00", "Experts' Opinion"),
+    ("15:30", "Art 2 Art"),
+    ("16:00", "Radyo Henyo"),
+    ("17:00", "May Trabaho"),
+    ("18:00", "Health Check Plus"),
+    ("19:00", "Lunas"),
+    ("19:30", "Kapanalig sa DZRH"),
+    ("20:30", "The Secret of Health"),
+    ("21:00", "Showbiz Talk"),
+    ("22:00", "Bisaya Time"),
+    ("23:00", "For Tonight Only"),
+)
+
+SMNI_MONDAY = slots(
+    ("00:00", "SMNI Programs (replay)"),
+    ("04:00", "Powerline"),
+    ("05:00", "Balita ng Balita (replay)"),
+    ("06:00", "SMNI Special Report"),
+    ("07:00", "Pulso ng Bayan"),
+    ("09:00", "Problema N'yo, Itawag kay Panelo"),
+    ("10:00", "Laban Kasama ang Bayan"),
+    ("12:00", "Makitang Muli (replay)"),
+    ("13:00", "Balita ng Bansa"),
+    ("14:00", "Sounds of Worship"),
+    ("18:00", "SMNI Newsblast"),
+    ("20:00", "Makitang Muli"),
+    ("21:00", "SMNI Newsline News"),
+    ("22:30", "Newsline World"),
+)
+SMNI_TUESDAY_THURSDAY = slots(
+    ("00:00", "Makitang Muli (replay)"),
+    ("01:00", "SMNI Programs (replay)"),
+    *((f"{hour:02d}:{minute:02d}", title) for hour, minute, title in SMNI_MONDAY if hour >= 4),
+)
+SMNI_FRIDAY = slots(
+    *((f"{hour:02d}:{minute:02d}", title) for hour, minute, title in SMNI_TUESDAY_THURSDAY if (hour, minute) < (16, 0)),
+    ("16:00", "SMNI EntrePinoy Revolution"),
+    *((f"{hour:02d}:{minute:02d}", title) for hour, minute, title in SMNI_TUESDAY_THURSDAY if (hour, minute) >= (18, 0)),
+)
+SMNI_SATURDAY = slots(
+    ("00:00", "Makitang Muli (replay)"),
+    ("01:00", "SMNI Programs (replay)"),
+    ("04:00", "Powerline"),
+    ("06:30", "Pinoy Legal Minds"),
+    ("07:30", "Dito sa Bayan ni Juan"),
+    ("09:30", "Doktor ng Bayan"),
+    ("10:30", "Kingdom Force"),
+    ("11:30", "SMNI Special Report"),
+    ("13:00", "Kabayan Abroad"),
+    ("14:00", "SMNI Feature"),
+    ("18:00", "SMNI Special Report"),
+    ("19:00", "Business and Politics"),
+    ("20:00", "Statecraft"),
+    ("21:00", "Weekender World"),
+    ("23:00", "Newsline World"),
+)
+SMNI_SUNDAY = slots(
+    ("00:00", "SMNI Programs (replay)"),
+    ("11:00", "Business and Politics (replay)"),
+    ("12:00", "Statecraft (replay)"),
+    ("13:00", "Weekender World (replay)"),
+    ("15:00", "Sounds of Worship"),
+    ("18:00", "Batang Kaharian"),
+    ("19:00", "SMNI Programs (replay)"),
+)
+
+CINEMO_PH_WEEKDAY = slots(
+    ("01:00", "Cine Silip"),
+    ("03:00", "Cine Serye Pre: Mars Ravelo's Lastikman"),
+    ("04:00", "Cine Serye Pre: Galema: Anak ni Zuma"),
+    ("05:00", "Super Morning Sine"),
+    ("07:00", "Cine Takilya"),
+    ("09:00", "Cine Komedya"),
+    ("11:00", "Cine Saya"),
+    ("13:00", "Cine Astig"),
+    ("15:00", "Cine Kamao"),
+    ("17:00", "Cine Tawanan"),
+    ("19:00", "Cine Barako"),
+    ("21:00", "Cine Aksyon"),
+    ("23:00", "Cine Gigil"),
+)
+CINEMO_PH_SATURDAY = slots(
+    ("01:00", "Cine Silip"),
+    ("03:00", "Super Morning Sine"),
+    ("05:00", "Cine Una"),
+    ("07:00", "Cine Sigaw"),
+    ("09:00", "Cine Kilig"),
+    ("11:00", "Cine Saya"),
+    ("13:00", "Cine Matapang"),
+    ("15:00", "Weekend Movie Bonding"),
+    ("17:00", "CineMo Box Office"),
+    ("19:00", "Dolphy Hari ng Komedya"),
+    ("21:00", "Cine Maton"),
+    ("23:00", "Cine Patok"),
+)
+CINEMO_PH_SUNDAY = slots(
+    ("01:00", "Cine Silip"),
+    ("03:00", "Super Morning Sine"),
+    ("05:00", "Cine Una"),
+    ("07:00", "Cine Dekalibre"),
+    ("09:00", "Cine Kilig"),
+    ("11:00", "Cine Saya"),
+    ("13:00", "Ang Alamat ni Agimat"),
+    ("15:00", "Weekend Movie Bonding"),
+    ("17:00", "CineMo Box Office"),
+    ("19:00", "Markang Daboy"),
+    ("21:00", "Cine Matapang"),
+    ("23:00", "Cine Patok"),
+)
+
+CINEMO_GLOBAL_WEEKDAY = slots(
+    ("00:00", "Cinekwela"),
+    ("01:00", "Cinesaya"),
+    ("03:00", "Cineserye"),
+    ("04:00", "Super Sine"),
+    ("06:00", "Cinetakilya"),
+    ("08:00", "Cinekomedya"),
+    ("10:00", "Cinesaya"),
+    ("12:00", "Cineastig"),
+    ("14:00", "Cinekamao"),
+    ("16:00", "Cinetawanan"),
+    ("18:00", "Cinebarako"),
+    ("20:00", "Cineserye"),
+    ("21:00", "Cineaksyon"),
+    ("23:00", "Cinekwela"),
+)
+CINEMO_GLOBAL_SATURDAY = slots(
+    ("00:00", "Cinekwela"),
+    ("01:00", "Cinesaya"),
+    ("03:00", "Super Sine"),
+    ("05:00", "Cineuna"),
+    ("07:00", "Cinesigaw"),
+    ("09:00", "Cinekilig"),
+    ("11:00", "Cinesaya"),
+    ("13:00", "Cinematapang"),
+    ("15:00", "Cinesiga"),
+    ("17:00", "Super Sabado Sine"),
+    ("19:00", "Dolphy Hari Ng Comedy"),
+    ("21:00", "Cinematon"),
+    ("23:00", "Cinekwela"),
+)
+CINEMO_GLOBAL_SUNDAY = slots(
+    ("00:00", "Cinekwela"),
+    ("01:00", "Cinesaya"),
+    ("03:00", "Super Sine"),
+    ("05:00", "Cineuna"),
+    ("07:00", "Cinesigaw"),
+    ("09:00", "Cinekilig"),
+    ("11:00", "Cinesaya"),
+    ("13:00", "Alamat Ni Agimat"),
+    ("15:00", "Cinesiga"),
+    ("17:00", "Cinemo Box Office"),
+    ("19:00", "Markang Daboy"),
+    ("21:00", "Cinematon"),
+    ("23:00", "Cinekwela"),
+)
+
+CUSTOM_CHANNELS = (
+    CustomChannel(
+        "DZMM.Radyo.Patrol.us2",
+        ("DZMM TeleRadyo", "DZMM Teleradyo SD"),
+        "https://tvradioschedules.fandom.com/wiki/"
+        "DZMM_%26_DZMM_TeleRadyo_Program_Schedule_(TBA)",
+        weekly_schedule(DZMM_WEEKDAY, DZMM_SATURDAY, DZMM_SUNDAY),
+    ),
+    CustomChannel(
+        "gsat.UNTV",
+        ("UNTV", "UNTV News and Rescue"),
+        "https://russel.fandom.com/wiki/UNTV_Program_Schedule",
+        weekly_schedule(
+            UNTV_TUESDAY_FRIDAY,
+            UNTV_SATURDAY,
+            UNTV_SUNDAY,
+            {0: UNTV_MONDAY, 3: UNTV_THURSDAY},
+        ),
+    ),
+    CustomChannel(
+        "gsat.DZRH_NEWS_TV",
+        ("DZRH TV", "DZRH News Television"),
+        "https://russel.fandom.com/wiki/DZRH_TV_Program_Schedule",
+        weekly_schedule(
+            DZRH_WEEKDAY,
+            DZRH_SATURDAY,
+            DZRH_SUNDAY,
+            {3: DZRH_THURSDAY},
+        ),
+    ),
+    CustomChannel(
+        "gsat.SMNI",
+        ("SMNI", "SMNI News Channel"),
+        "https://tvradioschedules.fandom.com/wiki/SMNI_Program_Schedule",
+        weekly_schedule(
+            SMNI_TUESDAY_THURSDAY,
+            SMNI_SATURDAY,
+            SMNI_SUNDAY,
+            {0: SMNI_MONDAY, 4: SMNI_FRIDAY},
+        ),
+    ),
+    CustomChannel(
+        "CineMo.ph",
+        ("Cinemo PH", "CineMo!", "CINEMO!"),
+        "https://philippinetelevision.fandom.com/wiki/CineMo!_Program_Schedule",
+        weekly_schedule(
+            CINEMO_PH_WEEKDAY,
+            CINEMO_PH_SATURDAY,
+            CINEMO_PH_SUNDAY,
+        ),
+    ),
+    CustomChannel(
+        "CineMoGlobal.ph",
+        ("Cinemo Global", "CineMo Global"),
+        "User-provided recurring schedule",
+        weekly_schedule(
+            CINEMO_GLOBAL_WEEKDAY,
+            CINEMO_GLOBAL_SATURDAY,
+            CINEMO_GLOBAL_SUNDAY,
+        ),
+    ),
+)
 
 
 # Ordered by priority. The epg.pw replacements are intentionally first; the
@@ -51,7 +527,6 @@ SOURCES = (
     ),
     Source("epg.pw Aniplus HD", "https://epg.pw/api/epg.xml?channel_id=491159"),
     Source("epg.pw GMA News TV", "https://epg.pw/api/epg.xml?channel_id=491164"),
-    Source("epg.pw DZMM Teleradyo", "https://epg.pw/api/epg.xml?channel_id=464758"),
     Source(
         "Mediaquest Cignal",
         "https://github.com/djdoolky76/Mediaquest-EPG/raw/refs/heads/main/"
@@ -294,6 +769,91 @@ def make_channel(target_id: str) -> ET.Element:
     return channel
 
 
+def xmltv_timestamp(value: datetime) -> str:
+    return value.strftime("%Y%m%d%H%M%S %z")
+
+
+def generate_custom_guides(
+    target_ids: set[str], now: datetime | None = None
+) -> tuple[
+    dict[str, ET.Element],
+    dict[str, list[ET.Element]],
+    dict[str, str],
+]:
+    """Generate rolling XMLTV entries from the manually maintained schedules."""
+    local_now = (now or datetime.now(timezone.utc)).astimezone(MANILA_TIMEZONE)
+    first_date = local_now.date() - timedelta(days=CUSTOM_LOOKBACK_DAYS)
+    last_date = local_now.date() + timedelta(days=CUSTOM_LOOKAHEAD_DAYS)
+    window_start = datetime.combine(first_date, datetime.min.time(), MANILA_TIMEZONE)
+    window_end = datetime.combine(
+        last_date + timedelta(days=1), datetime.min.time(), MANILA_TIMEZONE
+    )
+
+    channels: dict[str, ET.Element] = {}
+    programmes: dict[str, list[ET.Element]] = {}
+    source_urls: dict[str, str] = {}
+
+    for custom in CUSTOM_CHANNELS:
+        if custom.channel_id not in target_ids:
+            continue
+        if set(custom.schedule_by_weekday) != set(range(7)):
+            raise ValueError(
+                f"Custom schedule for {custom.channel_id} does not cover all weekdays"
+            )
+
+        events: list[tuple[datetime, str]] = []
+        day = first_date - timedelta(days=1)
+        final_generation_date = last_date + timedelta(days=1)
+        while day <= final_generation_date:
+            for hour, minute, title in custom.schedule_by_weekday[day.weekday()]:
+                events.append(
+                    (
+                        datetime(
+                            day.year,
+                            day.month,
+                            day.day,
+                            hour,
+                            minute,
+                            tzinfo=MANILA_TIMEZONE,
+                        ),
+                        title,
+                    )
+                )
+            day += timedelta(days=1)
+        events.sort(key=lambda item: item[0])
+
+        entries: list[ET.Element] = []
+        for (start, title), (stop, _) in zip(events, events[1:]):
+            if stop <= window_start or start >= window_end:
+                continue
+            if stop <= start:
+                raise ValueError(
+                    f"Custom schedule for {custom.channel_id} has a non-positive slot"
+                )
+            programme = ET.Element(
+                "programme",
+                {
+                    "start": xmltv_timestamp(start),
+                    "stop": xmltv_timestamp(stop),
+                    "channel": custom.channel_id,
+                },
+            )
+            ET.SubElement(programme, "title", {"lang": "en"}).text = title
+            entries.append(programme)
+
+        if not entries:
+            raise ValueError(f"Custom schedule for {custom.channel_id} generated no data")
+
+        channel = ET.Element("channel", {"id": custom.channel_id})
+        for display_name in custom.display_names:
+            ET.SubElement(channel, "display-name", {"lang": "en"}).text = display_name
+        channels[custom.channel_id] = channel
+        programmes[custom.channel_id] = entries
+        source_urls[custom.channel_id] = custom.source_url
+
+    return channels, programmes, source_urls
+
+
 def write_tree_atomically(tree: ET.ElementTree, output: Path, compressed: bool) -> None:
     output.parent.mkdir(parents=True, exist_ok=True)
     temp_path: Path | None = None
@@ -349,10 +909,18 @@ def write_report_atomically(report: dict[str, object]) -> None:
 
 def build_epg() -> tuple[int, int, int]:
     target_ids = load_target_ids()
-    selected_channels: dict[str, ET.Element] = {}
-    selected_programmes: dict[str, list[ET.Element]] = {}
-    selected_sources: dict[str, str] = {}
+    selected_channels, selected_programmes, custom_source_urls = (
+        generate_custom_guides(target_ids)
+    )
+    selected_sources = {
+        channel_id: "custom recurring schedule"
+        for channel_id in selected_programmes
+    }
     failed_sources: list[str] = []
+
+    print(
+        f"Generated recurring schedules for {len(selected_programmes)} custom channel(s)"
+    )
 
     with requests.Session() as session:
         session.headers.update(
@@ -433,6 +1001,7 @@ def build_epg() -> tuple[int, int, int]:
         "channels_with_epg_count": channel_count,
         "programme_count": programme_count,
         "channels_without_epg": missing_ids,
+        "custom_schedule_sources": dict(sorted(custom_source_urls.items())),
         "failed_sources": failed_sources,
         "selected_source_by_channel": dict(sorted(selected_sources.items())),
     }
