@@ -1,5 +1,5 @@
 <div align="center">
- <a href="#"><img width="300" height="300" src="https://i.postimg.cc/Z59dwcZB/udp.png"></a> <br>
+ <a href="#"><img width="300" height="300" src="imgs/udplogo.png" alt="UDPTV logo"></a> <br>
 
 ## UDPTV
 </div>
