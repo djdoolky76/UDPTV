@@ -1,10 +1,6 @@
 {
-  "channels_with_epg_count": 203,
+  "channels_with_epg_count": 207,
   "channels_without_epg": [
-    "Amazon.US.BilliardTV",
-    "Amazon.US.CBSNewsChicago",
-    "Amazon.US.CBSNewsNewYork",
-    "Amazon.US.HBOBoxing",
     "buko",
     "truefm_tv"
   ],
@@ -22,8 +18,8 @@
     "metrochannel.ph": "https://www.ontvtonight.com/guide/listings/channel/1473142439/metro-channel-philippines.html"
   },
   "failed_sources": [],
-  "generated_at": "2026-08-29T13:29:31.808984+00:00",
-  "programme_count": 21688,
+  "generated_at": "2026-08-30T00:11:03.723896+00:00",
+  "programme_count": 21657,
   "requested_channel_count": 209,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -58,6 +54,10 @@
     "ANC": "StarHub",
     "ANIPLUS.HD.sg": "epg.pw Aniplus HD",
     "Amazon.US.BBCFood": "Amazon FAST",
+    "Amazon.US.BilliardTV": "Amazon FAST",
+    "Amazon.US.CBSNewsChicago": "Amazon FAST",
+    "Amazon.US.CBSNewsNewYork": "Amazon FAST",
+    "Amazon.US.HBOBoxing": "Amazon FAST",
     "Animax HD": "StarHub",
     "BBC Lifestyle": "StarHub",
     "Big.Ten.Network.HD.us2": "EPGShare US",
