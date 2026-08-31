@@ -51,6 +51,17 @@ METRO_CHANNEL_URL = (
 class Source:
     name: str
     url: str
+    allowed_ids: frozenset[str] | None = None
+
+
+GO3_SPORT_LV_IDS = frozenset(
+    {
+        "Go3.Sport.1.HD.lv",
+        "Go3.Sport.2.HD.lv",
+        "Go3.Sport.3.HD.lv",
+        "Go3.Sport.Open.HD.lv",
+    }
+)
 
 
 ScheduleEntry = tuple[int, int, str]
@@ -901,6 +912,11 @@ SOURCES = (
     Source("EPGShare Germany", "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz"),
     Source("EPGShare Plex", "https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz"),
     Source("EPGShare Lithuania", "https://epgshare01.online/epgshare01/epg_ripper_LT1.xml.gz"),
+    Source(
+        "EPGShare Latvia Go3 Sports",
+        "https://epgshare01.online/epgshare01/epg_ripper_LV1.xml.gz",
+        GO3_SPORT_LV_IDS,
+    ),
     Source("EPGShare Philippines", "https://epgshare01.online/epgshare01/epg_ripper_PH2.xml.gz"),
     Source("EPGShare Singapore", "https://epgshare01.online/epgshare01/epg_ripper_SG1.xml.gz"),
     Source("EPGShare Ireland", "https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz"),
@@ -1532,9 +1548,18 @@ def build_epg() -> tuple[int, int, int]:
             remaining = target_ids - selected_programmes.keys()
             if not remaining:
                 break
+            source_target_ids = (
+                remaining & source.allowed_ids
+                if source.allowed_ids is not None
+                else remaining
+            )
+            if not source_target_ids:
+                continue
             print(f"Fetching {source.name}: {source.url}")
             try:
-                channels, programmes = download_source(session, source, remaining)
+                channels, programmes = download_source(
+                    session, source, source_target_ids
+                )
             except SourceError as exc:
                 failed_sources.append(source.name)
                 print(f"Skipping {source.name}: {exc}")

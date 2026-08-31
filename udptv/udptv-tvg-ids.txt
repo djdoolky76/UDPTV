@@ -208,6 +208,12 @@ Virgin.Media.Three.HD.ie
 Virgin.Media.Four.HD.ie
 Golf.Channel.HD.ca2
 
+# EPGShare Latvia Go3 Sports (LV1 allowlisted IDs only).
+Go3.Sport.1.HD.lv
+Go3.Sport.2.HD.lv
+Go3.Sport.3.HD.lv
+Go3.Sport.Open.HD.lv
+
 # Local channels generated from recurring weekly schedules.
 cinemo.ph
 cinemo.global

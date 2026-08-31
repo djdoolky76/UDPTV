@@ -80,6 +80,18 @@ Cinema One PH uses `cinemaone.ph`. The consolidator rewrites the existing
 [ClickTheCity Cinema One schedule](https://www.clickthecity.com/tv/channels/cinema-one)
 on every run.
 
+## Targeted provider feeds
+
+The [EPGShare Latvia LV1 XMLTV feed](https://epgshare01.online/epgshare01/epg_ripper_LV1.xml.gz)
+is restricted to the four IDs below. The provider's
+[TXT index](https://epgshare01.online/epgshare01/epg_ripper_LV1.txt) is used for
+ID verification only.
+
+- `Go3.Sport.1.HD.lv`
+- `Go3.Sport.2.HD.lv`
+- `Go3.Sport.3.HD.lv`
+- `Go3.Sport.Open.HD.lv`
+
 ## No trustworthy current XMLTV mapping
 
 These were deliberately not assigned an unrelated schedule:
