@@ -1,6 +1,7 @@
 {
-  "channels_with_epg_count": 210,
+  "channels_with_epg_count": 209,
   "channels_without_epg": [
+    "anc.click",
     "buko",
     "gma.click",
     "truefm_tv"
@@ -19,8 +20,8 @@
     "metrochannel.ph": "https://www.ontvtonight.com/guide/listings/channel/1473142439/metro-channel-philippines.html"
   },
   "failed_sources": [],
-  "generated_at": "2026-09-01T00:26:10.944327+00:00",
-  "programme_count": 22065,
+  "generated_at": "2026-09-01T12:21:45.147712+00:00",
+  "programme_count": 21897,
   "requested_channel_count": 213,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -56,8 +57,8 @@
     "ANIPLUS.HD.sg": "epg.pw Aniplus HD",
     "Amazon.US.BBCFood": "Amazon FAST",
     "Amazon.US.BilliardTV": "Amazon FAST",
-    "Amazon.US.CBSNewsChicago": "previous published output",
-    "Amazon.US.CBSNewsNewYork": "previous published output",
+    "Amazon.US.CBSNewsChicago": "Amazon FAST",
+    "Amazon.US.CBSNewsNewYork": "Amazon FAST",
     "Amazon.US.HBOBoxing": "Amazon FAST",
     "Animax HD": "StarHub",
     "BBC Lifestyle": "StarHub",
@@ -174,7 +175,6 @@
     "[TFC].Filipino.Channel.Canada.East.HD.ca2": "EPGShare Canada",
     "[TFC].The.Filipino.Channel.HD.us2": "EPGShare US",
     "a2z.click": "Cignal fallback",
-    "anc.click": "previous published output",
     "beIN Sports 2 HD": "StarHub",
     "beIN Sports 3": "StarHub",
     "beIN Sports HD": "StarHub",
