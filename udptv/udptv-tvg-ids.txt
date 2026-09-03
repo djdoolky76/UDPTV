@@ -220,3 +220,18 @@ cinemo.global
 metrochannel.ph
 cltv36.ph
 heartofasia.ph
+
+# Selected channels from the private JioTV EPG deployment.
+mirrornow.jio
+moviesnow.jio
+mnx.jio
+mnplus.jio
+romedynow.jio
+stargold.jio
+stargold2.jio
+stargoldromance.jio
+stargoldselect.jio
+stargoldthrills.jio
+starmovies.jio
+starmoviesselect.jio
+sonypixhd.jio

@@ -91,6 +91,36 @@ on every run.
 
 ## Targeted provider feeds
 
+### Selected JioTV feed
+
+The private [JioTV XMLTV deployment](https://jioepg.djdoolky76.com/epg.xml.gz)
+contains more than 1,000 channels. The consolidator streams the feed but retains
+only the following 13 channels. Their `.jio` IDs are deliberately separate from
+existing UDPTV mappings, so both versions can coexist.
+
+| JioTV channel | Jio source ID | UDPTV XMLTV ID |
+| --- | --- | --- |
+| Mirror Now | `jiotv.491` | `mirrornow.jio` |
+| Movies Now HD | `jiotv.151` | `moviesnow.jio` |
+| MNX HD | `jiotv.877` | `mnx.jio` |
+| MN+ HD | `jiotv.477` | `mnplus.jio` |
+| Romedy Now | `jiotv.1401` | `romedynow.jio` |
+| Star Gold HD | `jiotv.156` | `stargold.jio` |
+| Star Gold 2 HD | `jiotv.3096` | `stargold2.jio` |
+| Star Gold Romance | `jiotv.3097` | `stargoldromance.jio` |
+| Star Gold Select HD | `jiotv.1113` | `stargoldselect.jio` |
+| Star Gold Thrills | `jiotv.3098` | `stargoldthrills.jio` |
+| Star Movies HD | `jiotv.1104` | `starmovies.jio` |
+| Star Movies Select HD | `jiotv.1110` | `starmoviesselect.jio` |
+| Sony Pix HD | `jiotv.762` | `sonypixhd.jio` |
+
+The upstream display names and programme metadata are preserved; only channel
+references are rewritten. If this source is temporarily unavailable, still-current
+entries from the previous consolidated output may be retained by the existing
+outage fallback. No other Jio channel is written to the UDPTV guide.
+
+### EPGShare Latvia Go3 Sports
+
 The [EPGShare Latvia LV1 XMLTV feed](https://epgshare01.online/epgshare01/epg_ripper_LV1.xml.gz)
 is restricted to the four IDs below. The provider's
 [TXT index](https://epgshare01.online/epgshare01/epg_ripper_LV1.txt) is used for
