@@ -219,3 +219,4 @@ cinemo.ph
 cinemo.global
 metrochannel.ph
 cltv36.ph
+heartofasia.ph

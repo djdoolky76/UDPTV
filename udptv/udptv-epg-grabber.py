@@ -776,6 +776,77 @@ CLTV_SUNDAY = slots(
     ("19:00", "CLTV36 Programming"),
 )
 
+# The reference lists starts from 06:00 through late evening, but no overnight
+# schedule. Midnight is a guide boundary, not a claim that the station signs off.
+HEART_OF_ASIA_MONDAY_THURSDAY = slots(
+    ("00:00", "Schedule not provided"),
+    ("06:00", "Jumong: Prince of The Legend"),
+    ("07:00", "Now, We Are Breaking Up"),
+    ("07:45", "Eve"),
+    ("08:30", "My Roommate Is A Gumiho"),
+    ("09:15", "Queen Seondeok"),
+    ("10:00", "The Love Trap"),
+    ("10:45", "Kokdu: Season Of Deity"),
+    ("11:30", "Goblin: The Lonely and The God"),
+    ("12:10", "Are We Alright?"),
+    ("12:55", "The Deadly Affair"),
+    ("13:40", "Now, We Are Breaking Up"),
+    ("14:25", "Eve"),
+    ("15:10", "My Roommate Is A Gumiho"),
+    ("15:55", "The Love Trap"),
+    ("16:40", "Are We Alright?"),
+    ("17:25", "The Deadly Affair"),
+    ("18:10", "Queen Seondeok"),
+    ("18:55", "Goblin: The Lonely and The God"),
+    ("19:35", "Kokdu: Season Of Deity"),
+    ("20:25", "Now, We Are Breaking Up"),
+    ("21:05", "Eve"),
+    ("21:50", "Queen Seondeok"),
+    ("22:35", "My Roommate Is A Gumiho"),
+    ("23:20", "Goblin: The Lonely and The God"),
+)
+HEART_OF_ASIA_FRIDAY = slots(
+    *(
+        (f"{hour:02d}:{minute:02d}", title)
+        for hour, minute, title in HEART_OF_ASIA_MONDAY_THURSDAY
+        if (hour, minute) < (19, 0)
+        and (hour, minute) != (18, 55)
+    ),
+    ("19:00", "Astig Anime Friday"),
+    ("21:00", "Sci-Fi Picks"),
+    ("22:30", "My Roommate Is A Gumiho"),
+    ("23:15", "Goblin: The Lonely and The God"),
+)
+HEART_OF_ASIA_SATURDAY = slots(
+    ("00:00", "Schedule not provided"),
+    ("06:00", "Ultraman Z"),
+    ("07:00", "Bleach"),
+    ("08:00", "Jumong: Prince of The Legend"),
+    ("10:00", "Miss The Dragon"),
+    ("12:00", "Movie Mania"),
+    ("14:00", "The Leaves"),
+    ("15:00", "The Deadly Affair"),
+    ("17:00", "From The Heart Specials: Ending Again"),
+    ("17:30", "Revenge Note"),
+    ("18:00", "Strictly Pinoy"),
+    ("20:00", "Action Flicks"),
+    ("22:00", "Screams on Screen"),
+)
+HEART_OF_ASIA_SUNDAY = slots(
+    ("00:00", "Schedule not provided"),
+    ("06:00", "To Me, It's Simply You"),
+    ("08:00", "Jumong: Prince of The Legend"),
+    ("10:00", "Miss The Dragon"),
+    ("12:00", "Bida Asia"),
+    ("14:00", "The Leaves"),
+    ("15:00", "Yumi's Cells"),
+    ("17:00", "From The Heart Specials: Ending Again"),
+    ("17:30", "Revenge Note"),
+    ("18:00", "Feel na Films"),
+    ("20:00", "Asian Cinemix"),
+    ("22:00", "God of Lost Fantasy"),
+)
+
 METRO_FALLBACK_CHANNEL = CustomChannel(
     METRO_CHANNEL_ID,
     ("Metro Channel",),
@@ -792,6 +863,17 @@ METRO_FALLBACK_CHANNEL = CustomChannel(
 )
 
 CUSTOM_CHANNELS = (
+    CustomChannel(
+        "heartofasia.ph",
+        ("Heart of Asia",),
+        "https://philippinetelevision.fandom.com/wiki/Heart_of_Asia_Program_Schedule",
+        weekly_schedule(
+            HEART_OF_ASIA_MONDAY_THURSDAY,
+            HEART_OF_ASIA_SATURDAY,
+            HEART_OF_ASIA_SUNDAY,
+            {4: HEART_OF_ASIA_FRIDAY},
+        ),
+    ),
     CustomChannel(
         "dzmm.teleradyo.ph",
         ("DZMM TeleRadyo", "DZMM Teleradyo SD"),

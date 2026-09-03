@@ -1,5 +1,5 @@
 {
-  "channels_with_epg_count": 211,
+  "channels_with_epg_count": 212,
   "channels_without_epg": [
     "buko",
     "truefm_tv"
@@ -10,6 +10,7 @@
     "cltv36.ph": "https://cltv36.tv/tv-programs/",
     "dzmm.teleradyo.ph": "https://tvradioschedules.fandom.com/wiki/DZMM_%26_DZMM_TeleRadyo_Program_Schedule_(TBA)",
     "dzrhnewstv.ph": "https://russel.fandom.com/wiki/DZRH_TV_Program_Schedule",
+    "heartofasia.ph": "https://philippinetelevision.fandom.com/wiki/Heart_of_Asia_Program_Schedule",
     "snmi.ph": "https://tvradioschedules.fandom.com/wiki/SMNI_Program_Schedule",
     "untv.ph": "https://russel.fandom.com/wiki/UNTV_Program_Schedule"
   },
@@ -18,9 +19,9 @@
     "metrochannel.ph": "https://www.ontvtonight.com/guide/listings/channel/1473142439/metro-channel-philippines.html"
   },
   "failed_sources": [],
-  "generated_at": "2026-09-03T00:27:05.352171+00:00",
-  "programme_count": 22136,
-  "requested_channel_count": 213,
+  "generated_at": "2026-09-03T10:05:03.625819+00:00",
+  "programme_count": 22344,
+  "requested_channel_count": 214,
   "selected_source_by_channel": {
     "100.astro": "Astro",
     "120.astro": "Astro",
@@ -214,6 +215,7 @@
     "gsat.ALLTV": "GSAT",
     "gsat.GT9_PBO": "GSAT",
     "gtv.click": "Cignal fallback",
+    "heartofasia.ph": "custom recurring schedule",
     "ibc-tv-13.click": "Cignal fallback",
     "jeepney-tv.click": "Cignal fallback",
     "kapamilya-channel.click": "Cignal fallback",
