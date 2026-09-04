@@ -1,9 +1,6 @@
 {
-  "channels_with_epg_count": 225,
-  "channels_without_epg": [
-    "buko",
-    "truefm_tv"
-  ],
+  "channels_with_epg_count": 227,
+  "channels_without_epg": [],
   "custom_schedule_sources": {
     "cinemo.global": "User-provided recurring schedule",
     "cinemo.ph": "https://philippinetelevision.fandom.com/wiki/CineMo!_Program_Schedule",
@@ -19,8 +16,8 @@
     "metrochannel.ph": "https://www.ontvtonight.com/guide/listings/channel/1473142439/metro-channel-philippines.html"
   },
   "failed_sources": [],
-  "generated_at": "2026-09-03T17:43:34.166360+00:00",
-  "programme_count": 23278,
+  "generated_at": "2026-09-04T00:24:36.221655+00:00",
+  "programme_count": 23584,
   "requested_channel_count": 227,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -180,6 +177,7 @@
     "beIN Sports HD": "StarHub",
     "beIN.Sports.USA.HD.us2": "EPGShare US",
     "bilyonaryoch": "Mediaquest Cignal",
+    "buko": "Mediaquest Cignal",
     "cartoonnetworkhd": "Mediaquest Cignal",
     "celmovie_pinoy_sd": "Mediaquest Cignal",
     "cg_bbcearth_hd1": "Mediaquest Cignal",
@@ -191,7 +189,7 @@
     "cg_pbarush_hd1": "Mediaquest Cignal",
     "cg_ptv4_sd": "Mediaquest Cignal",
     "cg_spotvhd": "Mediaquest Cignal",
-    "cg_studio_universal_hd": "Mediaquest Cignal",
+    "cg_studio_universal_hd": "previous published output",
     "cg_tagalogmovie": "Mediaquest Cignal",
     "cg_tapmovies_hd1": "Mediaquest Cignal",
     "cg_thrill_sd": "Mediaquest Cignal",
@@ -245,6 +243,7 @@
     "starmovies.jio": "JioTV selected channels",
     "starmoviesselect.jio": "JioTV selected channels",
     "truTV.HD.us2": "EPGShare US",
+    "truefm_tv": "Mediaquest Cignal",
     "tv5.click": "Cignal fallback",
     "untv.ph": "custom recurring schedule",
     "viva-cinema.click": "Cignal fallback"
