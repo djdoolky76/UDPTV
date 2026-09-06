@@ -84,6 +84,74 @@ JIO_SOURCE_ID_ALIASES = {
 }
 JIO_EPG_IDS = frozenset(JIO_SOURCE_ID_ALIASES.values())
 
+# Synchronized with the channel declarations in cignal_epg.xml.gz on
+# 2026-09-06. Keep the source explicitly bounded so API changes are reviewed
+# before they alter the consolidated public guide.
+MEDIAQUEST_CIGNAL_IDS = frozenset(
+    {
+        "abc_australia",
+        "amagi",
+        "arirang_sd",
+        "bbcworld_news_sd",
+        "bilyonaryoch",
+        "bloomberg_sd",
+        "cg_a2z",
+        "cg_abante_news",
+        "cg_animax_sd_new",
+        "cg_axn_sd",
+        "cg_bbcearth_hd1",
+        "cg_bbclifestyle",
+        "cg_cnnhd",
+        "cg_dreamworks_hd1",
+        "cg_dreamworktag",
+        "cg_hitsnow",
+        "cg_moonbug_kids_sd",
+        "cg_ncaa",
+        "cg_onesports_hd",
+        "cg_onesportsplus_hd1",
+        "cg_pbarush_hd1",
+        "cg_ps_hd1",
+        "cg_ptv4_sd",
+        "cg_spotvhd",
+        "cg_studio_universal_hd",
+        "cg_tapmovies_hd1",
+        "cg_tvnmovie",
+        "cg_tvnpre",
+        "cg_uaap_cplay_sd",
+        "cgnl_nba",
+        "cgtn",
+        "cgtn-test",
+        "channelnewsasia",
+        "cnn_rptv_prod_hd",
+        "depedch_sd",
+        "dr_aljazeera",
+        "dr_cctv4",
+        "dr_historyhd",
+        "dr_lifetime",
+        "dr_nhk_japan",
+        "dr_nickelodeon",
+        "dr_rockentertainment",
+        "dr_rockextreme",
+        "dr_spotv2hd",
+        "dr_tapsports",
+        "fashiontvhd",
+        "fifafast",
+        "globaltrekker",
+        "hits_hd1",
+        "hits_movies",
+        "ibc13_sd_new",
+        "kapatid_hd",
+        "knowledge_channel",
+        "lotusmacau_prd",
+        "oneph_sd",
+        "onenews_hd1",
+        "pl_sdi10",
+        "premiersports2hd",
+        "tv5",
+        "tvmaria_prd",
+    }
+)
+
 
 ScheduleEntry = tuple[int, int, str]
 
@@ -992,6 +1060,7 @@ SOURCES = (
         "Mediaquest Cignal",
         "https://github.com/djdoolky76/Mediaquest-EPG/raw/refs/heads/main/"
         "cignal_epg.xml.gz",
+        MEDIAQUEST_CIGNAL_IDS,
     ),
     Source("EPGShare Canada", "https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz"),
     Source(
@@ -1083,6 +1152,15 @@ def map_source_id(source_id: str, target_ids: set[str]) -> str | None:
     return stripped if stripped in target_ids else None
 
 
+def strip_xml_text(element: ET.Element) -> None:
+    """Remove boundary whitespace from imported XMLTV text fields in place."""
+    for descendant in element.iter():
+        if descendant.text:
+            descendant.text = "\n".join(
+                line.strip() for line in descendant.text.splitlines()
+            ).strip()
+
+
 def parse_stream(
     stream: object, target_ids: set[str]
 ) -> tuple[dict[str, ET.Element], dict[str, list[ET.Element]]]:
@@ -1106,6 +1184,7 @@ def parse_stream(
             if target_id is not None:
                 channel = copy.deepcopy(element)
                 channel.set("id", target_id)
+                strip_xml_text(channel)
                 channels.setdefault(target_id, channel)
             root.clear()
         elif tag == "programme":
@@ -1119,6 +1198,7 @@ def parse_stream(
             ):
                 programme = copy.deepcopy(element)
                 programme.set("channel", target_id)
+                strip_xml_text(programme)
                 programmes[target_id].append(programme)
             root.clear()
 

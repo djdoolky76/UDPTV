@@ -91,6 +91,30 @@ on every run.
 
 ## Targeted provider feeds
 
+### Mediaquest Cignal
+
+The [Mediaquest Cignal feed](https://github.com/djdoolky76/Mediaquest-EPG/raw/refs/heads/main/cignal_epg.xml.gz)
+was resynchronized on 2026-09-06. All **60 declared channel IDs** are included,
+and every one had programmes during validation. The feed is bound to an explicit
+allowlist in the grabber so later API changes must be reviewed before they can
+silently alter the public UDPTV lineup.
+
+The refresh added 34 IDs:
+
+```text
+abc_australia, amagi, arirang_sd, bbcworld_news_sd, bloomberg_sd, cg_a2z,
+cg_abante_news, cg_animax_sd_new, cg_axn_sd, cg_bbclifestyle, cg_hitsnow,
+cg_moonbug_kids_sd, cg_ncaa, cg_ps_hd1, cg_tvnmovie, cgtn, cgtn-test,
+channelnewsasia, depedch_sd, dr_aljazeera, dr_cctv4, dr_lifetime,
+dr_nickelodeon, dr_rockextreme, fashiontvhd, fifafast, globaltrekker,
+hits_hd1, hits_movies, ibc13_sd_new, kapatid_hd, pl_sdi10, tv5, tvmaria_prd
+```
+
+Seven retired Mediaquest-only IDs were removed from the UDPTV target list because
+the current source no longer declares them and no other provider produced current
+programmes for them: `cartoonnetworkhd`, `celmovie_pinoy_sd`, `cg_tagalogmovie`,
+`cg_thrill_sd`, `cg_warnerhd`, `kbsworld`, and `kix_hd1`.
+
 ### Selected JioTV feed
 
 The private [JioTV XMLTV deployment](https://jioepg.djdoolky76.com/epg.xml.gz)
