@@ -16,13 +16,12 @@
     "untv.ph": "https://russel.fandom.com/wiki/UNTV_Program_Schedule"
   },
   "dynamic_schedule_sources": {
+    "cinemaone.ph": "https://www.clickthecity.com/tv/channels/cinema-one",
     "metrochannel.ph": "https://www.ontvtonight.com/guide/listings/channel/1473142439/metro-channel-philippines.html"
   },
-  "failed_sources": [
-    "ClickTheCity Cinema One"
-  ],
-  "generated_at": "2026-09-06T12:20:08.153516+00:00",
-  "programme_count": 25782,
+  "failed_sources": [],
+  "generated_at": "2026-09-07T00:27:59.563744+00:00",
+  "programme_count": 26080,
   "requested_channel_count": 254,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -56,7 +55,7 @@
     "AMC.HD.us2": "EPGShare US",
     "ANC": "StarHub",
     "ANIPLUS.HD.sg": "epg.pw Aniplus HD",
-    "Amazon.US.BBCFood": "previous published output",
+    "Amazon.US.BBCFood": "Amazon FAST",
     "Amazon.US.BilliardTV": "Amazon FAST",
     "Amazon.US.CBSNewsChicago": "Amazon FAST",
     "Amazon.US.CBSNewsNewYork": "Amazon FAST",
@@ -214,7 +213,7 @@
     "cgtn": "Mediaquest Cignal",
     "cgtn-test": "Mediaquest Cignal",
     "channelnewsasia": "Mediaquest Cignal",
-    "cinemaone.ph": "previous published output",
+    "cinemaone.ph": "ClickTheCity Cinema One",
     "cinemo.global": "custom recurring schedule",
     "cinemo.ph": "custom recurring schedule",
     "cltv36.ph": "custom recurring schedule",
