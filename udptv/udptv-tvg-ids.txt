@@ -249,6 +249,7 @@ cinemo.global
 metrochannel.ph
 cltv36.ph
 heartofasia.ph
+iheartmovies.ph
 
 # Selected channels from the private JioTV EPG deployment.
 mirrornow.jio

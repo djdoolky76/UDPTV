@@ -1,5 +1,5 @@
 {
-  "channels_with_epg_count": 251,
+  "channels_with_epg_count": 252,
   "channels_without_epg": [
     "buko",
     "solar-flix.click",
@@ -11,18 +11,18 @@
     "cltv36.ph": "https://cltv36.tv/tv-programs/",
     "dzmm.teleradyo.ph": "https://tvradioschedules.fandom.com/wiki/DZMM_%26_DZMM_TeleRadyo_Program_Schedule_(TBA)",
     "dzrhnewstv.ph": "https://russel.fandom.com/wiki/DZRH_TV_Program_Schedule",
-    "heartofasia.ph": "https://philippinetelevision.fandom.com/wiki/Heart_of_Asia_Program_Schedule",
     "snmi.ph": "https://tvradioschedules.fandom.com/wiki/SMNI_Program_Schedule",
     "untv.ph": "https://russel.fandom.com/wiki/UNTV_Program_Schedule"
   },
   "dynamic_schedule_sources": {
-    "cinemaone.ph": "https://www.clickthecity.com/tv/channels/cinema-one",
     "metrochannel.ph": "https://www.ontvtonight.com/guide/listings/channel/1473142439/metro-channel-philippines.html"
   },
-  "failed_sources": [],
-  "generated_at": "2026-09-07T12:24:39.395944+00:00",
-  "programme_count": 25961,
-  "requested_channel_count": 254,
+  "failed_sources": [
+    "ClickTheCity Cinema One"
+  ],
+  "generated_at": "2026-09-07T19:54:26.673223+00:00",
+  "programme_count": 25901,
+  "requested_channel_count": 255,
   "selected_source_by_channel": {
     "100.astro": "Astro",
     "120.astro": "Astro",
@@ -213,7 +213,7 @@
     "cgtn": "Mediaquest Cignal",
     "cgtn-test": "Mediaquest Cignal",
     "channelnewsasia": "Mediaquest Cignal",
-    "cinemaone.ph": "ClickTheCity Cinema One",
+    "cinemaone.ph": "previous published output",
     "cinemo.global": "custom recurring schedule",
     "cinemo.ph": "custom recurring schedule",
     "cltv36.ph": "custom recurring schedule",
@@ -238,11 +238,12 @@
     "gsat.ALLTV": "GSAT",
     "gsat.GT9_PBO": "GSAT",
     "gtv.click": "Cignal fallback",
-    "heartofasia.ph": "custom recurring schedule",
+    "heartofasia.ph": "KAO TV GMA",
     "hits_hd1": "Mediaquest Cignal",
     "hits_movies": "Mediaquest Cignal",
     "ibc-tv-13.click": "Cignal fallback",
     "ibc13_sd_new": "Mediaquest Cignal",
+    "iheartmovies.ph": "KAO TV GMA",
     "jeepney-tv.click": "Cignal fallback",
     "kapamilya-channel.click": "Cignal fallback",
     "kapatid_hd": "Mediaquest Cignal",

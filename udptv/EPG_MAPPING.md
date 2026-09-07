@@ -31,6 +31,7 @@ an ID when they carry the same schedule.
 | DZMM Teleradyo | `dzmm.teleradyo.ph` |
 | DZRH News TV | `dzrhnewstv.ph` |
 | Heart of Asia | `heartofasia.ph` |
+| I Heart Movies | `iheartmovies.ph` |
 | Metro Channel | `metrochannel.ph` |
 | SNMI | `snmi.ph` |
 | Tap Action Flix | `TAPACTIONFLIX.ph` |
@@ -63,19 +64,11 @@ custom timetable is authoritative for them:
 | Cinemo PH | `cinemo.ph` | [CineMo! schedule](https://philippinetelevision.fandom.com/wiki/CineMo!_Program_Schedule) |
 | Cinemo Global | `cinemo.global` | User-provided weekly schedule |
 | CLTV36 | `cltv36.ph` | [CLTV36 programs](https://cltv36.tv/tv-programs/) plus current CLTV36 announcements |
-| Heart of Asia | `heartofasia.ph` | [Heart of Asia schedule](https://philippinetelevision.fandom.com/wiki/Heart_of_Asia_Program_Schedule) |
 
 The recurring programme pages are references, not live XMLTV feeds. When a
 broadcaster changes its lineup, update the matching schedule constants in
 `udptv-epg-grabber.py`. CLTV36 uses `CLTV36 Programming` during hours for which
 the broadcaster has not published an exact programme.
-
-Heart of Asia follows distinct Monday–Thursday, Friday, Saturday, and Sunday
-lineups. Movie slots without film titles retain their published block names.
-Its source gives no overnight listings: midnight–06:00 is labelled
-`Schedule not provided`, and late-evening entries are bounded at midnight. This does not
-assert that the channel is off air. The lineup is manually maintained; each
-scheduled run automatically advances the programme dates, not the show titles.
 
 ## Dynamic local schedule
 
@@ -90,6 +83,23 @@ Cinema One PH uses `cinemaone.ph`. The consolidator rewrites the existing
 on every run.
 
 ## Targeted provider feeds
+
+### KAO TV GMA
+
+The live [GMA XMLTV feed](https://kaotv.ganbaruby23.xyz/gma_epg.php) replaces the
+former manually maintained Heart of Asia weekly schedule and also supplies I
+Heart Movies. Only these mappings are retained from the four-channel source:
+
+| Source channel | UDPTV XMLTV ID |
+| --- | --- |
+| `tolka.98` — HEART OF ASIA | `heartofasia.ph` |
+| `tolka.101` — I HEART MOVIES | `iheartmovies.ph` |
+
+The source's GMA and GTV entries are deliberately ignored so their existing
+UDPTV mappings and provider priority are unchanged. If this live source is
+temporarily unavailable, the normal previous-output fallback retains only
+still-current programmes; the obsolete recurring Heart of Asia grid is not
+generated anymore.
 
 ### Mediaquest Cignal
 

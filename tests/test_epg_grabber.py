@@ -30,6 +30,11 @@ EXPECTED = {
     "jiotv.762": "sonypixhd.jio",
 }
 
+GMA_EXPECTED = {
+    "tolka.98": "heartofasia.ph",
+    "tolka.101": "iheartmovies.ph",
+}
+
 MEDIAQUEST_EXPECTED = {
     "abc_australia", "amagi", "arirang_sd", "bbcworld_news_sd", "bilyonaryoch",
     "bloomberg_sd", "cg_a2z", "cg_abante_news", "cg_animax_sd_new", "cg_axn_sd",
@@ -129,6 +134,57 @@ class JioMappingTests(unittest.TestCase):
         targets = grabber.load_target_ids()
         self.assertIsNone(grabber.map_source_id("jiotv.9999", targets))
         self.assertIsNone(grabber.map_source_id("jiotv.491", targets - {"mirrornow.jio"}))
+
+
+class GmaMappingTests(unittest.TestCase):
+    def test_live_source_is_allowlisted_and_replaces_custom_heart_schedule(self):
+        self.assertEqual(grabber.GMA_SOURCE_ID_ALIASES, GMA_EXPECTED)
+        self.assertEqual(grabber.GMA_EPG_IDS, frozenset(GMA_EXPECTED.values()))
+        self.assertTrue(grabber.GMA_EPG_IDS <= grabber.load_target_ids())
+        self.assertNotIn(
+            "heartofasia.ph",
+            {channel.channel_id for channel in grabber.CUSTOM_CHANNELS},
+        )
+        sources = [source for source in grabber.SOURCES if source.name == "KAO TV GMA"]
+        self.assertEqual(len(sources), 1)
+        self.assertEqual(sources[0].url, grabber.GMA_EPG_URL)
+        self.assertEqual(sources[0].allowed_ids, grabber.GMA_EPG_IDS)
+
+    def test_stream_keeps_only_heart_of_asia_and_i_heart_movies(self):
+        source_names = {
+            "tolka.98": "HEART OF ASIA",
+            "tolka.101": "I HEART MOVIES",
+            "tolka.96": "GMA",
+            "tolka.97": "GTV",
+        }
+        root = ET.Element("tv")
+        for source_id, name in source_names.items():
+            channel = ET.SubElement(root, "channel", id=source_id)
+            ET.SubElement(channel, "display-name").text = name
+            programme = ET.SubElement(
+                root,
+                "programme",
+                channel=source_id,
+                start="20260908000000 +0800",
+                stop="20260908010000 +0800",
+            )
+            ET.SubElement(programme, "title").text = "Programme " + name
+
+        channels, programmes = grabber.parse_stream(
+            io.BytesIO(ET.tostring(root)), grabber.GMA_EPG_IDS
+        )
+
+        self.assertEqual(set(channels), set(GMA_EXPECTED.values()))
+        self.assertEqual(set(programmes), set(GMA_EXPECTED.values()))
+        self.assertEqual(channels["heartofasia.ph"].findtext("display-name"), "HEART OF ASIA")
+        self.assertEqual(channels["iheartmovies.ph"].findtext("display-name"), "I HEART MOVIES")
+        self.assertEqual(
+            {entry.get("channel") for entries in programmes.values() for entry in entries},
+            set(GMA_EXPECTED.values()),
+        )
+        targets = grabber.load_target_ids()
+        self.assertIsNone(grabber.map_source_id("tolka.96", targets))
+        self.assertIsNone(grabber.map_source_id("tolka.97", targets))
 
 
 class MediaquestMappingTests(unittest.TestCase):
