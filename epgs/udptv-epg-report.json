@@ -15,13 +15,12 @@
     "untv.ph": "https://russel.fandom.com/wiki/UNTV_Program_Schedule"
   },
   "dynamic_schedule_sources": {
+    "cinemaone.ph": "https://www.clickthecity.com/tv/channels/cinema-one",
     "metrochannel.ph": "https://www.ontvtonight.com/guide/listings/channel/1473142439/metro-channel-philippines.html"
   },
-  "failed_sources": [
-    "ClickTheCity Cinema One"
-  ],
-  "generated_at": "2026-09-07T19:59:35.243606+00:00",
-  "programme_count": 25901,
+  "failed_sources": [],
+  "generated_at": "2026-09-08T00:27:22.221132+00:00",
+  "programme_count": 25880,
   "requested_channel_count": 255,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -213,7 +212,7 @@
     "cgtn": "Mediaquest Cignal",
     "cgtn-test": "Mediaquest Cignal",
     "channelnewsasia": "Mediaquest Cignal",
-    "cinemaone.ph": "previous published output",
+    "cinemaone.ph": "ClickTheCity Cinema One",
     "cinemo.global": "custom recurring schedule",
     "cinemo.ph": "custom recurring schedule",
     "cltv36.ph": "custom recurring schedule",
@@ -257,7 +256,7 @@
     "net-25.click": "Cignal fallback",
     "onenews_hd1": "Mediaquest Cignal",
     "oneph_sd": "Mediaquest Cignal",
-    "pl_sdi10": "Mediaquest Cignal",
+    "pl_sdi10": "previous published output",
     "plex.tv.ANIME.x.HIDIVE.plex": "EPGShare Plex",
     "premiersports2hd": "Mediaquest Cignal",
     "romedynow.jio": "JioTV selected channels",
