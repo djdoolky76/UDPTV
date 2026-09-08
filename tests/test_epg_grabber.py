@@ -35,6 +35,16 @@ GMA_EXPECTED = {
     "tolka.101": "iheartmovies.ph",
 }
 
+ARENA_SPORT_HR_EXPECTED = {
+    "Arena.Esport.hr",
+    "Arena.Fight.hr",
+    *(f"Arena.Sport.{number}.HD.hr" for number in range(1, 11)),
+}
+
+ELEVEN_SPORT_PL_EXPECTED = {
+    *(f"Eleven.Sports.{number}.HD.pl" for number in range(1, 5)),
+}
+
 MEDIAQUEST_EXPECTED = {
     "abc_australia", "amagi", "arirang_sd", "bbcworld_news_sd", "bilyonaryoch",
     "bloomberg_sd", "cg_a2z", "cg_abante_news", "cg_animax_sd_new", "cg_axn_sd",
@@ -232,6 +242,57 @@ class MediaquestMappingTests(unittest.TestCase):
             all(entry.findtext("desc") == "Description with boundary spaces.\nSecond clean line."
                 for entries in programmes.values() for entry in entries)
         )
+
+
+class EpgshareSportsAllowlistTests(unittest.TestCase):
+    def test_source_allowlists_and_target_ids_are_exact(self):
+        self.assertEqual(grabber.ARENA_SPORT_HR_IDS, frozenset(ARENA_SPORT_HR_EXPECTED))
+        self.assertEqual(grabber.ELEVEN_SPORT_PL_IDS, frozenset(ELEVEN_SPORT_PL_EXPECTED))
+        targets = grabber.load_target_ids()
+        self.assertTrue(ARENA_SPORT_HR_EXPECTED <= targets)
+        self.assertTrue(ELEVEN_SPORT_PL_EXPECTED <= targets)
+
+        expected_sources = {
+            "EPGShare Croatia Arena Sports": (
+                "https://epgshare01.online/epgshare01/epg_ripper_HR1.xml.gz",
+                frozenset(ARENA_SPORT_HR_EXPECTED),
+            ),
+            "EPGShare Poland Eleven Sports": (
+                "https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz",
+                frozenset(ELEVEN_SPORT_PL_EXPECTED),
+            ),
+        }
+        for name, (url, allowed_ids) in expected_sources.items():
+            sources = [source for source in grabber.SOURCES if source.name == name]
+            self.assertEqual(len(sources), 1)
+            self.assertEqual(sources[0].url, url)
+            self.assertEqual(sources[0].allowed_ids, allowed_ids)
+
+    def test_synthetic_streams_drop_non_allowlisted_channels(self):
+        for allowed_ids in (
+            grabber.ARENA_SPORT_HR_IDS,
+            grabber.ELEVEN_SPORT_PL_IDS,
+        ):
+            root = ET.Element("tv")
+            for channel_id in (*allowed_ids, "unrequested.channel"):
+                channel = ET.SubElement(root, "channel", id=channel_id)
+                ET.SubElement(channel, "display-name").text = channel_id
+                programme = ET.SubElement(
+                    root,
+                    "programme",
+                    channel=channel_id,
+                    start="20260908000000 +0200",
+                    stop="20260908010000 +0200",
+                )
+                ET.SubElement(programme, "title").text = "Programme"
+
+            channels, programmes = grabber.parse_stream(
+                io.BytesIO(ET.tostring(root)), allowed_ids
+            )
+            self.assertEqual(set(channels), set(allowed_ids))
+            self.assertEqual(set(programmes), set(allowed_ids))
+            self.assertNotIn("unrequested.channel", channels)
+            self.assertNotIn("unrequested.channel", programmes)
 
 
 if __name__ == "__main__":

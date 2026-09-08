@@ -159,6 +159,18 @@ MEDIAQUEST_CIGNAL_IDS = frozenset(
     }
 )
 
+ARENA_SPORT_HR_IDS = frozenset(
+    {
+        "Arena.Esport.hr",
+        "Arena.Fight.hr",
+        *(f"Arena.Sport.{number}.HD.hr" for number in range(1, 11)),
+    }
+)
+
+ELEVEN_SPORT_PL_IDS = frozenset(
+    f"Eleven.Sports.{number}.HD.pl" for number in range(1, 5)
+)
+
 
 ScheduleEntry = tuple[int, int, str]
 
@@ -1015,6 +1027,16 @@ SOURCES = (
         "EPGShare Latvia Go3 Sports",
         "https://epgshare01.online/epgshare01/epg_ripper_LV1.xml.gz",
         GO3_SPORT_LV_IDS,
+    ),
+    Source(
+        "EPGShare Croatia Arena Sports",
+        "https://epgshare01.online/epgshare01/epg_ripper_HR1.xml.gz",
+        ARENA_SPORT_HR_IDS,
+    ),
+    Source(
+        "EPGShare Poland Eleven Sports",
+        "https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz",
+        ELEVEN_SPORT_PL_IDS,
     ),
     Source("EPGShare Philippines", "https://epgshare01.online/epgshare01/epg_ripper_PH2.xml.gz"),
     Source("EPGShare Singapore", "https://epgshare01.online/epgshare01/epg_ripper_SG1.xml.gz"),

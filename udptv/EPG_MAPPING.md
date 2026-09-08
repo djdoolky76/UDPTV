@@ -165,6 +165,19 @@ ID verification only.
 - `Go3.Sport.3.HD.lv`
 - `Go3.Sport.Open.HD.lv`
 
+### EPGShare Croatia Arena Sports
+
+The [EPGShare Croatia HR1 XMLTV feed](https://epgshare01.online/epgshare01/epg_ripper_HR1.xml.gz)
+is restricted to these 12 IDs: `Arena.Esport.hr`, `Arena.Fight.hr`, and
+`Arena.Sport.1.HD.hr` through `Arena.Sport.10.HD.hr`. All other channels in
+the Croatia feed are ignored.
+
+### EPGShare Poland Eleven Sports
+
+The [EPGShare Poland PL1 XMLTV feed](https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz)
+is restricted to `Eleven.Sports.1.HD.pl` through
+`Eleven.Sports.4.HD.pl`. All other channels in the Poland feed are ignored.
+
 ## No trustworthy current XMLTV mapping
 
 These were deliberately not assigned an unrelated schedule:

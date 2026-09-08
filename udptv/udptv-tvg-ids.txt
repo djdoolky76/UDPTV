@@ -243,6 +243,26 @@ Go3.Sport.2.HD.lv
 Go3.Sport.3.HD.lv
 Go3.Sport.Open.HD.lv
 
+# EPGShare Croatia Arena Sports (HR1 allowlisted IDs only).
+Arena.Esport.hr
+Arena.Fight.hr
+Arena.Sport.1.HD.hr
+Arena.Sport.2.HD.hr
+Arena.Sport.3.HD.hr
+Arena.Sport.4.HD.hr
+Arena.Sport.5.HD.hr
+Arena.Sport.6.HD.hr
+Arena.Sport.7.HD.hr
+Arena.Sport.8.HD.hr
+Arena.Sport.9.HD.hr
+Arena.Sport.10.HD.hr
+
+# EPGShare Poland Eleven Sports (PL1 allowlisted IDs only).
+Eleven.Sports.1.HD.pl
+Eleven.Sports.2.HD.pl
+Eleven.Sports.3.HD.pl
+Eleven.Sports.4.HD.pl
+
 # Local channels generated from recurring weekly schedules.
 cinemo.ph
 cinemo.global
