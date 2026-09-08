@@ -178,6 +178,14 @@ The [EPGShare Poland PL1 XMLTV feed](https://epgshare01.online/epgshare01/epg_ri
 is restricted to `Eleven.Sports.1.HD.pl` through
 `Eleven.Sports.4.HD.pl`. All other channels in the Poland feed are ignored.
 
+### EPGShare Portugal Sports
+
+The [EPGShare Portugal PT1 XMLTV feed](https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz)
+is restricted to `SPORT.TV1.HD.pt` through `SPORT.TV5.HD.pt`,
+`Sport.TV.6.HD.pt`, `Sport.TV.7.HD.pt`, and `DAZN.1.pt` through
+`DAZN.5.pt`. IDs retain their upstream capitalization because XMLTV channel
+IDs are case-sensitive. All other channels in the Portugal feed are ignored.
+
 ## No trustworthy current XMLTV mapping
 
 These were deliberately not assigned an unrelated schedule:

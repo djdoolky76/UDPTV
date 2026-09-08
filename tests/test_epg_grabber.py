@@ -45,6 +45,17 @@ ELEVEN_SPORT_PL_EXPECTED = {
     *(f"Eleven.Sports.{number}.HD.pl" for number in range(1, 5)),
 }
 
+PORTUGAL_SPORT_PT_EXPECTED = {
+    "SPORT.TV1.HD.pt",
+    "SPORT.TV2.HD.pt",
+    "SPORT.TV3.HD.pt",
+    "SPORT.TV4.HD.pt",
+    "SPORT.TV5.HD.pt",
+    "Sport.TV.6.HD.pt",
+    "Sport.TV.7.HD.pt",
+    *(f"DAZN.{number}.pt" for number in range(1, 6)),
+}
+
 MEDIAQUEST_EXPECTED = {
     "abc_australia", "amagi", "arirang_sd", "bbcworld_news_sd", "bilyonaryoch",
     "bloomberg_sd", "cg_a2z", "cg_abante_news", "cg_animax_sd_new", "cg_axn_sd",
@@ -248,9 +259,14 @@ class EpgshareSportsAllowlistTests(unittest.TestCase):
     def test_source_allowlists_and_target_ids_are_exact(self):
         self.assertEqual(grabber.ARENA_SPORT_HR_IDS, frozenset(ARENA_SPORT_HR_EXPECTED))
         self.assertEqual(grabber.ELEVEN_SPORT_PL_IDS, frozenset(ELEVEN_SPORT_PL_EXPECTED))
+        self.assertEqual(
+            grabber.PORTUGAL_SPORT_PT_IDS,
+            frozenset(PORTUGAL_SPORT_PT_EXPECTED),
+        )
         targets = grabber.load_target_ids()
         self.assertTrue(ARENA_SPORT_HR_EXPECTED <= targets)
         self.assertTrue(ELEVEN_SPORT_PL_EXPECTED <= targets)
+        self.assertTrue(PORTUGAL_SPORT_PT_EXPECTED <= targets)
 
         expected_sources = {
             "EPGShare Croatia Arena Sports": (
@@ -260,6 +276,10 @@ class EpgshareSportsAllowlistTests(unittest.TestCase):
             "EPGShare Poland Eleven Sports": (
                 "https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz",
                 frozenset(ELEVEN_SPORT_PL_EXPECTED),
+            ),
+            "EPGShare Portugal Sports": (
+                "https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz",
+                frozenset(PORTUGAL_SPORT_PT_EXPECTED),
             ),
         }
         for name, (url, allowed_ids) in expected_sources.items():
@@ -272,6 +292,7 @@ class EpgshareSportsAllowlistTests(unittest.TestCase):
         for allowed_ids in (
             grabber.ARENA_SPORT_HR_IDS,
             grabber.ELEVEN_SPORT_PL_IDS,
+            grabber.PORTUGAL_SPORT_PT_IDS,
         ):
             root = ET.Element("tv")
             for channel_id in (*allowed_ids, "unrequested.channel"):

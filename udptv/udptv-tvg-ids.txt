@@ -263,6 +263,20 @@ Eleven.Sports.2.HD.pl
 Eleven.Sports.3.HD.pl
 Eleven.Sports.4.HD.pl
 
+# EPGShare Portugal sports (PT1 allowlisted IDs only).
+SPORT.TV1.HD.pt
+SPORT.TV2.HD.pt
+SPORT.TV3.HD.pt
+SPORT.TV4.HD.pt
+SPORT.TV5.HD.pt
+Sport.TV.6.HD.pt
+Sport.TV.7.HD.pt
+DAZN.1.pt
+DAZN.2.pt
+DAZN.3.pt
+DAZN.4.pt
+DAZN.5.pt
+
 # Local channels generated from recurring weekly schedules.
 cinemo.ph
 cinemo.global

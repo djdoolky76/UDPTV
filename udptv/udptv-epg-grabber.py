@@ -171,6 +171,23 @@ ELEVEN_SPORT_PL_IDS = frozenset(
     f"Eleven.Sports.{number}.HD.pl" for number in range(1, 5)
 )
 
+PORTUGAL_SPORT_PT_IDS = frozenset(
+    {
+        "SPORT.TV1.HD.pt",
+        "SPORT.TV2.HD.pt",
+        "SPORT.TV3.HD.pt",
+        "SPORT.TV4.HD.pt",
+        "SPORT.TV5.HD.pt",
+        "Sport.TV.6.HD.pt",
+        "Sport.TV.7.HD.pt",
+        "DAZN.1.pt",
+        "DAZN.2.pt",
+        "DAZN.3.pt",
+        "DAZN.4.pt",
+        "DAZN.5.pt",
+    }
+)
+
 
 ScheduleEntry = tuple[int, int, str]
 
@@ -1037,6 +1054,11 @@ SOURCES = (
         "EPGShare Poland Eleven Sports",
         "https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz",
         ELEVEN_SPORT_PL_IDS,
+    ),
+    Source(
+        "EPGShare Portugal Sports",
+        "https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz",
+        PORTUGAL_SPORT_PT_IDS,
     ),
     Source("EPGShare Philippines", "https://epgshare01.online/epgshare01/epg_ripper_PH2.xml.gz"),
     Source("EPGShare Singapore", "https://epgshare01.online/epgshare01/epg_ripper_SG1.xml.gz"),
