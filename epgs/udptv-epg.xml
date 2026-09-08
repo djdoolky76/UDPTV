@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv date="20260908081757 +0000" generator-info-name="UDPTV-EPG-Grabber/3.1" generator-info-url="https://github.com/djdoolky76/UDPTV" source-info-name="UDPTV consolidated EPG">
+<tv date="20260908122258 +0000" generator-info-name="UDPTV-EPG-Grabber/3.1" generator-info-url="https://github.com/djdoolky76/UDPTV" source-info-name="UDPTV consolidated EPG">
   <channel id="100.astro">
     <display-name lang="en">Astro30</display-name>
     <display-name lang="en">100</display-name>
@@ -28732,41 +28732,6 @@
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
   </programme>
-  <programme start="20260908032500 +0000" stop="20260908035900 +0000" channel="Amazon.US.BBCFood">
-    <title lang="en">Rick Stein's Seafood Lover's Guide</title>
-    <desc lang="en">Pilchards, bream, ormer and cockles with laverbread.</desc>
-    <icon src="https://m.media-amazon.com/images/I/81L1z956thL._UR1920,1080_FMpng_.jpg" />
-  </programme>
-  <programme start="20260908035900 +0000" stop="20260908043200 +0000" channel="Amazon.US.BBCFood">
-    <title lang="en">Rick Stein's Seafood Lover's Guide</title>
-    <desc lang="en">Shrimp.</desc>
-    <icon src="https://m.media-amazon.com/images/I/81L1z956thL._UR1920,1080_FMpng_.jpg" />
-  </programme>
-  <programme start="20260908043200 +0000" stop="20260908050500 +0000" channel="Amazon.US.BBCFood">
-    <title lang="en">Rick Stein's Seafood Lover's Guide</title>
-    <desc lang="en">Silver eels.</desc>
-    <icon src="https://m.media-amazon.com/images/I/81L1z956thL._UR1920,1080_FMpng_.jpg" />
-  </programme>
-  <programme start="20260908050500 +0000" stop="20260908053900 +0000" channel="Amazon.US.BBCFood">
-    <title lang="en">Rick Stein's Seafood Lover's Guide</title>
-    <desc lang="en">Cockles and samphire; pink shrimps; Cromer crabs.</desc>
-    <icon src="https://m.media-amazon.com/images/I/81L1z956thL._UR1920,1080_FMpng_.jpg" />
-  </programme>
-  <programme start="20260908053900 +0000" stop="20260908061200 +0000" channel="Amazon.US.BBCFood">
-    <title lang="en">Rick Stein's Seafood Lover's Guide</title>
-    <desc lang="en">Wild smoked salmon; sea trout; sea moss pudding.</desc>
-    <icon src="https://m.media-amazon.com/images/I/81L1z956thL._UR1920,1080_FMpng_.jpg" />
-  </programme>
-  <programme start="20260908061200 +0000" stop="20260908064600 +0000" channel="Amazon.US.BBCFood">
-    <title lang="en">Rick Stein's Seafood Lover's Guide</title>
-    <desc lang="en">Fresh cod; smoked kippers; prepares halibut with cucumber; salmon en croute.</desc>
-    <icon src="https://m.media-amazon.com/images/I/81L1z956thL._UR1920,1080_FMpng_.jpg" />
-  </programme>
-  <programme start="20260908064600 +0000" stop="20260908075300 +0000" channel="Amazon.US.BBCFood">
-    <title lang="en">Cambodia and Vietnam</title>
-    <desc lang="en">Rick enjoys freshly caught swimmer crabs.</desc>
-    <icon src="https://m.media-amazon.com/images/I/81O3IOM8sjL._UR1920,1080_FMpng_.jpg" />
-  </programme>
   <programme start="20260908075300 +0000" stop="20260908085900 +0000" channel="Amazon.US.BBCFood">
     <title lang="en">Vietnam and Thailand</title>
     <desc lang="en">Rick Stein travels the Mekong River.</desc>
@@ -28787,30 +28752,30 @@
     <desc lang="en">Rick discovers a wealth of hot and spicy vegetable curries.</desc>
     <icon src="https://m.media-amazon.com/images/I/81O3IOM8sjL._UR1920,1080_FMpng_.jpg" />
   </programme>
-  <programme start="20260908030000 +0000" stop="20260908040000 +0000" channel="Amazon.US.BilliardTV">
-    <title lang="en">2015</title>
-    <desc lang="en">Highlights from the 2015 Mosconi Cup.</desc>
-    <icon src="https://m.media-amazon.com/images/I/71dOCP0fSsL._UR1920,1080_FMpng_.jpg" />
+  <programme start="20260908121800 +0000" stop="20260908132500 +0000" channel="Amazon.US.BBCFood">
+    <title lang="en">Bangladesh</title>
+    <desc lang="en">Rick ends his culinary tour in Bangladesh.</desc>
+    <icon src="https://m.media-amazon.com/images/I/81O3IOM8sjL._UR1920,1080_FMpng_.jpg" />
   </programme>
-  <programme start="20260908040000 +0000" stop="20260908050000 +0000" channel="Amazon.US.BilliardTV">
-    <title lang="en">2026 International Pool Association: Tour 3: UK Open: Professional Blackball</title>
-    <desc lang="en">Last 16: Jake-Dylan Newlove vs. Marc Farnsworth from June 28, 2026.</desc>
-    <icon src="https://m.media-amazon.com/images/I/B1ZhRSeFDWL._UR1920,1080_FMpng_.jpg" />
+  <programme start="20260908132500 +0000" stop="20260908143200 +0000" channel="Amazon.US.BBCFood">
+    <title lang="en">Corsica and Sardinia</title>
+    <desc lang="en">Sausages, sheep's cheese and chestnuts.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A15TnEzUEKL._UR1920,1080_FMpng_.jpg" />
   </programme>
-  <programme start="20260908050000 +0000" stop="20260908060000 +0000" channel="Amazon.US.BilliardTV">
-    <title lang="en">2026 International Pool Association: Tour 3: UK Open: Professional Blackball</title>
-    <desc lang="en">Last 16: Marc Farnsworth vs. Gavin Robinson from June 27, 2026.</desc>
-    <icon src="https://m.media-amazon.com/images/I/B1ZhRSeFDWL._UR1920,1080_FMpng_.jpg" />
+  <programme start="20260908143200 +0000" stop="20260908153900 +0000" channel="Amazon.US.BBCFood">
+    <title lang="en">Sardinia and Sicily</title>
+    <desc lang="en">Fishermen catch mullet; pasta dishes.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A15TnEzUEKL._UR1920,1080_FMpng_.jpg" />
   </programme>
-  <programme start="20260908060000 +0000" stop="20260908073000 +0000" channel="Amazon.US.BilliardTV">
-    <title lang="en">2026 International Pool Association: Tour 3: UK Open: Open Blackball</title>
-    <desc lang="en">Final: Emma Cunningham vs. Danielle Randle from June 28, 2026.</desc>
-    <icon src="https://m.media-amazon.com/images/I/B1ZhRSeFDWL._UR1920,1080_FMpng_.jpg" />
+  <programme start="20260908153900 +0000" stop="20260908164600 +0000" channel="Amazon.US.BBCFood">
+    <title lang="en">Sicily and Puglia</title>
+    <desc lang="en">Rick travels from Sicily to Puglia.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A15TnEzUEKL._UR1920,1080_FMpng_.jpg" />
   </programme>
-  <programme start="20260908073000 +0000" stop="20260908083000 +0000" channel="Amazon.US.BilliardTV">
-    <title lang="en">2026 USA National Pool Championships: Womens 10-Ball</title>
-    <desc lang="en">Loser: Round 4: Ada Lio vs. Melissa Helland from July 9, 2026.</desc>
-    <icon src="https://m.media-amazon.com/images/I/91gEj25eSyL._UR1920,1080_FMpng_.jpg" />
+  <programme start="20260908164600 +0000" stop="20260908175300 +0000" channel="Amazon.US.BBCFood">
+    <title lang="en">Corfu</title>
+    <desc lang="en">Departing from Italy and on to Corfu.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A15TnEzUEKL._UR1920,1080_FMpng_.jpg" />
   </programme>
   <programme start="20260908083000 +0000" stop="20260908093000 +0000" channel="Amazon.US.BilliardTV">
     <title lang="en">2026 USA National Pool Championships: Women's 10-Ball</title>
@@ -28832,30 +28797,20 @@
     <desc lang="en">Semifinals: Tobias Bongers vs. Marc Bijsterbosch from Sept. 27, 2025.</desc>
     <icon src="https://m.media-amazon.com/images/I/711wlF9CbLL._UR1920,1080_FMpng_.jpg" />
   </programme>
-  <programme start="20260908033000 +0000" stop="20260908040000 +0000" channel="Amazon.US.CBSNewsChicago">
-    <title lang="en">CBS News National</title>
-    <desc lang="en">National and World News.</desc>
-    <icon src="https://m.media-amazon.com/images/I/A1L0zUAQAyL._UR1920,1080_FMpng_.jpg" />
+  <programme start="20260908123000 +0000" stop="20260908140000 +0000" channel="Amazon.US.BilliardTV">
+    <title lang="en">2025 Predator EuroTour Dutch Open</title>
+    <desc lang="en">Semifinals: Wiktor Fortunski vs. Dominik Jastrzab from Sept. 27, 2025.</desc>
+    <icon src="https://m.media-amazon.com/images/I/711wlF9CbLL._UR1920,1080_FMpng_.jpg" />
   </programme>
-  <programme start="20260908040000 +0000" stop="20260908050000 +0000" channel="Amazon.US.CBSNewsChicago">
-    <title lang="en">CBS News National</title>
-    <desc lang="en">National and World News.</desc>
-    <icon src="https://m.media-amazon.com/images/I/A1L0zUAQAyL._UR1920,1080_FMpng_.jpg" />
+  <programme start="20260908140000 +0000" stop="20260908160000 +0000" channel="Amazon.US.BilliardTV">
+    <title lang="en">2025 Predator EuroTour Dutch Open: Men's 9-Ball</title>
+    <desc lang="en">Final: Tobias Bongers vs. Dominik Jastrzab from Sept. 27, 2025.</desc>
+    <icon src="https://m.media-amazon.com/images/I/711wlF9CbLL._UR1920,1080_FMpng_.jpg" />
   </programme>
-  <programme start="20260908050000 +0000" stop="20260908060000 +0000" channel="Amazon.US.CBSNewsChicago">
-    <title lang="en">CBS News National</title>
-    <desc lang="en">National and World News.</desc>
-    <icon src="https://m.media-amazon.com/images/I/A1L0zUAQAyL._UR1920,1080_FMpng_.jpg" />
-  </programme>
-  <programme start="20260908060000 +0000" stop="20260908070000 +0000" channel="Amazon.US.CBSNewsChicago">
-    <title lang="en">CBS News National</title>
-    <desc lang="en">National and World News.</desc>
-    <icon src="https://m.media-amazon.com/images/I/A1L0zUAQAyL._UR1920,1080_FMpng_.jpg" />
-  </programme>
-  <programme start="20260908070000 +0000" stop="20260908080000 +0000" channel="Amazon.US.CBSNewsChicago">
-    <title lang="en">CBS News National</title>
-    <desc lang="en">National and World News.</desc>
-    <icon src="https://m.media-amazon.com/images/I/A1L0zUAQAyL._UR1920,1080_FMpng_.jpg" />
+  <programme start="20260908160000 +0000" stop="20260908173000 +0000" channel="Amazon.US.BilliardTV">
+    <title lang="en">2025 Predator Las Vegas Open</title>
+    <desc lang="en">Women Challenge of Champions Game 1: Kristina Tkach vs. Rubilen Amit from Feb. 24, 2025.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A1F-XanIFJL._UR1920,1080_FMpng_.jpg" />
   </programme>
   <programme start="20260908080000 +0000" stop="20260908090000 +0000" channel="Amazon.US.CBSNewsChicago">
     <title lang="en">CBS News National</title>
@@ -28877,35 +28832,35 @@
     <desc lang="en">Live.</desc>
     <icon src="https://m.media-amazon.com/images/I/91SOg2IgXTL._UR1920,1080_FMpng_.jpg" />
   </programme>
-  <programme start="20260908033500 +0000" stop="20260908040000 +0000" channel="Amazon.US.CBSNewsNewYork">
-    <title lang="en">CBS News New York 11pm</title>
-    <desc lang="en">Local news coverage.</desc>
-    <icon src="https://m.media-amazon.com/images/I/91hdibt5UpL._UR1920,1080_FMpng_.jpg" />
+  <programme start="20260908120000 +0000" stop="20260908130000 +0000" channel="Amazon.US.CBSNewsChicago">
+    <title lang="en">CBS News Chicago 7am</title>
+    <desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
+    <icon src="https://m.media-amazon.com/images/I/B18UZO67uNL._UR1920,1080_FMpng_.jpg" />
   </programme>
-  <programme start="20260908040000 +0000" stop="20260908050000 +0000" channel="Amazon.US.CBSNewsNewYork">
-    <title lang="en">Latest New York News &amp; Headlines</title>
-    <desc lang="en">Top stories in New York.</desc>
-    <icon src="https://m.media-amazon.com/images/I/A1atAuIrb0L._UR1920,1080_FMpng_.jpg" />
+  <programme start="20260908130000 +0000" stop="20260908140000 +0000" channel="Amazon.US.CBSNewsChicago">
+    <title lang="en">CBS News Chicago 8am</title>
+    <desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
+    <icon src="https://m.media-amazon.com/images/I/918xggC7vvL._UR1920,1080_FMpng_.jpg" />
   </programme>
-  <programme start="20260908050000 +0000" stop="20260908060000 +0000" channel="Amazon.US.CBSNewsNewYork">
-    <title lang="en">Latest New York News &amp; Headlines</title>
-    <desc lang="en">Top stories in New York.</desc>
-    <icon src="https://m.media-amazon.com/images/I/A1atAuIrb0L._UR1920,1080_FMpng_.jpg" />
+  <programme start="20260908140000 +0000" stop="20260908150000 +0000" channel="Amazon.US.CBSNewsChicago">
+    <title lang="en">CBS News Chicago 9am</title>
+    <desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
+    <icon src="https://m.media-amazon.com/images/I/B1zPvGe+0YL._UR1920,1080_FMpng_.jpg" />
   </programme>
-  <programme start="20260908060000 +0000" stop="20260908070000 +0000" channel="Amazon.US.CBSNewsNewYork">
-    <title lang="en">Latest New York News &amp; Headlines</title>
-    <desc lang="en">Top stories in New York.</desc>
-    <icon src="https://m.media-amazon.com/images/I/A1atAuIrb0L._UR1920,1080_FMpng_.jpg" />
+  <programme start="20260908150000 +0000" stop="20260908160000 +0000" channel="Amazon.US.CBSNewsChicago">
+    <title lang="en">CBS News Chicago 9am</title>
+    <desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
+    <icon src="https://m.media-amazon.com/images/I/B1zPvGe+0YL._UR1920,1080_FMpng_.jpg" />
   </programme>
-  <programme start="20260908070000 +0000" stop="20260908080000 +0000" channel="Amazon.US.CBSNewsNewYork">
-    <title lang="en">Latest New York News &amp; Headlines</title>
-    <desc lang="en">Top stories in New York.</desc>
-    <icon src="https://m.media-amazon.com/images/I/A1atAuIrb0L._UR1920,1080_FMpng_.jpg" />
+  <programme start="20260908160000 +0000" stop="20260908163000 +0000" channel="Amazon.US.CBSNewsChicago">
+    <title lang="en">CBS News Chicago 11am</title>
+    <desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
+    <icon src="https://m.media-amazon.com/images/I/91O-hGH7NpL._UR1920,1080_FMpng_.jpg" />
   </programme>
-  <programme start="20260908080000 +0000" stop="20260908083000 +0000" channel="Amazon.US.CBSNewsNewYork">
-    <title lang="en">Latest New York News &amp; Headlines</title>
-    <desc lang="en">Top stories in New York.</desc>
-    <icon src="https://m.media-amazon.com/images/I/A1atAuIrb0L._UR1920,1080_FMpng_.jpg" />
+  <programme start="20260908163000 +0000" stop="20260908170000 +0000" channel="Amazon.US.CBSNewsChicago">
+    <title lang="en">CBS News Chicago 11am</title>
+    <desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
+    <icon src="https://m.media-amazon.com/images/I/91O-hGH7NpL._UR1920,1080_FMpng_.jpg" />
   </programme>
   <programme start="20260908083000 +0000" stop="20260908110000 +0000" channel="Amazon.US.CBSNewsNewYork">
     <title lang="en">CBS News New York This Morning</title>
@@ -28917,25 +28872,35 @@
     <desc lang="en">Stay informed with the latest breaking news and headlines.</desc>
     <icon src="https://m.media-amazon.com/images/I/A15KgSSwxEL._UR1920,1080_FMpng_.jpg" />
   </programme>
-  <programme start="20260908032158 +0000" stop="20260908042836 +0000" channel="Amazon.US.HBOBoxing">
-    <title lang="en">Boxing After Dark: Paul Williams vs. Erislandy Lara</title>
-    <desc lang="en">Boxing After Dark, from Atlantic City, New Jersey, Paul Williams, Erislandy Lara. July 9, 2011.</desc>
-    <icon src="https://m.media-amazon.com/images/I/81XeuXJ45kL._UR1920,1080_FMpng_.jpg" />
+  <programme start="20260908120000 +0000" stop="20260908130000 +0000" channel="Amazon.US.CBSNewsNewYork">
+    <title lang="en">CBS News New York 8am</title>
+    <desc lang="en">News</desc>
+    <icon src="https://m.media-amazon.com/images/I/91oOemNLKRL._UR1920,1080_FMpng_.jpg" />
   </programme>
-  <programme start="20260908042836 +0000" stop="20260908050323 +0000" channel="Amazon.US.HBOBoxing">
-    <title lang="en">Boxing After Dark: Roman Gonzalez vs. Srisaket Sor Rungvisai 2</title>
-    <desc lang="en">Boxing After Dark, from Carson, California, Roman Gonzalez, Srisaket Sor Rungvisai. September 9, 2017.</desc>
-    <icon src="https://m.media-amazon.com/images/I/71o5D6w2iEL._UR1920,1080_FMpng_.jpg" />
+  <programme start="20260908130000 +0000" stop="20260908140000 +0000" channel="Amazon.US.CBSNewsNewYork">
+    <title lang="en">Latest New York News &amp; Headlines</title>
+    <desc lang="en">Top stories in New York.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A1atAuIrb0L._UR1920,1080_FMpng_.jpg" />
   </programme>
-  <programme start="20260908050323 +0000" stop="20260908062024 +0000" channel="Amazon.US.HBOBoxing">
-    <title lang="en">Boxing After Dark: Ruslan Provodnikov vs. Chris Algieri</title>
-    <desc lang="en">Boxing After Dark, from Brooklyn, New York, Ruslan Provodnikov, Chris Algieri. June 14, 2014.</desc>
-    <icon src="https://m.media-amazon.com/images/I/818xlZP5eHL._UR1920,1080_FMpng_.jpg" />
+  <programme start="20260908140000 +0000" stop="20260908150000 +0000" channel="Amazon.US.CBSNewsNewYork">
+    <title lang="en">Latest New York News &amp; Headlines</title>
+    <desc lang="en">Top stories in New York.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A1atAuIrb0L._UR1920,1080_FMpng_.jpg" />
   </programme>
-  <programme start="20260908062024 +0000" stop="20260908082843 +0000" channel="Amazon.US.HBOBoxing">
-    <title lang="en">Boxing After Dark: Sergey Kovalev vs. Cedric Agnew and Karim Mayfield vs. Thomas Dulorme</title>
-    <desc lang="en">Boxing After Dark from Atlantic City, New Jersey - Kovalev, Agnew, Mayfield, and Dulorme. March 29, 2014.</desc>
-    <icon src="https://m.media-amazon.com/images/I/71fZ4ZRg9KL._UR1920,1080_FMpng_.jpg" />
+  <programme start="20260908150000 +0000" stop="20260908160000 +0000" channel="Amazon.US.CBSNewsNewYork">
+    <title lang="en">Latest New York News &amp; Headlines</title>
+    <desc lang="en">Top stories in New York.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A1atAuIrb0L._UR1920,1080_FMpng_.jpg" />
+  </programme>
+  <programme start="20260908160000 +0000" stop="20260908163000 +0000" channel="Amazon.US.CBSNewsNewYork">
+    <title lang="en">CBS News New York 12pm</title>
+    <desc lang="en">Midday news update.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A1IoOk-4JEL._UR1920,1080_FMpng_.jpg" />
+  </programme>
+  <programme start="20260908163000 +0000" stop="20260908170000 +0000" channel="Amazon.US.CBSNewsNewYork">
+    <title lang="en">CBS News New York 12pm</title>
+    <desc lang="en">Midday news update.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A1IoOk-4JEL._UR1920,1080_FMpng_.jpg" />
   </programme>
   <programme start="20260908082843 +0000" stop="20260908090005 +0000" channel="Amazon.US.HBOBoxing">
     <title lang="en">Boxing After Dark: Terence Crawford vs. Alejandro Sanabria</title>
@@ -28951,6 +28916,16 @@
     <title lang="en">World Championship Boxing: Broner vs. Rees And Bika vs. Sjekloca</title>
     <desc lang="en">Adrien Broner vs. Gavin Rees in a lightweight title fight. Bika vs. Sjekloca in a super middleweight fight.</desc>
     <icon src="https://m.media-amazon.com/images/I/91kSkDVi03L._UR1920,1080_FMpng_.jpg" />
+  </programme>
+  <programme start="20260908121808 +0000" stop="20260908151229 +0000" channel="Amazon.US.HBOBoxing">
+    <title lang="en">World Championship Boxing: Cloud vs. Hopkins And Thurman vs. Zaveck</title>
+    <desc lang="en">Tavoris Cloud (24-0, 19 KOs) takes on Bernard Hopkins (52-6-2, 32 KOs) in a light heavyweight title fight.</desc>
+    <icon src="https://m.media-amazon.com/images/I/8134K4-CUsL._UR1920,1080_FMpng_.jpg" />
+  </programme>
+  <programme start="20260908151229 +0000" stop="20260908181435 +0000" channel="Amazon.US.HBOBoxing">
+    <title lang="en">World Championship Boxing: Chavez Jr. vs. Vera 2 And Salido vs. Lomachenko</title>
+    <desc lang="en">Julio Cesar Chavez Jr. faces off vs. Bryan Vera in this thrilling rematch; plus, Salido vs. Lomachenko.</desc>
+    <icon src="https://m.media-amazon.com/images/I/A1RyrbEe3tL._UR1920,1080_FMpng_.jpg" />
   </programme>
   <programme channel="AMC.HD.us2" start="20260907030800 +0000" stop="20260907060800 +0000">
     <title lang="en">Jurassic Park</title>
@@ -59620,12 +59595,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme channel="Cinema One Global" start="20260914230000 +0800" stop="20260915010000 +0800">
     <title lang="zh">Super Noypi</title>
     <desc lang="zh">Cinema One Global provides hours of entertainment for avid followers of Philippine movies, dramas and showbiz. Stay tuned to another great programme!</desc>
-  </programme>
-  <programme start="20260908150000 +0800" stop="20260908170000 +0800" channel="cinemaone.ph">
-    <title lang="en">My Spy</title>
-  </programme>
-  <programme start="20260908170000 +0800" stop="20260908190000 +0800" channel="cinemaone.ph">
-    <title lang="en">A Second Chance</title>
   </programme>
   <programme start="20260908190000 +0800" stop="20260908210000 +0800" channel="cinemaone.ph">
     <title lang="en">Dekada 70</title>
@@ -192772,22 +192741,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
       <value>PG</value>
     </rating>
   </programme>
-  <programme start="20260908100000 +0800" stop="20260908110000 +0800" channel="pl_sdi10">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
-  </programme>
-  <programme start="20260908110000 +0800" stop="20260908120000 +0800" channel="pl_sdi10">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
-  </programme>
-  <programme start="20260908120000 +0800" stop="20260908130000 +0800" channel="pl_sdi10">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
-  </programme>
-  <programme start="20260908130000 +0800" stop="20260908140000 +0800" channel="pl_sdi10">
-    <title lang="en">To Be Announced</title>
-    <desc lang="en">Program information is not yet available</desc>
-  </programme>
   <programme start="20260908140000 +0800" stop="20260908150000 +0800" channel="pl_sdi10">
     <title lang="en">To Be Announced</title>
     <desc lang="en">Program information is not yet available</desc>
@@ -260189,276 +260142,6 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   <programme start="20260922213000 +0800" stop="20260923000000 +0800" channel="untv.ph">
     <title lang="en">Itanong Mo Kay Soriano</title>
   </programme>
-  <programme start="20260907010100 +0000" stop="20260907061000 +0000" channel="Virgin.Media.Four.HD.ie">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Bringing the best in television.</desc>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F480440~~2FSH034728720000~~2Foffair,imi:c4c632ff3c767a9103ba427a6eedcd53ce6d7396/posterTile?imageVersion=9Hacjw&amp;w=200" />
-    <country lang="en">US</country>
-  </programme>
-  <programme start="20260907061000 +0000" stop="20260907063500 +0000" channel="Virgin.Media.Four.HD.ie">
-    <title lang="en">Don't Look Back in Anger</title>
-    <sub-title lang="en">1998</sub-title>
-    <desc lang="en">A chronicle looking back at the news and highlights from the year 1998.</desc>
-    <date>2018</date>
-    <category lang="en">Documentary</category>
-    <category lang="en">History</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F17702479~~2FEP030507810001,imi:6a8a12a48d665dada033afb77ef2c5e6c305dc50/posterTile?imageVersion=wj_92g&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S1 E1</episode-num>
-  </programme>
-  <programme start="20260907063500 +0000" stop="20260907070000 +0000" channel="Virgin.Media.Four.HD.ie">
-    <title lang="en">Don't Look Back in Anger</title>
-    <sub-title lang="en">1999</sub-title>
-    <desc lang="en">The year of 1999 is re-imagined, reconstructed and revisited through archive footage of the biggest news stories of the year with the popular music from that year accompanying it.</desc>
-    <date>2018</date>
-    <category lang="en">Documentary</category>
-    <category lang="en">History</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F17702480~~2FEP030507810002,imi:6ddcd348ed1bccff0c35be177738c498f5e2e43c/posterTile?imageVersion=mrHLCQ&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S1 E2</episode-num>
-  </programme>
-  <programme start="20260907070000 +0000" stop="20260907075000 +0000" channel="Virgin.Media.Four.HD.ie">
-    <title lang="en">Moneyball</title>
-    <sub-title lang="en">Episode 5</sub-title>
-    <desc lang="en">Marc and Andy, Atim and Manny, and Emma and Rachael all step up to take on The Launcher, a massive money-making machine - tensions run high, and with only millimetres between winning and losing, where the ball lands is everything.</desc>
-    <credits>
-      <producer>Barry Hart</producer>
-      <producer>Martin Scott</producer>
-      <producer>Michael Kelpie</producer>
-    </credits>
-    <date>2023</date>
-    <category lang="en">Entertainment</category>
-    <category lang="en">Game Show</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F25396868~~2FEP040684560013,imi:5c934c30c0da68795503a060a6393a09f6c60846/posterTile?imageVersion=paGeqw&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S2 E5</episode-num>
-  </programme>
-  <programme start="20260907075000 +0000" stop="20260907084500 +0000" channel="Virgin.Media.Four.HD.ie">
-    <title lang="en">The Hotel Inspector</title>
-    <sub-title lang="en">Number Nine</sub-title>
-    <desc lang="en">Alex Polizzi visits a guesthouse in Torquay where the owner's personal problems have prevented her from arresting the hotel's slide towards bankruptcy.</desc>
-    <credits>
-      <producer>Jill Lourie</producer>
-      <producer>Charles Wace</producer>
-    </credits>
-    <date>2008</date>
-    <category lang="en">Travel</category>
-    <category lang="en">Home Improvement</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F8267859~~2FEP013069470029,imi:5150fbc9f1b25d0ca08869a3c41474e2fbf657fb/posterTile?imageVersion=TLqUuQ&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S4 E5</episode-num>
-  </programme>
-  <programme start="20260907084500 +0000" stop="20260907110000 +0000" channel="Virgin.Media.Four.HD.ie">
-    <title lang="en">Agatha Christie's Poirot</title>
-    <sub-title lang="en">Hercule Poirot's Christmas</sub-title>
-    <desc lang="en">Poirot investigates when Simeon Lee, a man who murdered his partner for diamonds and abandoned the woman he loved, is found dead with his throat cut. It transpires that the old man was deliberately driving his family to murder him, but who, if any of them, finally finished Simeon off?</desc>
-    <credits>
-      <director>Edward Bennett</director>
-      <producer>Brian Eastman</producer>
-      <producer>Sarah Wilson</producer>
-    </credits>
-    <date>1995</date>
-    <category lang="en">Mystery</category>
-    <category lang="en">Crime Drama</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F8436527~~2FEP012588780097,imi:93e20ffef37527032e3ee080c92f37605d55b6aa/posterTile?imageVersion=NcyhlQ&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S6 E1</episode-num>
-  </programme>
-  <programme start="20260907110000 +0000" stop="20260907120000 +0000" channel="Virgin.Media.Four.HD.ie">
-    <title lang="en">Who's Doing the Dishes?</title>
-    <sub-title lang="en">Willie Thorne</sub-title>
-    <desc lang="en">Brian McFadden presents the dining challenge show. World snooker champion Willie Thorne back-spins his culinary clues on Team Glam, who are hungry for another win.</desc>
-    <credits>
-      <producer>Katie Rawcliffe</producer>
-    </credits>
-    <date>2016</date>
-    <category lang="en">Cookery</category>
-    <category lang="en">Competition reality</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F13342560~~2FEP019823280089,imi:d7e49349b32af5372b55046eb4dce8cd79d7e2d6/posterTile?imageVersion=7p4UgA&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S3 E29</episode-num>
-  </programme>
-  <programme start="20260907120000 +0000" stop="20260907130500 +0000" channel="Virgin.Media.Four.HD.ie">
-    <title lang="en">Posh Pawn</title>
-    <sub-title lang="en">Episode 5</sub-title>
-    <desc lang="en">There's an international deal for James in Lanzarote for a wine collection that may be worth a million Euros, and an aspiring 23-year-old gastro pub owner wants to take a loan out against a £250,000 Bentley.</desc>
-    <credits>
-      <director>Paul Nelson</director>
-      <producer>Tess Cuming</producer>
-    </credits>
-    <date>2015</date>
-    <category lang="en">Documentary</category>
-    <category lang="en">Reality</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F12122649~~2FEP019022550021,imi:7587b90b32d71e1e2f0e6bd3ee34dc25e996d06a/posterTile?imageVersion=CSX3yg&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S4 E5</episode-num>
-  </programme>
-  <programme start="20260907130500 +0000" stop="20260907140000 +0000" channel="Virgin.Media.Four.HD.ie">
-    <title lang="en">The Six O'Clock Show</title>
-    <sub-title lang="en">Episode 167</sub-title>
-    <desc lang="en">Featuring a lively mix of celebrity chat with national and international guests, fabulous food from the country's top chefs, expert advice and all the unmissable stories making headlines.</desc>
-    <date>2026</date>
-    <category lang="en">News</category>
-    <category lang="en">Talk Show</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33869881~~2FEP025644862676,imi:4345132fd094eb6f03f7469699c3d9c9cd9a8ece/posterTile?imageVersion=uEvLcA&amp;w=200" />
-    <country lang="en">IE</country>
-    <episode-num system="onscreen">E167</episode-num>
-  </programme>
-  <programme start="20260907140000 +0000" stop="20260907150000 +0000" channel="Virgin.Media.Four.HD.ie">
-    <title lang="en">Home Fires</title>
-    <sub-title lang="en">Episode 4</sub-title>
-    <desc lang="en">Drama series set in a Cheshire village during the Second World War. The isolated community could not feel further away from the impending bloodshed and battlefields, yet it is not immune from the effects of war, and everyone must make sacrifices as it begins to have an impact. Steph hides a secret that threatens the farm, Teresa's past comes back to haunt her and Erica is determined to intervene to protect Pat.</desc>
-    <date>2015</date>
-    <category lang="en">Drama Series</category>
-    <category lang="en">History</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F11782813~~2FEP021734670004,imi:1fa59940510108ac982923a9975e3da0662db4eb/posterTile?imageVersion=vk95ew&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S1 E4</episode-num>
-  </programme>
-  <programme start="20260907150000 +0000" stop="20260907155500 +0000" channel="Virgin.Media.Four.HD.ie">
-    <title lang="en">The Voice USA</title>
-    <sub-title lang="en">Episode 16</sub-title>
-    <desc lang="en">The remaining artists compete to make it to the live finale; tough decisions are made when coaches Niall Horan and Snoop Dogg can only advance one artist each, but America can vote through two additional wildcard artists into the finale.</desc>
-    <credits>
-      <director>Alan Carter</director>
-      <producer>John de Mol</producer>
-      <producer>Mark Burnett</producer>
-      <producer>Audrey Morrissey</producer>
-    </credits>
-    <date>2025</date>
-    <category lang="en">Music</category>
-    <category lang="en">Competition reality</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F31725665~~2FEP041882290254,imi:3912ac150dae659a9453c8078102d55300555ef0/posterTile?imageVersion=nMmMyg&amp;w=200" />
-    <country lang="en">US</country>
-    <episode-num system="onscreen">S28 E16</episode-num>
-  </programme>
-  <programme start="20260907155500 +0000" stop="20260907165500 +0000" channel="Virgin.Media.Four.HD.ie">
-    <title lang="en">The Hotel Inspector</title>
-    <sub-title lang="en">The Crown Inn</sub-title>
-    <desc lang="en">This week, can Alex restore the shine to the dowdy inn in the Derbyshire Peak District?</desc>
-    <credits>
-      <producer>Jill Lourie</producer>
-      <producer>Charles Wace</producer>
-    </credits>
-    <date>2011</date>
-    <category lang="en">Travel</category>
-    <category lang="en">Home Improvement</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F8894449~~2FEP013069470076,imi:bd7d84ad234c22f4ecd0646a7bfefed34dfbf91d/posterTile?imageVersion=ZVB9hg&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S8 E4</episode-num>
-  </programme>
-  <programme start="20260907165500 +0000" stop="20260907172500 +0000" channel="Virgin.Media.Four.HD.ie">
-    <title lang="en">Don't Look Back in Anger</title>
-    <sub-title lang="en">2013</sub-title>
-    <desc lang="en">A series which chronicles the news and events of the past 20 years, all set to music. The year 2013 is brought into focus.</desc>
-    <date>2018</date>
-    <category lang="en">Documentary</category>
-    <category lang="en">History</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F17702501~~2FEP030507810016,imi:e8229e217ed9b42fc6f9b3f3496d93b217163e34/posterTile?imageVersion=2Fgktg&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S1 E16</episode-num>
-  </programme>
-  <programme start="20260907172500 +0000" stop="20260907175500 +0000" channel="Virgin.Media.Four.HD.ie">
-    <title lang="en">Don't Look Back in Anger</title>
-    <sub-title lang="en">2014</sub-title>
-    <desc lang="en">A look back at the headline stories, important people and pivotal events that aired on Irish television during the year of 2014 and how they have impacted Ireland in the years since.</desc>
-    <date>2018</date>
-    <category lang="en">Documentary</category>
-    <category lang="en">History</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F17702502~~2FEP030507810017,imi:62c2d45dc3e6b3cf649c4d84c257a7eafb648d7a/posterTile?imageVersion=23-0QA&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S1 E17</episode-num>
-  </programme>
-  <programme start="20260907175500 +0000" stop="20260907185500 +0000" channel="Virgin.Media.Four.HD.ie">
-    <title lang="en">Peter Andre's 60 Minute Makeover</title>
-    <sub-title lang="en">Episode 9</sub-title>
-    <desc lang="en">The team are in Accrington in Lancashire today to spring a surprise makeover on supermum Gayle Moore. Designer Linda Barker gets creative in her bedroom and lounge, squeezing in enough seating for a family of 16.</desc>
-    <credits>
-      <director>Serena Armitage</director>
-      <producer>Serena Armitage</producer>
-    </credits>
-    <date>2014</date>
-    <category lang="en">Home Improvement</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F11239192~~2FEP018211350038,imi:b085a68c526fc4d87858e32bc129eba2720879ce/posterTile?imageVersion=J3J3WQ&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S2 E9</episode-num>
-  </programme>
-  <programme start="20260907185500 +0000" stop="20260907200000 +0000" channel="Virgin.Media.Four.HD.ie">
-    <title lang="en">River Monsters</title>
-    <sub-title lang="en">Demon Fish</sub-title>
-    <desc lang="en">Jeremy Wade journeys up the Congo River in search of the Goliath tiger fish.</desc>
-    <credits>
-      <producer>Lisa Bosak Lucas</producer>
-      <producer>Harry Marshall</producer>
-    </credits>
-    <date>2010</date>
-    <category lang="en">Reality</category>
-    <category lang="en">Documentary</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F8040510~~2FEP012944030016,imi:c54507bbc2f8db0661fa4756081e9ecfe47cc6f7/posterTile?imageVersion=wvF0tg&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S2 E1</episode-num>
-  </programme>
-  <programme start="20260907200000 +0000" stop="20260907202500 +0000" channel="Virgin.Media.Four.HD.ie">
-    <title lang="en">Judge Judy</title>
-    <sub-title lang="en">Lesbians Call It Quits!; Custody Battle Ends With New Girlfriend Daycare?!</sub-title>
-    <desc lang="en">After meeting online, two women end up fighting over missing business property. A woman sues her ex-boyfriend for unpaid loans and for the cost to care for his daughter.</desc>
-    <credits>
-      <producer>Erica Goings</producer>
-      <producer>Jazmine Hooks</producer>
-      <producer>Melanie Manooki</producer>
-    </credits>
-    <date>2019</date>
-    <category lang="en">Reality</category>
-    <category lang="en">Law</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F18053775~~2FEP012603135039,imi:204805f5a4be1db4125868f5a4478c6691f245a1/posterTile?imageVersion=DLf3yw&amp;w=200" />
-    <country lang="en">US</country>
-    <episode-num system="onscreen">S24 E173</episode-num>
-  </programme>
-  <programme start="20260907202500 +0000" stop="20260907213000 +0000" channel="Virgin.Media.Four.HD.ie">
-    <title lang="en">Deal or No Deal</title>
-    <sub-title lang="en">Orla</sub-title>
-    <desc lang="en">Stephen Mulhern hosts as Orla gets her chance to open the iconic red boxes in the game show with only one question - she must choose whether to say Deal or No Deal when faced with the Banker's tempting offers if she is to take home what's inside her box.</desc>
-    <credits>
-      <producer>Tamara Gilder</producer>
-      <producer>David Hall</producer>
-      <producer>Cat Lawson</producer>
-    </credits>
-    <date>2024</date>
-    <category lang="en">Game Show</category>
-    <category lang="en">Entertainment</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F28546972~~2FEP049248610027,imi:6826be060b7c3b6fa2c386edddbd3ed012977d55/posterTile?imageVersion=VDFCuw&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S2 E5</episode-num>
-  </programme>
-  <programme start="20260907213000 +0000" stop="20260907223000 +0000" channel="Virgin.Media.Four.HD.ie">
-    <title lang="en">The Chase</title>
-    <sub-title lang="en">Episode 136</sub-title>
-    <desc lang="en">All that stands between Mark from Liverpool, Rachael from Lytham St Annes, Issmyle from Nottingham, Kate from Cambridge and thousands of pounds is the not-so-small matter of one of the country's finest quiz brains.</desc>
-    <credits>
-      <producer>Martin Scott</producer>
-      <producer>Michael Kelpie</producer>
-      <producer>Helen Tumbridge</producer>
-    </credits>
-    <date>2022</date>
-    <category lang="en">Game Show</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F24034928~~2FEP012896312320,imi:29a3aae93fc8d2f9d71663f6a4800af4f380ab47/posterTile?imageVersion=f9zCqw&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S15 E136</episode-num>
-  </programme>
-  <programme start="20260907223000 +0000" stop="20260908014000 +0000" channel="Virgin.Media.Four.HD.ie">
-    <title lang="en">This Morning</title>
-    <sub-title lang="en">Episode 175</sub-title>
-    <desc lang="en">Featuring a generous morning dose of celebrity interviews, showbiz updates, lifestyle tips and everything else relevant to start the day in an upbeat manner.</desc>
-    <credits>
-      <producer>Emma Gormley</producer>
-    </credits>
-    <date>2026</date>
-    <category lang="en">News Magazine</category>
-    <category lang="en">Talk Show</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33870377~~2FEP012612624215,imi:01201801e1ba31db0c14ba2a1469923f6ae2230b/posterTile?imageVersion=ZLj5OQ&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S38 E175</episode-num>
-  </programme>
   <programme start="20260908014000 +0000" stop="20260908061000 +0000" channel="Virgin.Media.Four.HD.ie">
     <title lang="en">Channel Off Air</title>
     <desc lang="en">Bringing the best in television.</desc>
@@ -261278,98 +260961,34 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <country lang="en">GB</country>
     <episode-num system="onscreen">S38 E178</episode-num>
   </programme>
-  <programme start="20260907000000 +0000" stop="20260907005400 +0000" channel="Virgin.Media.One.HD.ie">
-    <title lang="en">You've Been Posted: Revenge Porn</title>
-    <desc lang="en">A private photo becomes a public nightmare. This powerful film follows two women fighting back after intimate images are shared online without consent.</desc>
-    <category lang="en">Documentary</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33900357~~2FSH065766000000~~2Fspecial,imi:41e846d0aebbba81b28e5651cf79487ca8a19396/posterTile?imageVersion=Nhbn4A&amp;w=200" />
-    <country lang="en">IE</country>
-  </programme>
-  <programme start="20260907005400 +0000" stop="20260907051500 +0000" channel="Virgin.Media.One.HD.ie">
+  <programme start="20260911005800 +0000" stop="20260911052500 +0000" channel="Virgin.Media.Four.HD.ie">
     <title lang="en">Channel Off Air</title>
     <desc lang="en">Bringing the best in television.</desc>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F480440~~2FSH034728720000~~2Foffair,imi:f22af507ce3b7342be9509861c733ddbe6b54cb4/posterTile?imageVersion=9Hacjw&amp;w=200" />
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F480440~~2FSH034728720000~~2Foffair,imi:f93594d770d1a40cc2190ae2ac568135e31d8af7/posterTile?imageVersion=9Hacjw&amp;w=200" />
     <country lang="en">US</country>
   </programme>
-  <programme start="20260907051500 +0000" stop="20260907060000 +0000" channel="Virgin.Media.One.HD.ie">
-    <title lang="en">The Six O'Clock Show</title>
-    <sub-title lang="en">Episode 168</sub-title>
-    <desc lang="en">Featuring a lively mix of celebrity chat with national and international guests, fabulous food from the country's top chefs, expert advice and all the unmissable stories making headlines.</desc>
-    <date>2026</date>
-    <category lang="en">News</category>
-    <category lang="en">Talk Show</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33869917~~2FEP025644862677,imi:f30cb3795a01694f411deff4b5e836c8ad499736/posterTile?imageVersion=14EB5w&amp;w=200" />
-    <country lang="en">IE</country>
-    <episode-num system="onscreen">E168</episode-num>
-  </programme>
-  <programme start="20260907060000 +0000" stop="20260907090000 +0000" channel="Virgin.Media.One.HD.ie">
-    <title lang="en">Ireland AM</title>
-    <desc lang="en">Hosts explore various news topics of interests while guests open up for interviews that cover a multitude of subjects such as politics, food and human interest.</desc>
-    <credits>
-      <producer>Celine Mcgillycuddy</producer>
-      <producer>Sinead Ryan</producer>
-    </credits>
-    <category lang="en">News</category>
-    <category lang="en">Talk Show</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F9595077~~2FSH016477680000~~2F535194506,imi:da544e99a645dcb964b6ae5f23a05b2903ba3035/posterTile?imageVersion=yDS_2w&amp;w=200" />
+  <programme start="20260911052500 +0000" stop="20260911061500 +0000" channel="Virgin.Media.Four.HD.ie">
+    <title lang="en">Sports Stories: Oisin McConville</title>
+    <desc lang="en">Growing up in The Troubles in south Armagh, Oisin McConville went on to become a legend of his county as he recovered from a missed penalty to score the winning goal in their only All-Ireland success. And he did it all whilst suffering from a gambling addiction that almost took his life. He lays it all out in this moving and inspiring story.</desc>
+    <category lang="en">Sport</category>
+    <category lang="en">Interview</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F22257634~~2FSH043216610000~~2Fspecial,imi:ad9ba69e57e882d3bc15bdd1c83a53cf555b3b5f/posterTile?imageVersion=rZEyPg&amp;w=200" />
     <country lang="en">IE</country>
   </programme>
-  <programme start="20260907090000 +0000" stop="20260907113000 +0000" channel="Virgin.Media.One.HD.ie">
-    <title lang="en">This Morning</title>
-    <sub-title lang="en">Episode 176</sub-title>
-    <desc lang="en">Featuring a generous morning dose of celebrity interviews, showbiz updates, lifestyle tips and everything else relevant to start the day in an upbeat manner.</desc>
-    <credits>
-      <producer>Emma Gormley</producer>
-    </credits>
+  <programme start="20260911061500 +0000" stop="20260911070500 +0000" channel="Virgin.Media.Four.HD.ie">
+    <title lang="en">The Tonight Show</title>
+    <sub-title lang="en">Episode 63</sub-title>
+    <desc lang="en">Comment and analysis on the big stories of the day in Ireland and abroad with a panel of guests covering the key issues.</desc>
     <date>2026</date>
     <category lang="en">News Magazine</category>
-    <category lang="en">Talk Show</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33911372~~2FEP012612624216,imi:4f67d2605c68359af810e69903c5bca0f7ce2bb4/posterTile?imageVersion=dTgLKQ&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S38 E176</episode-num>
-  </programme>
-  <programme start="20260907113000 +0000" stop="20260907120000 +0000" channel="Virgin.Media.One.HD.ie">
-    <title lang="en">News at 12:30</title>
-    <desc lang="en">The latest national and international news stories from the Virgin Media News team, followed by sport and weather.</desc>
-    <category lang="en">News</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F10798283~~2FSH019270150000~~2F535194510,imi:0b6f92599180b916f2dbd43186bd0bdf5118c6af/posterTile?imageVersion=w6YW7A&amp;w=200" />
+    <category lang="en">Interview</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33911847~~2FEP027724130861,imi:30a4a20a8c9e294f98ddfaec88f9f5f6b8d71b01/posterTile?imageVersion=-Pd7HQ&amp;w=200" />
     <country lang="en">IE</country>
+    <episode-num system="onscreen">S10 E63</episode-num>
   </programme>
-  <programme start="20260907120000 +0000" stop="20260907130000 +0000" channel="Virgin.Media.One.HD.ie">
-    <title lang="en">The Chase</title>
-    <sub-title lang="en">Episode 107</sub-title>
-    <desc lang="en">When four people who have never met before - Vik from Glasgow, Dylan from Blaenau, Dani from Essex and Katy from Berkhamsted - take on a Chaser, Bradley Walsh guides the contestants through a battle of wits in the hope that they'll go home with thousands of pounds.</desc>
-    <credits>
-      <director>Mick Thomas</director>
-      <producer>Martin Scott</producer>
-      <producer>Michael Kelpie</producer>
-      <producer>Helen Tumbridge</producer>
-    </credits>
-    <date>2023</date>
-    <category lang="en">Game Show</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F31588223~~2FEP012896312739,imi:7d5a05d7a14ea611ebbb4d560547e0329d84fca8/posterTile?imageVersion=OKtsmw&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S17 E107</episode-num>
-  </programme>
-  <programme start="20260907130000 +0000" stop="20260907140000 +0000" channel="Virgin.Media.One.HD.ie">
-    <title lang="en">The Chase</title>
-    <sub-title lang="en">Episode 108</sub-title>
-    <desc lang="en">Bradley Walsh asks the questions as Lucy from Manchester, Roy from Cardiff, Youssef originally from Cairo and Anne from Doncaster try to take on one of the country's finest quiz brains.</desc>
-    <credits>
-      <producer>Martin Scott</producer>
-      <producer>Michael Kelpie</producer>
-      <producer>Helen Tumbridge</producer>
-    </credits>
-    <date>2023</date>
-    <category lang="en">Game Show</category>
-    <category lang="en">Entertainment</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F30971197~~2FEP012896312697,imi:2ce0a737a5113cc14234464a54edaae707042388/posterTile?imageVersion=GiV0Yw&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S17 E108</episode-num>
-  </programme>
-  <programme start="20260907140000 +0000" stop="20260907143000 +0000" channel="Virgin.Media.One.HD.ie">
+  <programme start="20260911070500 +0000" stop="20260911073500 +0000" channel="Virgin.Media.Four.HD.ie">
     <title lang="en">Lorraine</title>
-    <sub-title lang="en">Episode 91</sub-title>
+    <sub-title lang="en">Episode 94</sub-title>
     <desc lang="en">Lorraine Kelly presents a breakfast programme which includes a topical mix of entertainment, discussion, celebrity interviews, the latest fashion, and more.</desc>
     <credits>
       <producer>Sarah Gatenby</producer>
@@ -261378,204 +260997,226 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <date>2026</date>
     <category lang="en">Entertainment</category>
     <category lang="en">Interview</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33911492~~2FEP013234963914,imi:7f24dc49b98caa13c2b1bef040db6f711ce83dc7/posterTile?imageVersion=_oxbbA&amp;w=200" />
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33911526~~2FEP013234963917,imi:3adb51c0593619ec2464e9cf5fe866a508d01ed4/posterTile?imageVersion=Om9OFg&amp;w=200" />
     <country lang="en">GB</country>
-    <episode-num system="onscreen">S14 E91</episode-num>
+    <episode-num system="onscreen">S14 E94</episode-num>
   </programme>
-  <programme start="20260907143000 +0000" stop="20260907153000 +0000" channel="Virgin.Media.One.HD.ie">
-    <title lang="en">Loose Women</title>
-    <sub-title lang="en">Episode 99</sub-title>
-    <desc lang="en">A rotating panel comprised of women from the entertainment and journalism worlds discuss issues from a female perspective, from politics and current affairs to all the latest gossip.</desc>
+  <programme start="20260911073500 +0000" stop="20260911083500 +0000" channel="Virgin.Media.Four.HD.ie">
+    <title lang="en">Celebrity Catchphrase</title>
+    <sub-title lang="en">Adam Woodyat, Olivia Atwood and Jack P. Sheppard</sub-title>
+    <desc lang="en">Stephen Mulhern hosts a celebrity special of the classic game show with Olivia Attwood, Jack P Shepherd and Adam Woodyatt all trying to guess the well-known phrases from the animated clues.</desc>
     <credits>
-      <producer>Dianne Nelmes</producer>
-      <producer>Eleanor Cotter</producer>
-      <producer>Ashley Jenkin</producer>
+      <director>Geraldine Dowd</director>
+      <producer>Sam Munday</producer>
     </credits>
-    <date>2026</date>
-    <category lang="en">Talk Show</category>
-    <category lang="en">Interview</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33911552~~2FEP012793973835,imi:e68fdba22914473f01fc95fe44f7f5ddb8463e81/posterTile?imageVersion=_Q9UwA&amp;w=200" />
+    <date>2025</date>
+    <category lang="en">Game Show</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F29740613~~2FEP047438050102,imi:d40134528d13e1aa4e21643ed5b63a2b6a14947d/posterTile?imageVersion=p4t1dA&amp;w=200" />
     <country lang="en">GB</country>
-    <episode-num system="onscreen">S30 E99</episode-num>
-    <rating system="IE">
-      <value>1</value>
-    </rating>
+    <episode-num system="onscreen">S10 E1</episode-num>
   </programme>
-  <programme start="20260907153000 +0000" stop="20260907160000 +0000" channel="Virgin.Media.One.HD.ie">
-    <title lang="en">Judge Judy</title>
-    <sub-title lang="en">Off-Leash Dogs Result in Puppies?!; Even Officer Byrd Thinks This Is Funny!</sub-title>
-    <desc lang="en">A friend agrees to keep paying rent after moving out and allows an entire family to live there.</desc>
-    <date>2019</date>
-    <category lang="en">Reality</category>
-    <category lang="en">Law</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F18074288~~2FEP012603135036,imi:dae8dae16aa5adb0d332f566055472cdaaeefdfe/posterTile?imageVersion=bTSdBg&amp;w=200" />
-    <country lang="en">US</country>
-    <episode-num system="onscreen">S24 E176</episode-num>
-    <rating system="IE">
-      <value>8</value>
-    </rating>
-  </programme>
-  <programme start="20260907160000 +0000" stop="20260907163000 +0000" channel="Virgin.Media.One.HD.ie">
-    <title lang="en">Judge Judy</title>
-    <sub-title lang="en">Dating Roommate Roulette!; 8-Year-Old Maniac Driver?!; My Daughter, the Window Breaker?!</sub-title>
-    <desc lang="en">A woman becomes intimate with both of her male roommates. A couple sues for the destruction of an aluminium shed. A woman sues her daughter for breaking windows in her home.</desc>
+  <programme start="20260911083500 +0000" stop="20260911104500 +0000" channel="Virgin.Media.Four.HD.ie">
+    <title lang="en">Agatha Christie's Poirot</title>
+    <sub-title lang="en">The Murder of Roger Ackroyd</sub-title>
+    <desc lang="en">Hercule Poirot's retirement is interrupted when one of his neighbours in the picturesque village of Kings Abbott is found murdered in his study. Teaming up again with Chief Inspector Japp, Poirot scrutinises everyone in the household of wealthy industrialist Roger Ackroyd - from his grasping sister-in-law to his personal secretary.</desc>
     <credits>
-      <producer>Erica Goings</producer>
-      <producer>Jazmine Hooks</producer>
-      <producer>Melanie Manooki</producer>
+      <director>Andrew Grieve</director>
+      <producer>Brian Eastman</producer>
+      <producer>Delia Fine</producer>
     </credits>
-    <date>2019</date>
+    <date>2000</date>
+    <category lang="en">Mystery</category>
+    <category lang="en">Crime Drama</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F1685753~~2FEP012588780039,imi:362d43df290d58703677ee7649a59ad0bd9d7c8d/posterTile?imageVersion=n7wWeQ&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S7 E1</episode-num>
+  </programme>
+  <programme start="20260911104500 +0000" stop="20260911114500 +0000" channel="Virgin.Media.Four.HD.ie">
+    <title lang="en">The Hotel Inspector</title>
+    <sub-title lang="en">Sunnyside Hotel</sub-title>
+    <desc lang="en">Alex attempts to help the struggling Sunnyside Hotel in Blackpool. In a bid to boost the B&amp;B's pitiful occupancy rate, the owners plan a huge refurbishment - but refuse to take on Alex's suggestions. Can she get them to incorporate her design ideas and improve the lousy service?</desc>
+    <credits>
+      <producer>Jill Lourie</producer>
+      <producer>Charles Wace</producer>
+    </credits>
+    <date>2010</date>
+    <category lang="en">Travel</category>
+    <category lang="en">Home Improvement</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F8267846~~2FEP013069470027,imi:ff1ef890b854bb354138630499417f8c0081ba8b/posterTile?imageVersion=tI_jWg&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S5 E3</episode-num>
+  </programme>
+  <programme start="20260911114500 +0000" stop="20260911124500 +0000" channel="Virgin.Media.Four.HD.ie">
+    <title lang="en">Posh Pawn</title>
+    <sub-title lang="en">Episode 4</sub-title>
+    <desc lang="en">High-end pawnbroker James heads to Marbella to appraise a 75-foot yacht worth £250,000, and an aspiring restaurateur wants to raise £80,000 by selling his Ferrari Spyder.</desc>
+    <credits>
+      <director>Paul Nelson</director>
+      <producer>Tess Cuming</producer>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Documentary</category>
     <category lang="en">Reality</category>
-    <category lang="en">Law</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F17668085~~2FEP012603134867,imi:983561aa24a4dcfa58526865f248f1b9787ed4de/posterTile?imageVersion=ceToYQ&amp;w=200" />
-    <country lang="en">US</country>
-    <episode-num system="onscreen">S24 E94</episode-num>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F14086744~~2FEP019022550040,imi:a43600b98beb6e9b9f611e8174a3f112ec3a4c55/posterTile?imageVersion=9RUmYA&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S7 E4</episode-num>
   </programme>
-  <programme start="20260907163000 +0000" stop="20260907170500 +0000" channel="Virgin.Media.One.HD.ie">
-    <title lang="en">News at 5:30</title>
-    <desc lang="en">The latest national and international news stories from the Virgin Media news team. Followed by sport and weather.</desc>
-    <category lang="en">News</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F12084762~~2FSH022574180000~~2F535194523,imi:0b2cdbdfacf954fee528d37d4d93c3717792fb4f/posterTile?imageVersion=LN_-Bw&amp;w=200" />
-    <country lang="en">IE</country>
-  </programme>
-  <programme start="20260907170500 +0000" stop="20260907180000 +0000" channel="Virgin.Media.One.HD.ie">
+  <programme start="20260911124500 +0000" stop="20260911134000 +0000" channel="Virgin.Media.Four.HD.ie">
     <title lang="en">The Six O'Clock Show</title>
-    <sub-title lang="en">Episode 169</sub-title>
+    <sub-title lang="en">Episode 171</sub-title>
     <desc lang="en">Featuring a lively mix of celebrity chat with national and international guests, fabulous food from the country's top chefs, expert advice and all the unmissable stories making headlines.</desc>
     <date>2026</date>
     <category lang="en">News</category>
     <category lang="en">Talk Show</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33911283~~2FEP025644862678,imi:13bc078d8e8c0830958941baa9f5dffe82e3909d/posterTile?imageVersion=p_R35A&amp;w=200" />
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33911316~~2FEP025644862680,imi:e4b82fdb2ea853c5cec50092d060bc63f9f1e84c/posterTile?imageVersion=BpicNQ&amp;w=200" />
     <country lang="en">IE</country>
-    <episode-num system="onscreen">E169</episode-num>
+    <episode-num system="onscreen">E171</episode-num>
   </programme>
-  <programme start="20260907180000 +0000" stop="20260907183000 +0000" channel="Virgin.Media.One.HD.ie">
-    <title lang="en">News at 7</title>
-    <desc lang="en">The latest national and international news stories, followed by sport and weather.</desc>
-    <category lang="en">News</category>
-    <category lang="en">Community</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F13843841~~2FSH026268150000~~2F535194525,imi:de43092f4d46729c94add6bfceb528edfeeb64b6/posterTile?imageVersion=ku5Gww&amp;w=200" />
-    <country lang="en">GB</country>
-  </programme>
-  <programme start="20260907183000 +0000" stop="20260907190000 +0000" channel="Virgin.Media.One.HD.ie">
-    <title lang="en">Friends</title>
-    <sub-title lang="en">The One With the Stripper</sub-title>
-    <desc lang="en">Feeling guilty for denying Chandler a bachelor party, Monica hires a stripper to perform for him, without learning that she's a prostitute. Elsewhere, Rachel's father learns about her pregnancy and plans to give Ross a piece of his mind.</desc>
+  <programme start="20260911134000 +0000" stop="20260911144000 +0000" channel="Virgin.Media.Four.HD.ie">
+    <title lang="en">Home Fires</title>
+    <sub-title lang="en">Episode 2</sub-title>
+    <desc lang="en">The papers hear of the Bowers' divorce, and Laura is publicly disgraced; Frances learns of Peter's secret; Pat gets caught up in his feelings.</desc>
     <credits>
-      <producer>Kevin Bright</producer>
-      <producer>David Crane</producer>
-      <producer>Greg Malins</producer>
+      <producer>Francis Hopkinson</producer>
+      <producer>Catherine Oldfield</producer>
     </credits>
-    <date>2001</date>
-    <category lang="en">Sitcoms</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F1712433~~2FEP012597240064,imi:0738f0b56cd80b6f9cf60ee9ee33c95fccd1c3c3/posterTile?imageVersion=89_7-w&amp;w=200" />
+    <date>2016</date>
+    <category lang="en">Drama Series</category>
+    <category lang="en">History</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F12759210~~2FEP021734670008,imi:a0f9cbaa125faecad514b59540d48015add31db8/posterTile?imageVersion=8Tg79Q&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S2 E2</episode-num>
+  </programme>
+  <programme start="20260911144000 +0000" stop="20260911163500 +0000" channel="Virgin.Media.Four.HD.ie">
+    <title lang="en">The Voice USA</title>
+    <desc lang="en">Singers compete for a record contract and $100,000.</desc>
+    <credits>
+      <director>Alan Carter</director>
+      <producer>John de Mol</producer>
+      <producer>Mark Burnett</producer>
+      <producer>Audrey Morrissey</producer>
+    </credits>
+    <category lang="en">Music</category>
+    <category lang="en">Competition reality</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F8449661~~2FSH041882290000~~2F535198003,imi:811befedc01550ae336a6fdd7603394b7174a0f0/posterTile?imageVersion=troRjA&amp;w=200" />
     <country lang="en">US</country>
-    <episode-num system="onscreen">S8 E8</episode-num>
   </programme>
-  <programme start="20260907190000 +0000" stop="20260907193000 +0000" channel="Virgin.Media.One.HD.ie">
-    <title lang="en">Emmerdale</title>
-    <sub-title lang="en">Episode 175</sub-title>
-    <desc lang="en">Sarah's world is shattered, Lewis is excited, and Caleb looks hot under the collar.</desc>
+  <programme start="20260911163500 +0000" stop="20260911173000 +0000" channel="Virgin.Media.Four.HD.ie">
+    <title lang="en">The Hotel Inspector</title>
+    <sub-title lang="en">The Oakland</sub-title>
+    <desc lang="en">Alex visits a hotel and nightclub in Essex that is run by a family who are simply not dancing to the same beat.</desc>
     <credits>
-      <director>Brett Fallis</director>
-      <producer>Iain Macleod</producer>
-      <producer>Laura Shaw</producer>
-      <producer>Sophie Roper</producer>
+      <producer>Jill Lourie</producer>
+      <producer>Charles Wace</producer>
     </credits>
-    <date>2026</date>
-    <category lang="en">Drama Series</category>
-    <category lang="en">Soap</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33894676~~2FEP012568688389,imi:9a4c7e32a822d9fd1ce1384730483c04699f56b6/posterTile?imageVersion=s1PXbA&amp;w=200" />
+    <date>2012</date>
+    <category lang="en">Travel</category>
+    <category lang="en">Home Improvement</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F9334908~~2FEP013069470087,imi:9c5181d41b834052ca4cb22cbc18809e3778647b/posterTile?imageVersion=S1JcGA&amp;w=200" />
     <country lang="en">GB</country>
-    <episode-num system="onscreen">E175</episode-num>
-    <rating system="IE">
-      <value>1</value>
-    </rating>
+    <episode-num system="onscreen">S9 E2</episode-num>
   </programme>
-  <programme start="20260907193000 +0000" stop="20260907200000 +0000" channel="Virgin.Media.One.HD.ie">
-    <title lang="en">Coronation Street</title>
-    <sub-title lang="en">Episode 176</sub-title>
-    <desc lang="en">Kit regrets a night of passion, but a devastating diagnosis soon gives him more important matters to fret about, and Debbie pays tribute to Ronnie during her birthday celebrations.</desc>
-    <credits>
-      <director>Chantelle Kayll</director>
-      <producer>Kate Brooks</producer>
-    </credits>
-    <date>2026</date>
-    <category lang="en">Drama Series</category>
-    <category lang="en">Soap</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33825478~~2FEP012606069124,imi:992de1b6c9c01ced1a35410ca2a4fb0ea72fbbf2/posterTile?imageVersion=QmPdWA&amp;w=200" />
+  <programme start="20260911173000 +0000" stop="20260911180000 +0000" channel="Virgin.Media.Four.HD.ie">
+    <title lang="en">Don't Look Back in Anger</title>
+    <sub-title lang="en">2024</sub-title>
+    <desc lang="en">Chronicling the highs and lows of 2024 and all the chaos in between.</desc>
+    <date>2018</date>
+    <category lang="en">Documentary</category>
+    <category lang="en">History</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F29077296~~2FEP030507810027,imi:6166b03a13a39b7979482dbd5e82ffed25a1c6dd/posterTile?imageVersion=ijlFaw&amp;w=200" />
     <country lang="en">GB</country>
-    <episode-num system="onscreen">E176</episode-num>
+    <episode-num system="onscreen">S1 E27</episode-num>
   </programme>
-  <programme start="20260907200000 +0000" stop="20260907210000 +0000" channel="Virgin.Media.One.HD.ie">
-    <title lang="en">Number One Fan</title>
-    <sub-title lang="en">Episode 2</sub-title>
-    <desc lang="en">Lucy discovers Donna's motive. She's the sister of Ben Hughes, who killed himself after being bullied on a show by Lucy. And now Donna wants Lucy to admit to the world what she did.</desc>
+  <programme start="20260911180000 +0000" stop="20260911190000 +0000" channel="Virgin.Media.Four.HD.ie">
+    <title lang="en">Peter Andre's 60 Minute Makeover</title>
+    <sub-title lang="en">Episode 18</sub-title>
+    <desc lang="en">Helen Pegasiou spent seven years living in the aftermath of an abandoned building project in Epsom in Surrey, her daughter Sophia called on the team to give the whole family back their home. Designer Martyn Lawrence-Bullard provides one of our most dramatic transformations ever.</desc>
     <credits>
-      <director>Paul Wilmshurst</director>
-      <producer>Brett Wilson</producer>
-      <producer>Mike Benson</producer>
-      <producer>Rachel Kilfeather</producer>
+      <director>Serena Armitage</director>
+      <producer>Serena Armitage</producer>
     </credits>
-    <date>2026</date>
-    <category lang="en">Drama Series</category>
-    <category lang="en">Thriller</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F32962850~~2FEP064067380002,imi:833e0accd5ed5e80a715ef37409fb4758082be5c/posterTile?imageVersion=X_TIiw&amp;w=200" />
+    <date>2014</date>
+    <category lang="en">Home Improvement</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F11268598~~2FEP018211350048,imi:7def16230f73b0f0e85d21ae04a91337ab812c34/posterTile?imageVersion=rDA6Rw&amp;w=200" />
     <country lang="en">GB</country>
-    <episode-num system="onscreen">S1 E2</episode-num>
+    <episode-num system="onscreen">S2 E18</episode-num>
   </programme>
-  <programme start="20260907210000 +0000" stop="20260907220000 +0000" channel="Virgin.Media.One.HD.ie">
-    <title lang="en">Monday With Gavan Reilly</title>
-    <sub-title lang="en">Episode 20</sub-title>
-    <desc lang="en">Gavan Reilly and guests break down the week's political diary, key Cabinet issues, major stories shaping the national agenda, and the impact of upcoming decisions.</desc>
-    <date>2026</date>
-    <category lang="en">News</category>
-    <category lang="en">Politics</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33911774~~2FEP063440990020,imi:657cd96576eae6d6da2f5a7fd40c79ab36c6fa1a/posterTile?imageVersion=6bLPcg&amp;w=200" />
-    <country lang="en">IE</country>
-    <episode-num system="onscreen">S1 E20</episode-num>
+  <programme start="20260911190000 +0000" stop="20260911193000 +0000" channel="Virgin.Media.Four.HD.ie">
+    <title lang="en">Judge Judy</title>
+    <sub-title lang="en">Feminist Dating App Meets the Me Too Movement?!; Broken-Jaw Sucker Punch?</sub-title>
+    <desc lang="en">Former magistrate, the honourable Judy Sheindlin, presides over real family court cases, marital dissension and small claims disputes with a no-nonsense, wisecracking approach to her work.</desc>
+    <date>2019</date>
+    <category lang="en">Reality</category>
+    <category lang="en">Law</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F17753875~~2FEP012603134906,imi:5ed8ca11e964c0b8f77ef1e524cc7b6b6c091bf6/posterTile?imageVersion=aFWoAQ&amp;w=200" />
+    <country lang="en">US</country>
+    <episode-num system="onscreen">S24 E108</episode-num>
   </programme>
-  <programme start="20260907220000 +0000" stop="20260907230000 +0000" channel="Virgin.Media.One.HD.ie">
-    <title lang="en">The 1% Club</title>
-    <sub-title lang="en">Episode 2</sub-title>
-    <desc lang="en">Lee Mack is back to present, as 100 more contestants try to make it all the way to the elusive 1% question to win up to £100,000.</desc>
+  <programme start="20260911193000 +0000" stop="20260911200000 +0000" channel="Virgin.Media.Four.HD.ie">
+    <title lang="en">Judge Judy</title>
+    <sub-title lang="en">Project Getaway!; Teen Harassed for 20 Bucks!</sub-title>
+    <desc lang="en">An entertainment manager accepts money from his girlfriend to promote a male model at a fashion show. A teen says a male co-worker made unwanted romantic advances toward him and harassed him incessantly over a small debt.</desc>
+    <date>2019</date>
+    <category lang="en">Reality</category>
+    <category lang="en">Law</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F17753879~~2FEP012603134910,imi:70b84fa438df437c53aa7f182d2a8652a45f18da/posterTile?imageVersion=5_cNqA&amp;w=200" />
+    <country lang="en">US</country>
+    <episode-num system="onscreen">S24 E112</episode-num>
+  </programme>
+  <programme start="20260911200000 +0000" stop="20260911210000 +0000" channel="Virgin.Media.Four.HD.ie">
+    <title lang="en">Olivia Attwood's Bad Boyfriends</title>
+    <sub-title lang="en">Episode 6</sub-title>
+    <desc lang="en">Olivia shows the girlfriends what their boys really got up to on their wild night out on the strip. Olivia tests the couples over their sexual likes and dislikes, leading to some uncomfortable truths.</desc>
     <credits>
-      <producer>Dean Nabarro</producer>
-      <producer>Andy Auerbach</producer>
-      <producer>Clare Barton</producer>
+      <director>Roman Green</director>
+      <producer>Colin Whitaker</producer>
+      <producer>Laura Clarke Jeavons</producer>
     </credits>
-    <date>2025</date>
+    <date>2024</date>
+    <category lang="en">Reality</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F28123865~~2FEP052626520006,imi:924cea7857b542c9139c4f734f1dc30116dafdc1/posterTile?imageVersion=mspozg&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S1 E6</episode-num>
+  </programme>
+  <programme start="20260911210000 +0000" stop="20260911220000 +0000" channel="Virgin.Media.Four.HD.ie">
+    <title lang="en">The Chase</title>
+    <sub-title lang="en">Episode 140</sub-title>
+    <desc lang="en">Gareth from Newport, Kat from London, Lauren from Solihull and Chris from Wigan hope that they can beat a Chaser together and leave with thousands of pounds.</desc>
+    <credits>
+      <producer>Martin Scott</producer>
+      <producer>Michael Kelpie</producer>
+      <producer>Helen Tumbridge</producer>
+    </credits>
+    <date>2022</date>
     <category lang="en">Game Show</category>
-    <category lang="en">Entertainment</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F29275358~~2FEP042585010039,imi:99e0447ea3a3debd78b24a347b0fc5c6e1e2e60b/posterTile?imageVersion=9ozP0A&amp;w=200" />
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F24730213~~2FEP012896312353,imi:dd0467ad6b70371ee829f2d29e639dd2def34274/posterTile?imageVersion=2DF3xQ&amp;w=200" />
     <country lang="en">GB</country>
-    <episode-num system="onscreen">S4 E2</episode-num>
+    <episode-num system="onscreen">S15 E140</episode-num>
   </programme>
-  <programme start="20260907230000 +0000" stop="20260907233000 +0000" channel="Virgin.Media.One.HD.ie">
-    <title lang="en">Faithless</title>
-    <sub-title lang="en">Episode 4</sub-title>
-    <desc lang="en">Follow three Dublin sisters and their Irish/Egyptian dad who, after a tragic incident, has to raise his three daughters alone. His irresponsible brother moves in to "help" and never leaves. Meet the Amin family the new fighting Irish.</desc>
-    <credits>
-      <director>Declan Recks</director>
-      <producer>John Gleeson</producer>
-      <producer>Oisín O'Neill</producer>
-      <producer>Baz Ashmawy</producer>
-    </credits>
-    <category lang="en">Comedy</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F31394228~~2FEP049868910010,imi:1e9665e40f911d938e779706d2cc169d41870caf/posterTile?imageVersion=Y5HTvQ&amp;w=200" />
-    <country lang="en">IE</country>
-    <episode-num system="onscreen">S2 E4</episode-num>
-  </programme>
-  <programme start="20260907233000 +0000" stop="20260908000000 +0000" channel="Virgin.Media.One.HD.ie">
+  <programme start="20260911220000 +0000" stop="20260911223000 +0000" channel="Virgin.Media.Four.HD.ie">
     <title lang="en">Don't Look Back in Anger</title>
     <sub-title lang="en">2001</sub-title>
     <desc lang="en">The year of 2001 is re-imagined, reconstructed and revisited through archive footage of the biggest news stories of the year with the popular music from that year accompanying it.</desc>
     <date>2018</date>
     <category lang="en">Documentary</category>
     <category lang="en">History</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F17702482~~2FEP030507810004,imi:ba91dca826f270396f027d3d9b80e4763f16f75c/posterTile?imageVersion=wH4JCw&amp;w=200" />
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F17702482~~2FEP030507810004,imi:7e3e17e2349487424cb191502c8c368e50dc4609/posterTile?imageVersion=wH4JCw&amp;w=200" />
     <country lang="en">GB</country>
     <episode-num system="onscreen">S1 E4</episode-num>
+  </programme>
+  <programme start="20260911223000 +0000" stop="20260912010000 +0000" channel="Virgin.Media.Four.HD.ie">
+    <title lang="en">This Morning</title>
+    <sub-title lang="en">Episode 179</sub-title>
+    <desc lang="en">Featuring a generous morning dose of celebrity interviews, showbiz updates, lifestyle tips and everything else relevant to start the day in an upbeat manner.</desc>
+    <credits>
+      <producer>Emma Gormley</producer>
+    </credits>
+    <date>2026</date>
+    <category lang="en">News Magazine</category>
+    <category lang="en">Talk Show</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33911413~~2FEP012612624219,imi:b29c2539f8e1e8e24632442cf6a90307bac41e87/posterTile?imageVersion=SJ_XPw&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S38 E179</episode-num>
   </programme>
   <programme start="20260908000000 +0000" stop="20260908005700 +0000" channel="Virgin.Media.One.HD.ie">
     <title lang="en">Shetland</title>
@@ -261791,6 +261432,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
   </programme>
   <programme start="20260908200000 +0000" stop="20260908211000 +0000" channel="Virgin.Media.One.HD.ie">
     <title lang="en">9/11: The Unseen Tapes</title>
+    <desc lang="en">Presents previously unseen footage from the Reuters archives, showing how New York reacted to the attacks of September 11, 2001. The recordings capture the impacts, the collapse of the towers, the chaos at ground zero and the search for survivors.</desc>
     <credits>
       <director>Trevor Manning</director>
     </credits>
@@ -261809,7 +261451,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <country lang="en">IE</country>
     <episode-num system="onscreen">S10 E62</episode-num>
   </programme>
-  <programme start="20260908221000 +0000" stop="20260908231500 +0000" channel="Virgin.Media.One.HD.ie">
+  <programme start="20260908221000 +0000" stop="20260908231000 +0000" channel="Virgin.Media.One.HD.ie">
     <title lang="en">Who Wants to Be a Millionaire?</title>
     <sub-title lang="en">Episode 2</sub-title>
     <desc lang="en">Six contestants vie for the chance of answering 15 questions to win a million pounds. Four lifelines - Phone a Friend, 50:50, Ask the Audience and Ask the Host - can help them along the way.</desc>
@@ -261819,7 +261461,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <country lang="en">GB</country>
     <episode-num system="onscreen">S11 E2</episode-num>
   </programme>
-  <programme start="20260908231500 +0000" stop="20260908234500 +0000" channel="Virgin.Media.One.HD.ie">
+  <programme start="20260908231000 +0000" stop="20260908234000 +0000" channel="Virgin.Media.One.HD.ie">
     <title lang="en">Faithless</title>
     <sub-title lang="en">Episode 5</sub-title>
     <desc lang="en">Follow three Dublin sisters and their Irish/Egyptian dad who, after a tragic incident, has to raise his three daughters alone. His irresponsible brother moves in to "help" and never leaves. Meet the Amin family the new fighting Irish.</desc>
@@ -261834,7 +261476,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <country lang="en">IE</country>
     <episode-num system="onscreen">S2 E5</episode-num>
   </programme>
-  <programme start="20260908234500 +0000" stop="20260909001500 +0000" channel="Virgin.Media.One.HD.ie">
+  <programme start="20260908234000 +0000" stop="20260909000500 +0000" channel="Virgin.Media.One.HD.ie">
     <title lang="en">Don't Look Back in Anger</title>
     <sub-title lang="en">2002</sub-title>
     <desc lang="en">The year 2002 is re-imagined, reconstructed and revisited through archive footage of the biggest news stories of the year with the popular music from that year accompanying it.</desc>
@@ -261845,7 +261487,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <country lang="en">GB</country>
     <episode-num system="onscreen">S1 E5</episode-num>
   </programme>
-  <programme start="20260909001500 +0000" stop="20260909011200 +0000" channel="Virgin.Media.One.HD.ie">
+  <programme start="20260909000500 +0000" stop="20260909011000 +0000" channel="Virgin.Media.One.HD.ie">
     <title lang="en">Shetland</title>
     <sub-title lang="en">Episode 4</sub-title>
     <desc lang="en">After the shocking events of the previous night, Perez must piece together what happened before a rampaging and vengeful Creggan finds his target.</desc>
@@ -261860,7 +261502,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <country lang="en">GB</country>
     <episode-num system="onscreen">S6 E4</episode-num>
   </programme>
-  <programme start="20260909011200 +0000" stop="20260909042500 +0000" channel="Virgin.Media.One.HD.ie">
+  <programme start="20260909011000 +0000" stop="20260909042500 +0000" channel="Virgin.Media.One.HD.ie">
     <title lang="en">Channel Off Air</title>
     <desc lang="en">Bringing the best in television.</desc>
     <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F480440~~2FSH034728720000~~2Foffair,imi:632d6d384fd1c7d55964ad9d749f52de058b9c25/posterTile?imageVersion=9Hacjw&amp;w=200" />
@@ -262458,323 +262100,296 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <country lang="en">GB</country>
     <episode-num system="onscreen">S2 E3</episode-num>
   </programme>
-  <programme start="20260907001500 +0000" stop="20260907011400 +0000" channel="Virgin.Media.Three.HD.ie">
-    <title lang="en">Cracker</title>
-    <sub-title lang="en">Brotherly Love</sub-title>
-    <desc lang="en">After another prostitute is slain, Fitz comes to believe that David Harvey's wife Maggie is the killer, in spite of vehement protesting by the police and his brother, Father Michael.</desc>
+  <programme start="20260911000000 +0000" stop="20260911005600 +0000" channel="Virgin.Media.One.HD.ie">
+    <title lang="en">Shetland</title>
+    <sub-title lang="en">Episode 6</sub-title>
+    <desc lang="en">As Perez closes in on the identity of Galbraith's killer, he struggles with Duncan's secret, while Donna has one more surprise in store.</desc>
     <credits>
-      <director>Roy Battersby</director>
-      <producer>Sally Head</producer>
-    </credits>
-    <date>1995</date>
-    <category lang="en">Mystery</category>
-    <category lang="en">Crime Drama</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F1675793~~2FEP012794370027,imi:3ac9a2853930e6d8952d3dfb908b8c8da2a28701/posterTile?imageVersion=I2Il6w&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S3 E3</episode-num>
-  </programme>
-  <programme start="20260907011400 +0000" stop="20260907060500 +0000" channel="Virgin.Media.Three.HD.ie">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Bringing the best in television.</desc>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F480440~~2FSH034728720000~~2Foffair,imi:0e0e224d717d5403fc3ba185d4e8b909437130e2/posterTile?imageVersion=9Hacjw&amp;w=200" />
-    <country lang="en">US</country>
-  </programme>
-  <programme start="20260907060500 +0000" stop="20260907070000 +0000" channel="Virgin.Media.Three.HD.ie">
-    <title lang="en">Heartbeat</title>
-    <sub-title lang="en">Forget Me Not</sub-title>
-    <desc lang="en">A frightened man who lives alone is being threatened and fire breaks out in the kitchen.</desc>
-    <credits>
-      <director>James Hazeldine</director>
-      <director>Paul Walker</director>
-      <producer>Keith Richardson</producer>
-    </credits>
-    <date>1996</date>
-    <category lang="en">Crime Drama</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F1685495~~2FEP012587610252,imi:1a76afffdd06a10a7898e838fd16e31b53a44ef5/posterTile?imageVersion=5O6BWw&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S6 E3</episode-num>
-  </programme>
-  <programme start="20260907070000 +0000" stop="20260907090000 +0000" channel="Virgin.Media.Three.HD.ie">
-    <title lang="en">Midsomer Murders</title>
-    <sub-title lang="en">A Climate of Death</sub-title>
-    <desc lang="en">Sleepy Goodman's Land is known as the Greenest Village in Midsomer. But when the entire village is bought by a Texas oilman, a string of grisly murders ensues.</desc>
-    <credits>
-      <director>Leon Lopez</director>
-      <producer>Brian True-May</producer>
-      <producer>Michele Buck</producer>
-      <producer>Neil Dudgeon</producer>
-    </credits>
-    <date>2023</date>
-    <category lang="en">Crime Drama</category>
-    <category lang="en">Mystery</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F26137261~~2FEP012606120467,imi:c9b22c04684fb179ff0fcfccdd30d80afbae6414/posterTile?imageVersion=LxQP2Q&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S24 E4</episode-num>
-    <rating system="IE">
-      <value>12</value>
-    </rating>
-  </programme>
-  <programme start="20260907090000 +0000" stop="20260907100000 +0000" channel="Virgin.Media.Three.HD.ie">
-    <title lang="en">Posh Pawn</title>
-    <sub-title lang="en">Episode 5</sub-title>
-    <desc lang="en">An aspiring musician needs to raise money quickly to save his eight-bedroom mansion. He hopes that James will offer him more than £25,000 for his collection of twelve vintage cars.</desc>
-    <credits>
-      <director>Paul Nelson</director>
-      <producer>Tess Cuming</producer>
-    </credits>
-    <date>2014</date>
-    <category lang="en">Documentary</category>
-    <category lang="en">Reality</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F10754956~~2FEP019022550005,imi:d99f395caa201f4ae5a57ffbc9e7069d9d4fae50/posterTile?imageVersion=EDLfow&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S1 E5</episode-num>
-  </programme>
-  <programme start="20260907100000 +0000" stop="20260907110500 +0000" channel="Virgin.Media.Three.HD.ie">
-    <title lang="en">River Monsters</title>
-    <sub-title lang="en">Legend of Loch Ness</sub-title>
-    <desc lang="en">Jeremy Wade is on a mission to track down the famous Loch Ness monster. The journey takes him from the depths of the famous Scottish loch to the volcanoes of Iceland.</desc>
-    <credits>
-      <producer>Lisa Bosak Lucas</producer>
-      <producer>Harry Marshall</producer>
-    </credits>
-    <date>2013</date>
-    <category lang="en">Reality</category>
-    <category lang="en">Documentary</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F9843824~~2FEP012944030046,imi:3dca32c6ed0bd2b52c5a07d8058e31ec43632cd5/posterTile?imageVersion=1A0iVg&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S5 E6</episode-num>
-  </programme>
-  <programme start="20260907110500 +0000" stop="20260907113500 +0000" channel="Virgin.Media.Three.HD.ie">
-    <title lang="en">Don't Look Back in Anger</title>
-    <sub-title lang="en">2013</sub-title>
-    <desc lang="en">A series which chronicles the news and events of the past 20 years, all set to music. The year 2013 is brought into focus.</desc>
-    <date>2018</date>
-    <category lang="en">Documentary</category>
-    <category lang="en">History</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F17702501~~2FEP030507810016,imi:332f9f5bf03b49b65289d278182146fa4ee338dc/posterTile?imageVersion=2Fgktg&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S1 E16</episode-num>
-  </programme>
-  <programme start="20260907113500 +0000" stop="20260907124500 +0000" channel="Virgin.Media.Three.HD.ie">
-    <title lang="en">Mr Bates vs the Post Office: The Impact</title>
-    <desc lang="en">In January 2024, the drama series `Mr Bates vs The Post Office' brought the story of the faulty Horizon computer and the subpostmasters wrongfully accused of theft to a national audience - the response was so powerful that former chief executive Paula Vennells handed back her CBE, a bill was introduced to Parliament to exonerate the victims, and lead campaigner Alan Bates was knighted. In this follow-up documentary, the former subpostmasters talk about the impact of the drama and more subpostmasters come forward to tell their heart-breaking stories for the first time. These include families like the Downeys who ran a Post Office in the Lake District - when Tony was accused of theft, he moved abroad with his wife Caroline and daughter Katie to avoid the shame but recently discovered that their trauma was down to the cover-up of the faulty computer. Meanwhile, Computer Weekly journalist Karl Flinders - who helped unearth the original Horizon scandal - believes a new scandal is looming.</desc>
-    <credits>
-      <director>Clare Richards</director>
-      <producer>Ben Gale</producer>
-      <producer>Natasha Bondy</producer>
-      <producer>Shola Sittabey</producer>
-    </credits>
-    <category lang="en">Documentary</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F28193316~~2FSH052756650000~~2Fspecial,imi:6023a20431e681bb72ca145d21aa4169a6e7f0b3/posterTile?imageVersion=pTYjtg&amp;w=200" />
-    <country lang="en">GB</country>
-  </programme>
-  <programme start="20260907124500 +0000" stop="20260907134000 +0000" channel="Virgin.Media.Three.HD.ie">
-    <title lang="en">The Hotel Inspector</title>
-    <sub-title lang="en">Colliters Brook Farm</sub-title>
-    <desc lang="en">Alex heads to Colliers Brook Farm near Bristol, to try to make sense of a struggling business which was derailed after a planning application was turned down.</desc>
-    <credits>
-      <director>Tim Williams</director>
-      <producer>Rachel Innes-Lumsden</producer>
-      <producer>Sharon Ryan</producer>
-      <producer>Cecky Clarke</producer>
-    </credits>
-    <date>2017</date>
-    <category lang="en">Travel</category>
-    <category lang="en">Home Improvement</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F14314193~~2FEP013069470125,imi:f5956bb4b8129d0fad73c5fe00de6a8f9c443b18/posterTile?imageVersion=yibedw&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S13 E3</episode-num>
-  </programme>
-  <programme start="20260907134000 +0000" stop="20260907143500 +0000" channel="Virgin.Media.Three.HD.ie">
-    <title lang="en">The Hotel Inspector</title>
-    <sub-title lang="en">Churston Court</sub-title>
-    <desc lang="en">Chris and Jonathan bought a crumbling historic building with their hearts rather than their heads. Alex is on hand to help as the pair realise the mammoth task that lies ahead if they want to return the house to its former glory.</desc>
-    <credits>
-      <producer>Jill Lourie</producer>
-      <producer>Charles Wace</producer>
-    </credits>
-    <date>2017</date>
-    <category lang="en">Travel</category>
-    <category lang="en">Home Improvement</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F14329312~~2FEP013069470126,imi:4abab9a2c727e90bd265a81f6a25afe0471a825c/posterTile?imageVersion=JxjosA&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S13 E4</episode-num>
-  </programme>
-  <programme start="20260907143500 +0000" stop="20260907150500 +0000" channel="Virgin.Media.Three.HD.ie">
-    <title lang="en">Emmerdale</title>
-    <sub-title lang="en">Episode 174</sub-title>
-    <desc lang="en">Sarah is left wracked with guilt, Serena is alarmed, and Vinny is scared to think Kev overheard.</desc>
-    <credits>
-      <director>Tim Finn</director>
-      <producer>Iain Macleod</producer>
-      <producer>Laura Shaw</producer>
-      <producer>Sophie Roper</producer>
-    </credits>
-    <date>2026</date>
-    <category lang="en">Drama Series</category>
-    <category lang="en">Soap</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33874010~~2FEP012568688383,imi:fdcea1753c9f0c2fe92b2132bea479187c49dd45/posterTile?imageVersion=dlpZ0A&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">E174</episode-num>
-    <rating system="IE">
-      <value>1</value>
-    </rating>
-  </programme>
-  <programme start="20260907150500 +0000" stop="20260907153500 +0000" channel="Virgin.Media.Three.HD.ie">
-    <title lang="en">Coronation Street</title>
-    <sub-title lang="en">Episode 175</sub-title>
-    <desc lang="en">Shona leaves Harper unattended in the car, Jodie invites Kit to Number 8 for a rematch, Lauren drags a reluctant Betsy to the bistro, and the Websters plan Debbie's birthday party.</desc>
-    <credits>
-      <director>Chantelle Kayll</director>
-      <producer>Kate Brooks</producer>
-    </credits>
-    <date>2026</date>
-    <category lang="en">Drama Series</category>
-    <category lang="en">Soap</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33825477~~2FEP012606069123,imi:6726d764128c99b02121ddea40ed4f021ac68c96/posterTile?imageVersion=VSZFvw&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">E175</episode-num>
-  </programme>
-  <programme start="20260907153500 +0000" stop="20260907164500 +0000" channel="Virgin.Media.Three.HD.ie">
-    <title lang="en">Wycliffe</title>
-    <sub-title lang="en">Old Habits</sub-title>
-    <desc lang="en">When a young woman is found strangled, a pathologist is struck by the similarities to a string of unsolved murders. Trying to find a link, Wycliffe and the team begin to dig around for clues.</desc>
-    <credits>
-      <director>John Glenister</director>
-      <producer>Stephen Matthews</producer>
-      <producer>Geraint Morris</producer>
-    </credits>
-    <date>1996</date>
-    <category lang="en">Crime Drama</category>
-    <category lang="en">Mystery</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F1772262~~2FEP012695360028,imi:7c5f0f5715f624bdb5d27d5b6841c77e2a2bce51/posterTile?imageVersion=eAppog&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S3 E8</episode-num>
-  </programme>
-  <programme start="20260907164500 +0000" stop="20260907175000 +0000" channel="Virgin.Media.Three.HD.ie">
-    <title lang="en">Agatha Christie's Poirot</title>
-    <sub-title lang="en">Yellow Iris</sub-title>
-    <desc lang="en">When the Belgian detective receives a yellow iris through the post, he recalls a murder he witnessed two years earlier in Buenos Aires. Subsequent events suggest that a similar crime could happen again.</desc>
-    <credits>
-      <director>Peter Barber-Fleming</director>
-      <producer>Nick Elliott</producer>
-      <producer>Brian Eastman</producer>
-    </credits>
-    <date>1993</date>
-    <category lang="en">Mystery</category>
-    <category lang="en">Crime Drama</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F1685731~~2FEP012588780053,imi:2802c84327f7683444f092f8bdd5dc347e0cb165/posterTile?imageVersion=KP-7RA&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S5 E3</episode-num>
-  </programme>
-  <programme start="20260907175000 +0000" stop="20260907185500 +0000" channel="Virgin.Media.Three.HD.ie">
-    <title lang="en">Agatha Christie's Poirot</title>
-    <sub-title lang="en">The Case of the Missing Will</sub-title>
-    <desc lang="en">A terminally ill man asks Poirot to be executor of his new will but is murdered before he can write it, and it is later discovered the old will has been stolen.</desc>
-    <credits>
-      <director>John Bruce</director>
-      <producer>Nick Elliott</producer>
-      <producer>Brian Eastman</producer>
-    </credits>
-    <date>1993</date>
-    <category lang="en">Mystery</category>
-    <category lang="en">Crime Drama</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F1685732~~2FEP012588780054,imi:884355c8733096d3b4b211d612bd947867ef86c9/posterTile?imageVersion=7JVmcQ&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S5 E4</episode-num>
-  </programme>
-  <programme start="20260907185500 +0000" stop="20260907200000 +0000" channel="Virgin.Media.Three.HD.ie">
-    <title lang="en">Heartbeat</title>
-    <sub-title lang="en">Old Ties</sub-title>
-    <desc lang="en">A new restaurant run by two brothers is the target of sabotage and an old friend of Gina's comes to stay in Aidensfield. Greengrass thinks he has unearthed his fortune after he develops an interest in archaeology.</desc>
-    <credits>
-      <director>Gerry Poulson</director>
-      <director>Paul Walker</director>
-      <producer>Keith Richardson</producer>
-    </credits>
-    <date>1998</date>
-    <category lang="en">Crime Drama</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F1685560~~2FEP012587610003,imi:7843e1353692c8241a0060ecc44e4e56c12f61b3/posterTile?imageVersion=NXBlJA&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S8 E22</episode-num>
-  </programme>
-  <programme start="20260907200000 +0000" stop="20260907210500 +0000" channel="Virgin.Media.Three.HD.ie">
-    <title lang="en">Cold Feet</title>
-    <sub-title lang="en">Episode 7</sub-title>
-    <desc lang="en">Karen embarks upon a full-blooded affair with Mark. She's in love with him and hard as she might try, she can't put a stop to their burgeoning relationship.</desc>
-    <date>2001</date>
-    <category lang="en">Comedy</category>
-    <category lang="en">Romance</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F8612798~~2FEP012702090047,imi:7052d57a41331f2a1669e95fb1b59c0b0d08122c/posterTile?imageVersion=uIQYEQ&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S4 E7</episode-num>
-  </programme>
-  <programme start="20260907210500 +0000" stop="20260907213500 +0000" channel="Virgin.Media.Three.HD.ie">
-    <title lang="en">Coronation Street</title>
-    <sub-title lang="en">Episode 176</sub-title>
-    <desc lang="en">Kit regrets a night of passion, but a devastating diagnosis soon gives him more important matters to fret about, and Debbie pays tribute to Ronnie during her birthday celebrations.</desc>
-    <credits>
-      <director>Chantelle Kayll</director>
-      <producer>Kate Brooks</producer>
-    </credits>
-    <date>2026</date>
-    <category lang="en">Drama Series</category>
-    <category lang="en">Soap</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33825478~~2FEP012606069124,imi:77e687d05ff28c8c982b9b4a1f26252d16e2f69c/posterTile?imageVersion=QmPdWA&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">E176</episode-num>
-  </programme>
-  <programme start="20260907213500 +0000" stop="20260907221000 +0000" channel="Virgin.Media.Three.HD.ie">
-    <title lang="en">Emmerdale</title>
-    <sub-title lang="en">Episode 175</sub-title>
-    <desc lang="en">Sarah's world is shattered, Lewis is excited, and Caleb looks hot under the collar.</desc>
-    <credits>
-      <director>Brett Fallis</director>
-      <producer>Iain Macleod</producer>
-      <producer>Laura Shaw</producer>
-      <producer>Sophie Roper</producer>
-    </credits>
-    <date>2026</date>
-    <category lang="en">Drama Series</category>
-    <category lang="en">Soap</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33894676~~2FEP012568688389,imi:0732f6ad9314650a4c04a353693f61e7c89b3d8a/posterTile?imageVersion=s1PXbA&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">E175</episode-num>
-    <rating system="IE">
-      <value>1</value>
-    </rating>
-  </programme>
-  <programme start="20260907221000 +0000" stop="20260907231000 +0000" channel="Virgin.Media.Three.HD.ie">
-    <title lang="en">Rig 45</title>
-    <sub-title lang="en">Episode 1</sub-title>
-    <desc lang="en">After an accident that takes the life of a worker on an oil platform, a security researcher begins to suspect that the situation is more sinister than it seems.</desc>
-    <credits>
-      <director>Per Hanefjord</director>
-      <producer>William Diskay</producer>
-      <producer>Jonas Fors</producer>
-      <producer>Christian Sundkvist</producer>
-    </credits>
-    <date>2020</date>
-    <category lang="en">Thriller</category>
-    <category lang="en">Crime</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F17968995~~2FEP031668030007,imi:ea8a881662990b8bbeccc483333d75702794074b/posterTile?imageVersion=sRFFhA&amp;w=200" />
-    <country lang="en">SE</country>
-    <episode-num system="onscreen">S2 E1</episode-num>
-  </programme>
-  <programme start="20260907231000 +0000" stop="20260908002500 +0000" channel="Virgin.Media.Three.HD.ie">
-    <title lang="en">The Serpent</title>
-    <sub-title lang="en">Episode 2</sub-title>
-    <desc lang="en">Marie-Andrée Leclerc leaves her life behind for the love of Charles Sobhraj but discovers the chilling cost. Herman vows to investigate the murders of the Dutch couple.</desc>
-    <credits>
-      <director>Tom Shankland</director>
-      <producer>Stephen Smallwood</producer>
+      <director>Siri Rodnes</director>
+      <producer>Louise Say</producer>
     </credits>
     <date>2021</date>
-    <category lang="en">Mini-Series</category>
+    <category lang="en">Drama Series</category>
     <category lang="en">Crime Drama</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F19221735~~2FEP037082570002,imi:38f653cf5238aff2d95fdfe1791bbda8867e1dc7/posterTile?imageVersion=6XUAaw&amp;w=200" />
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F20985932~~2FEP017039190038,imi:e4daece4692ec330f4b26a42ab18271bf0a6399f/posterTile?imageVersion=Z_PVjQ&amp;w=200" />
     <country lang="en">GB</country>
-    <episode-num system="onscreen">S1 E2</episode-num>
+    <episode-num system="onscreen">S6 E6</episode-num>
+  </programme>
+  <programme start="20260911005600 +0000" stop="20260911051500 +0000" channel="Virgin.Media.One.HD.ie">
+    <title lang="en">Channel Off Air</title>
+    <desc lang="en">Bringing the best in television.</desc>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F480440~~2FSH034728720000~~2Foffair,imi:31fc23e8652d9d8c5e85f13d37c0b15b6cb3de68/posterTile?imageVersion=9Hacjw&amp;w=200" />
+    <country lang="en">US</country>
+  </programme>
+  <programme start="20260911051500 +0000" stop="20260911060000 +0000" channel="Virgin.Media.One.HD.ie">
+    <title lang="en">The Six O'Clock Show</title>
+    <sub-title lang="en">Episode 172</sub-title>
+    <desc lang="en">Featuring a lively mix of celebrity chat with national and international guests, fabulous food from the country's top chefs, expert advice and all the unmissable stories making headlines.</desc>
+    <date>2026</date>
+    <category lang="en">News</category>
+    <category lang="en">Talk Show</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33911326~~2FEP025644862681,imi:03d2b695ed098964c2444333f9b4e3cee1b76512/posterTile?imageVersion=d9Nncg&amp;w=200" />
+    <country lang="en">IE</country>
+    <episode-num system="onscreen">E172</episode-num>
+  </programme>
+  <programme start="20260911060000 +0000" stop="20260911090000 +0000" channel="Virgin.Media.One.HD.ie">
+    <title lang="en">Ireland AM</title>
+    <desc lang="en">Hosts explore various news topics of interests while guests open up for interviews that cover a multitude of subjects such as politics, food and human interest.</desc>
+    <credits>
+      <producer>Celine Mcgillycuddy</producer>
+      <producer>Sinead Ryan</producer>
+    </credits>
+    <category lang="en">News</category>
+    <category lang="en">Talk Show</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F9595077~~2FSH016477680000~~2F535197391,imi:ec50cc8986ebdae2b1d9ec532ce0b4bb55e30806/posterTile?imageVersion=dRVswQ&amp;w=200" />
+    <country lang="en">IE</country>
+  </programme>
+  <programme start="20260911090000 +0000" stop="20260911113000 +0000" channel="Virgin.Media.One.HD.ie">
+    <title lang="en">This Morning</title>
+    <sub-title lang="en">Episode 180</sub-title>
+    <desc lang="en">Featuring a generous morning dose of celebrity interviews, showbiz updates, lifestyle tips and everything else relevant to start the day in an upbeat manner.</desc>
+    <credits>
+      <producer>Emma Gormley</producer>
+    </credits>
+    <date>2026</date>
+    <category lang="en">News Magazine</category>
+    <category lang="en">Talk Show</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33911418~~2FEP012612624220,imi:07af1412c4cbf0a5f808e2146e2f7c82aef74a02/posterTile?imageVersion=SJ_XPw&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S38 E180</episode-num>
+  </programme>
+  <programme start="20260911113000 +0000" stop="20260911120000 +0000" channel="Virgin.Media.One.HD.ie">
+    <title lang="en">News at 12:30</title>
+    <desc lang="en">The latest national and international news stories from the Virgin Media News team, followed by sport and weather.</desc>
+    <category lang="en">News</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F10798283~~2FSH019270150000~~2F535197393,imi:2954cd3637cbfaaf739074b1b0cb959a1bc74419/posterTile?imageVersion=taxfBA&amp;w=200" />
+    <country lang="en">IE</country>
+  </programme>
+  <programme start="20260911120000 +0000" stop="20260911130000 +0000" channel="Virgin.Media.One.HD.ie">
+    <title lang="en">The Chase</title>
+    <sub-title lang="en">Episode 122</sub-title>
+    <desc lang="en">Bradley Walsh guides contestants AJ from Manchester, Scarlett from Newquay, Nigel from Stockton-on-Tees and Elaine from Wakefield through a battle of wits as they take on a Chaser in the hope that they'll go home with thousands of pounds.</desc>
+    <credits>
+      <producer>Martin Scott</producer>
+      <producer>Michael Kelpie</producer>
+      <producer>Helen Tumbridge</producer>
+    </credits>
+    <date>2023</date>
+    <category lang="en">Game Show</category>
+    <category lang="en">Entertainment</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F30936172~~2FEP012896312695,imi:825c90687c0b213b69523f7cb59075530e7d67c3/posterTile?imageVersion=SM0AlA&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S17 E122</episode-num>
+  </programme>
+  <programme start="20260911130000 +0000" stop="20260911140000 +0000" channel="Virgin.Media.One.HD.ie">
+    <title lang="en">The Chase</title>
+    <sub-title lang="en">Episode 123</sub-title>
+    <desc lang="en">Sam from Margate, Terry from Leeds, Ben from Shropshire and Kate from Edenbridge work together as a team as they face one of the country's finest quiz brains - watch as Bradley Walsh hosts and they try to take a Chaser down for thousands of pounds.</desc>
+    <credits>
+      <director>Mick Thomas</director>
+      <producer>Martin Scott</producer>
+      <producer>Michael Kelpie</producer>
+      <producer>Helen Tumbridge</producer>
+    </credits>
+    <date>2023</date>
+    <category lang="en">Game Show</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F32011237~~2FEP012896312755,imi:8dbf1eea48ad35d8387510f57908353480cd25d7/posterTile?imageVersion=NNQWbA&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S17 E123</episode-num>
+  </programme>
+  <programme start="20260911140000 +0000" stop="20260911143000 +0000" channel="Virgin.Media.One.HD.ie">
+    <title lang="en">Lorraine</title>
+    <sub-title lang="en">Episode 95</sub-title>
+    <desc lang="en">Lorraine Kelly presents a breakfast programme which includes a topical mix of entertainment, discussion, celebrity interviews, the latest fashion, and more.</desc>
+    <credits>
+      <producer>Sarah Gatenby</producer>
+      <producer>Ashley Jenkin</producer>
+    </credits>
+    <date>2026</date>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Interview</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33911534~~2FEP013234963918,imi:664363f0c881e1b39747e16cc12b9ded93d42c64/posterTile?imageVersion=Om9OFg&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S14 E95</episode-num>
+  </programme>
+  <programme start="20260911143000 +0000" stop="20260911153000 +0000" channel="Virgin.Media.One.HD.ie">
+    <title lang="en">Celebrity Catchphrase</title>
+    <sub-title lang="en">Alex Jones, Tyler West and Ricky Wilson</sub-title>
+    <desc lang="en">Stephen Mulhern hosts a celebrity special of the classic game show with Alex Jones, Tyler West and Ricky Wilson all trying to 'say what they see' as they guess well-known phrases for the chance to win a 50,000-pound jackpot.</desc>
+    <credits>
+      <director>Geraldine Dowd</director>
+      <producer>Sam Munday</producer>
+    </credits>
+    <date>2025</date>
+    <category lang="en">Game Show</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F25832124~~2FEP047438050086,imi:3cb290dcb717a5c01842a0cb2ec7b1d9fc51798e/posterTile?imageVersion=IbIzyA&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S10 E2</episode-num>
+  </programme>
+  <programme start="20260911153000 +0000" stop="20260911160000 +0000" channel="Virgin.Media.One.HD.ie">
+    <title lang="en">Judge Judy</title>
+    <sub-title lang="en">Never Say a Judge Made a Mistake!; Teen Counselor Demands Payback!</sub-title>
+    <desc lang="en">A father takes on the mother of his teenager for child support. A teen sues for his 'landlord refund'.</desc>
+    <date>2019</date>
+    <category lang="en">Reality</category>
+    <category lang="en">Law</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F18101788~~2FEP012603135033,imi:2091800aa542602eab46f33ecdcd63c3b359d0c8/posterTile?imageVersion=D81Szg&amp;w=200" />
+    <country lang="en">US</country>
+    <episode-num system="onscreen">S24 E179</episode-num>
+  </programme>
+  <programme start="20260911160000 +0000" stop="20260911163000 +0000" channel="Virgin.Media.One.HD.ie">
+    <title lang="en">Judge Judy</title>
+    <sub-title lang="en">Ex-Wives on the Prowl?!; How the Boxes in Men's Brains Work!; Don't Be an Idiot in Front of Your Child!</sub-title>
+    <desc lang="en">A woman claims she was harassed by her boyfriend's ex-wives. A woman is sued for allegedly kicking her boyfriend's car. The judge advises a father to return what he owes to his ex-girlfriend.</desc>
+    <credits>
+      <producer>Erica Goings</producer>
+      <producer>Jazmine Hooks</producer>
+      <producer>Melanie Manooki</producer>
+    </credits>
+    <date>2019</date>
+    <category lang="en">Reality</category>
+    <category lang="en">Law</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F18101789~~2FEP012603135032,imi:ca2ce880710a2e291cdf030350267eafa7f40952/posterTile?imageVersion=4wRJEg&amp;w=200" />
+    <country lang="en">US</country>
+    <episode-num system="onscreen">S24 E180</episode-num>
+  </programme>
+  <programme start="20260911163000 +0000" stop="20260911170500 +0000" channel="Virgin.Media.One.HD.ie">
+    <title lang="en">News at 5:30</title>
+    <desc lang="en">The latest national and international news stories from the Virgin Media news team. Followed by sport and weather.</desc>
+    <category lang="en">News</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F12084762~~2FSH022574180000~~2F535197400,imi:ba334083732ab2e53a9dcf3068a6dec7363a1e8a/posterTile?imageVersion=4DFaQA&amp;w=200" />
+    <country lang="en">IE</country>
+  </programme>
+  <programme start="20260911170500 +0000" stop="20260911180000 +0000" channel="Virgin.Media.One.HD.ie">
+    <title lang="en">The Six O'Clock Show</title>
+    <sub-title lang="en">Episode 173</sub-title>
+    <desc lang="en">Featuring a lively mix of celebrity chat with national and international guests, fabulous food from the country's top chefs, expert advice and all the unmissable stories making headlines.</desc>
+    <date>2026</date>
+    <category lang="en">News</category>
+    <category lang="en">Talk Show</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33911336~~2FEP025644862682,imi:fb605bc2bf56026290b7bacd5e521da849535adf/posterTile?imageVersion=d9Nncg&amp;w=200" />
+    <country lang="en">IE</country>
+    <episode-num system="onscreen">E173</episode-num>
+  </programme>
+  <programme start="20260911180000 +0000" stop="20260911183000 +0000" channel="Virgin.Media.One.HD.ie">
+    <title lang="en">News at 7</title>
+    <desc lang="en">The latest national and international news stories, followed by sport and weather.</desc>
+    <category lang="en">News</category>
+    <category lang="en">Community</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F13843841~~2FSH026268150000~~2F535197402,imi:3731daafdf720cdf91f4e6b4c88054009ad59cc1/posterTile?imageVersion=7XAXKg&amp;w=200" />
+    <country lang="en">GB</country>
+  </programme>
+  <programme start="20260911183000 +0000" stop="20260911190000 +0000" channel="Virgin.Media.One.HD.ie">
+    <title lang="en">Friends</title>
+    <sub-title lang="en">The One Where Joey Dates Rachel</sub-title>
+    <desc lang="en">To prepare Joey for his big date the following night, Rachel eagerly agrees to go out with him for a rare night on the town. However, when each is pleasantly surprised with their newfound compatibility, they begin to regard each other in a way that no one could have predicted.</desc>
+    <credits>
+      <director>David Schwimmer</director>
+      <producer>Kevin Bright</producer>
+      <producer>David Crane</producer>
+      <producer>Greg Malins</producer>
+    </credits>
+    <date>2001</date>
+    <category lang="en">Sitcoms</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F1712439~~2FEP012597240072,imi:27290579244ce78b15da5b75db251483c6d97408/posterTile?imageVersion=41GFkw&amp;w=200" />
+    <country lang="en">US</country>
+    <episode-num system="onscreen">S8 E12</episode-num>
+  </programme>
+  <programme start="20260911190000 +0000" stop="20260911193000 +0000" channel="Virgin.Media.One.HD.ie">
+    <title lang="en">Emmerdale</title>
+    <sub-title lang="en">Episode 178</sub-title>
+    <desc lang="en">Charity shocks Cain, Nicola continues to struggle, and Joe struggles with grief.</desc>
+    <credits>
+      <director>Pip Short</director>
+      <producer>Iain Macleod</producer>
+      <producer>Laura Shaw</producer>
+      <producer>Sophie Roper</producer>
+    </credits>
+    <date>2026</date>
+    <category lang="en">Drama Series</category>
+    <category lang="en">Soap</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33894663~~2FEP012568688387,imi:55a04cf560ede0d66c09dc54c931989400f7008a/posterTile?imageVersion=0ZzlAA&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">E178</episode-num>
+    <rating system="IE">
+      <value>1</value>
+    </rating>
+  </programme>
+  <programme start="20260911193000 +0000" stop="20260911200000 +0000" channel="Virgin.Media.One.HD.ie">
+    <title lang="en">Coronation Street</title>
+    <sub-title lang="en">Episode 179</sub-title>
+    <desc lang="en">Shona is taken aback by the arrival of her father Doug in search of reconciliation, Lucy's antics create stress for Sally, and Betsy panics upon experiencing familiar symptoms.</desc>
+    <credits>
+      <director>Reece Dinsdale</director>
+      <producer>Kate Brooks</producer>
+    </credits>
+    <date>2026</date>
+    <category lang="en">Drama Series</category>
+    <category lang="en">Soap</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33825481~~2FEP012606069127,imi:6f047d3b3c740d13b5eeebe3b11a8d4777543545/posterTile?imageVersion=i8jAmA&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">E179</episode-num>
+  </programme>
+  <programme start="20260911200000 +0000" stop="20260911211500 +0000" channel="Virgin.Media.One.HD.ie">
+    <title lang="en">Fifteen-Love</title>
+    <sub-title lang="en">Episode 6</sub-title>
+    <desc lang="en">Renee has qualified for the quarter-finals of The Championships, but wants to keep her friendship. Justine must come to terms with what Glenn did to her and make a final attempt to bring him to justice.</desc>
+    <credits>
+      <director>Eva Riley</director>
+      <director>Toby MacDonald</director>
+      <producer>Natasha Romaniuk</producer>
+    </credits>
+    <date>2023</date>
+    <category lang="en">Drama Series</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F25243739~~2FEP044149930006,imi:bd91226c3dc4268b01aa198200b8f7f5e7ad58e8/posterTile?imageVersion=k7IDGw&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S1 E6</episode-num>
+  </programme>
+  <programme start="20260911211500 +0000" stop="20260911221500 +0000" channel="Virgin.Media.One.HD.ie">
+    <title lang="en">Gogglebox Ireland</title>
+    <sub-title lang="en">Celebrity Special</sub-title>
+    <desc lang="en">Following recurring Irish telly fanatics made up of couples, families and friends watching, analysing, dissecting and commenting on beloved Irish shows, all from the comfort of their sitting rooms.</desc>
+    <credits>
+      <producer>Stephen Lambert</producer>
+      <producer>Darren Smith</producer>
+      <producer>Simon Proctor</producer>
+    </credits>
+    <date>2026</date>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Reality</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33956988~~2FEP025081650151,imi:6fa7787e2c6e96c74fa205e48487b0b553d2abd4/posterTile?imageVersion=7s5rYw&amp;w=200" />
+    <country lang="en">IE</country>
+    <episode-num system="onscreen">S12 E1</episode-num>
+  </programme>
+  <programme start="20260911221500 +0000" stop="20260911231500 +0000" channel="Virgin.Media.One.HD.ie">
+    <title lang="en">ER</title>
+    <sub-title lang="en">Welcome Back Carter</sub-title>
+    <desc lang="en">A gang shooting keeps the team busy, Dr Greene begins work as an attending physician, and a third-year medical student catches Carter's eye and Benton and Jeanie's romance escalates.</desc>
+    <credits>
+      <producer>Michael Crichton</producer>
+      <producer>John Wells</producer>
+    </credits>
+    <date>1995</date>
+    <category lang="en">Drama Series</category>
+    <category lang="en">Medical</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F1712539~~2FEP012698770332,imi:b15285a38a2ac60fd6583573df474518851f9c4b/posterTile?imageVersion=VjMhPw&amp;w=200" />
+    <country lang="en">US</country>
+    <episode-num system="onscreen">S2 E1</episode-num>
+  </programme>
+  <programme start="20260911231500 +0000" stop="20260912001500 +0000" channel="Virgin.Media.One.HD.ie">
+    <title lang="en">ER</title>
+    <sub-title lang="en">Summer Run</sub-title>
+    <desc lang="en">Lewis clashes with the new chief resident; Ross treats a child pyromaniac; Hathaway rides ambulance duty with a handsome paramedic.</desc>
+    <credits>
+      <producer>Michael Crichton</producer>
+      <producer>John Wells</producer>
+    </credits>
+    <date>1995</date>
+    <category lang="en">Drama Series</category>
+    <category lang="en">Medical</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F1712540~~2FEP012698770288,imi:ec5efb985cf0c92828abc76e19ecc5088e33ace0/posterTile?imageVersion=-SNPQw&amp;w=200" />
+    <country lang="en">US</country>
+    <episode-num system="onscreen">S2 E2</episode-num>
   </programme>
   <programme start="20260908002500 +0000" stop="20260908012200 +0000" channel="Virgin.Media.Three.HD.ie">
     <title lang="en">Cracker</title>
@@ -262943,7 +262558,7 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <date>2026</date>
     <category lang="en">Drama Series</category>
     <category lang="en">Soap</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33825478~~2FEP012606069124,imi:aa1e9309194ad102c353b5024cbb60a3c2b02cfb/posterTile?imageVersion=QmPdWA&amp;w=200" />
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33825478~~2FEP012606069124,imi:aa1e9309194ad102c353b5024cbb60a3c2b02cfb/posterTile?imageVersion=aHsxdw&amp;w=200" />
     <country lang="en">GB</country>
     <episode-num system="onscreen">E176</episode-num>
   </programme>
@@ -263719,356 +263334,342 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <country lang="en">GB</country>
     <episode-num system="onscreen">S1 E3</episode-num>
   </programme>
-  <programme start="20260907000000 +0000" stop="20260907005000 +0000" channel="Virgin.Media.Two.HD.ie">
-    <title lang="en">Billy Connolly: Journey to the Edge of the World</title>
-    <sub-title lang="en">Episode 4</sub-title>
-    <desc lang="en">In this final leg of his trip, Billy ventures across the Yukon and British Columbia, where he meets the hardy people who live in these remote areas. He also fulfils a life-changing ambition when he takes part in a traditional and challenging sweat lodge ritual.</desc>
+  <programme start="20260911001000 +0000" stop="20260911005000 +0000" channel="Virgin.Media.Three.HD.ie">
+    <title lang="en">Bump</title>
+    <sub-title lang="en">#oleema</sub-title>
+    <desc lang="en">Hangovers abound when a girl's night and a school night end, and everyone must find a way to cope.</desc>
     <credits>
-      <director>Chris Malone</director>
-      <director>John Moulson</director>
+      <director>Geoff Bennett</director>
+      <director>Gracie Otto</director>
+      <producer>Claudia Karvan</producer>
+      <producer>John Edwards</producer>
+      <producer>Dan Edwards</producer>
     </credits>
-    <date>2009</date>
-    <category lang="en">Travel</category>
-    <category lang="en">Documentary</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F7918742~~2FEP013694500008,imi:b681f16f17f9ae670d498290401bee2d8a16ec28/posterTile?imageVersion=tP6ZEA&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S1 E4</episode-num>
-  </programme>
-  <programme start="20260907005000 +0000" stop="20260907013500 +0000" channel="Virgin.Media.Two.HD.ie">
-    <title lang="en">Born to Kill?</title>
-    <sub-title lang="en">Paul Bernado &amp; Karla Homolka</sub-title>
-    <desc lang="en">A young couple from Canada were serial killers capable of severe cruelty. They targeted young women, including a relative of one of the perpetrators, in a series of crimes that would horrify the nation.</desc>
-    <credits>
-      <director>Neil Edwards</director>
-      <producer>Neil Edwards</producer>
-    </credits>
-    <date>2014</date>
-    <category lang="en">Documentary</category>
-    <category lang="en">Crime</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F11081368~~2FEP013048510070,imi:383443be4c27c0b812aebfddb3df19d2317f620c/posterTile?imageVersion=MPo8hA&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S6 E6</episode-num>
-  </programme>
-  <programme start="20260907013500 +0000" stop="20260907060500 +0000" channel="Virgin.Media.Two.HD.ie">
-    <title lang="en">Channel Off Air</title>
-    <desc lang="en">Bringing the best in television.</desc>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F480440~~2FSH034728720000~~2Foffair,imi:ef430b0cd0a6db2fbc5528c63f3c3993979be4bf/posterTile?imageVersion=9Hacjw&amp;w=200" />
-    <country lang="en">US</country>
-  </programme>
-  <programme start="20260907060500 +0000" stop="20260907070000 +0000" channel="Virgin.Media.Two.HD.ie">
-    <title lang="en">The Finish Line</title>
-    <sub-title lang="en">Episode 4</sub-title>
-    <desc lang="en">Roman Kemp, with sidekick Sarah Greene, hosts the quiz show where knowledge equals speed. Gareth, Rich, Mel, Becci and Jayne race in moving podiums across the studio floor to try and win £5,000.</desc>
-    <credits>
-      <producer>Adam Adler</producer>
-      <producer>Martin Scott</producer>
-      <producer>Chris Jones</producer>
-    </credits>
-    <date>2024</date>
-    <category lang="en">Game Show</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F27283065~~2FEP048355930029,imi:1c5c0e6079570ae26889a7b64a0084a9c376f50f/posterTile?imageVersion=Mt49XA&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S2 E4</episode-num>
-  </programme>
-  <programme start="20260907070000 +0000" stop="20260907080000 +0000" channel="Virgin.Media.Two.HD.ie">
-    <title lang="en">Tipping Point</title>
-    <sub-title lang="en">Episode 22</sub-title>
-    <desc lang="en">Contestants play a large coin-drop machine, provided they answer questions correctly. Answer incorrectly and the players could be eliminated. The last contestant standing has an opportunity to win the machine's £10,000 jackpot.</desc>
-    <credits>
-      <director>Richard van't Riet</director>
-      <producer>Hugh Rycroft</producer>
-      <producer>Kate Lownds</producer>
-      <producer>Sara Doyle</producer>
-    </credits>
-    <date>2021</date>
-    <category lang="en">Game Show</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F22094108~~2FEP015829261384,imi:60824dfa08e61701eb70cc70151607a90520e9d1/posterTile?imageVersion=iULLaw&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S12 E22</episode-num>
-  </programme>
-  <programme start="20260907080000 +0000" stop="20260907090000 +0000" channel="Virgin.Media.Two.HD.ie">
-    <title lang="en">The Chase</title>
-    <sub-title lang="en">Episode 55</sub-title>
-    <desc lang="en">Bradley Walsh hosts as Carol from Sutton Coldfield, Fuad from London, Victoria from Falkirk and Anthony from Stalybridge hope that they can take home thousands of pounds together.</desc>
-    <credits>
-      <producer>Martin Scott</producer>
-      <producer>Michael Kelpie</producer>
-      <producer>Helen Tumbridge</producer>
-    </credits>
-    <date>2023</date>
-    <category lang="en">Game Show</category>
-    <category lang="en">Entertainment</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F29521133~~2FEP012896312656,imi:54ab154bbbeec025ab0dd6f5e60d3521e879db94/posterTile?imageVersion=roUqQQ&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S17 E55</episode-num>
-  </programme>
-  <programme start="20260907090000 +0000" stop="20260907100000 +0000" channel="Virgin.Media.Two.HD.ie">
-    <title lang="en">The Chase</title>
-    <sub-title lang="en">Episode 56</sub-title>
-    <desc lang="en">Bradley Walsh hosts as all that stands between Colin from Bletchley, Lara from Kent, Dawn from Macclesfield, Cesare from Manchester and thousands of pounds is the not-so-small matter of one of the country's finest quiz brains.</desc>
-    <credits>
-      <director>Mick Thomas</director>
-      <producer>Martin Scott</producer>
-      <producer>Michael Kelpie</producer>
-      <producer>Helen Tumbridge</producer>
-    </credits>
-    <date>2023</date>
-    <category lang="en">Game Show</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F29680409~~2FEP012896312662,imi:cf0b7aa2945b8a9d7336979fc7745fb43c3d1009/posterTile?imageVersion=eB2i4Q&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S17 E56</episode-num>
-  </programme>
-  <programme start="20260907100000 +0000" stop="20260907110000 +0000" channel="Virgin.Media.Two.HD.ie">
-    <title lang="en">Riddiculous</title>
-    <sub-title lang="en">Episode 16</sub-title>
-    <desc lang="en">Ranvir Singh hosts the quiz where contestants take on the Riddlemaster in a bid to solve his riddles - how will Catherine and Niall, Adam and Daryl, and Sally and Madison cope?</desc>
-    <credits>
-      <director>Toby Baker</director>
-    </credits>
-    <date>2022</date>
-    <category lang="en">Game Show</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F23325824~~2FEP044976310016,imi:245361e4ae14935b7d3b829f4e8e649d6df7e282/posterTile?imageVersion=2axyNQ&amp;w=200" />
-    <country lang="en">GB</country>
-    <episode-num system="onscreen">S1 E16</episode-num>
-  </programme>
-  <programme start="20260907110000 +0000" stop="20260907120000 +0000" channel="Virgin.Media.Two.HD.ie">
-    <title lang="en">Moneyball</title>
-    <sub-title lang="en">Episode 5</sub-title>
-    <desc lang="en">Eaton, Charlotte and Liz all step up to take on The Launcher. Tensions run high and with only millimetres between win and lose, where the ball lands is everything.</desc>
-    <credits>
-      <producer>Barry Hart</producer>
-      <producer>Martin Scott</producer>
-      <producer>Michael Kelpie</producer>
-    </credits>
-    <date>2021</date>
-    <category lang="en">Game Show</category>
-    <category lang="en">Entertainment</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F21005291~~2FEP040684560005,imi:410f266f4c9ab5dd7a4aa528d8cc92956f0269c6/posterTile?imageVersion=EX7iLw&amp;w=200" />
-    <country lang="en">GB</country>
+    <date>2020</date>
+    <category lang="en">Drama Series</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F19303859~~2FEP038624800010,imi:bb08aa19a5fe98ebca9cd50ae975b40d78529318/posterTile?imageVersion=o4hqWQ&amp;w=200" />
+    <country lang="en">AU</country>
     <episode-num system="onscreen">S1 E5</episode-num>
   </programme>
-  <programme start="20260907120000 +0000" stop="20260907123000 +0000" channel="Virgin.Media.Two.HD.ie">
-    <title lang="en">Friends</title>
-    <sub-title lang="en">The One Where Chandler Crosses the Line</sub-title>
-    <desc lang="en">Chandler finally confesses to his feelings for Kathy just after she splits up with Joey, Ross rediscovers his hopeless musical skills on the keyboard which Phoebe alone appreciates, and Chandler buys new furniture for the apartment since the robbery left them with just the canoe, chick and duck.</desc>
+  <programme start="20260911005000 +0000" stop="20260911012000 +0000" channel="Virgin.Media.Three.HD.ie">
+    <title lang="en">Bump</title>
+    <sub-title lang="en">Limerence</sub-title>
+    <desc lang="en">Santi and Oly grow closer as the adults continue to cause their own kind of chaos in their relationships.</desc>
     <credits>
-      <producer>Kevin Bright</producer>
-      <producer>Marta Kauffman</producer>
-      <producer>David Crane</producer>
+      <director>Geoff Bennett</director>
+      <director>Gracie Otto</director>
+      <producer>Claudia Karvan</producer>
+      <producer>John Edwards</producer>
+      <producer>Dan Edwards</producer>
     </credits>
-    <date>1997</date>
-    <category lang="en">Sitcoms</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F1712332~~2FEP012597240002,imi:5543b8e71aa881ef0e3b6abb4117172764a34c46/posterTile?imageVersion=OB8Gag&amp;w=200" />
-    <country lang="en">US</country>
-    <episode-num system="onscreen">S4 E7</episode-num>
+    <date>2020</date>
+    <category lang="en">Drama Series</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F19303860~~2FEP038624800005,imi:4f3b7880543f8124fc4d64dca11ee1a8b44a1c3e/posterTile?imageVersion=kBa2OA&amp;w=200" />
+    <country lang="en">AU</country>
+    <episode-num system="onscreen">S1 E6</episode-num>
   </programme>
-  <programme start="20260907123000 +0000" stop="20260907130000 +0000" channel="Virgin.Media.Two.HD.ie">
-    <title lang="en">Friends</title>
-    <sub-title lang="en">The One With Chandler in a Box</sub-title>
-    <desc lang="en">The friends have a Thanksgiving meal together. Monica is reminded of Richard when she tries to kiss his son. Joey frees Chandler from the box that he's being kept in to stop Kathy leaving him.</desc>
+  <programme start="20260911012000 +0000" stop="20260911014400 +0000" channel="Virgin.Media.Three.HD.ie">
+    <title lang="en">Spreadsheet</title>
+    <sub-title lang="en">Rockstars and Clutterjunk</sub-title>
+    <desc lang="en">Lauren has a messy work-night out and is forced to face the reality of just exactly what a split household means - her cumulative hangover really peaks when Alex gives her some shocking news.</desc>
     <credits>
-      <director>Peter Bonerz</director>
-      <producer>Kevin Bright</producer>
-      <producer>Marta Kauffman</producer>
-      <producer>David Crane</producer>
+      <director>Darren Ashton</director>
+      <director>Sian Davies</director>
     </credits>
-    <date>1997</date>
-    <category lang="en">Sitcoms</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F1712333~~2FEP012597240087,imi:41ac87003f3d834fa14ead8eb1c102b6b0dd084a/posterTile?imageVersion=f6xePQ&amp;w=200" />
-    <country lang="en">US</country>
-    <episode-num system="onscreen">S4 E8</episode-num>
-    <rating system="IE">
-      <value>8</value>
-    </rating>
+    <date>2021</date>
+    <category lang="en">Comedy</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F21619555~~2FEP042167020002,imi:70e1b910f45be9febe32d29207247b5cd826b357/posterTile?imageVersion=zvQs4A&amp;w=200" />
+    <country lang="en">AU</country>
+    <episode-num system="onscreen">S1 E7</episode-num>
   </programme>
-  <programme start="20260907130000 +0000" stop="20260907140000 +0000" channel="Virgin.Media.Two.HD.ie">
+  <programme start="20260911014400 +0000" stop="20260911061000 +0000" channel="Virgin.Media.Three.HD.ie">
+    <title lang="en">Channel Off Air</title>
+    <desc lang="en">Bringing the best in television.</desc>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F480440~~2FSH034728720000~~2Foffair,imi:dc75b73de363d763c6856b2684cad8de2eb84869/posterTile?imageVersion=9Hacjw&amp;w=200" />
+    <country lang="en">US</country>
+  </programme>
+  <programme start="20260911061000 +0000" stop="20260911070500 +0000" channel="Virgin.Media.Three.HD.ie">
+    <title lang="en">Heartbeat</title>
+    <sub-title lang="en">Snapped</sub-title>
+    <desc lang="en">After being fired, a local man gets drunk and threatens Nick and a taxi driver. Meanwhile, Aidensfield is chosen as the location for a fashion photo shoot.</desc>
+    <credits>
+      <director>Gerry Mill</director>
+      <director>Paul Walker</director>
+      <producer>Keith Richardson</producer>
+    </credits>
+    <date>1996</date>
+    <category lang="en">Crime Drama</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F1685499~~2FEP012587610325,imi:07cb3b3c50f33cde814cab044924349a91d9c049/posterTile?imageVersion=d-GO4g&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S6 E7</episode-num>
+  </programme>
+  <programme start="20260911070500 +0000" stop="20260911090000 +0000" channel="Virgin.Media.Three.HD.ie">
+    <title lang="en">Endeavour</title>
+    <sub-title lang="en">Rocket</sub-title>
+    <desc lang="en">When Princess Margaret unveils the British Imperial Electric Company's new missile, Endeavour is excluded from the event but when a worker is found murdered in a secluded area of the shop floor, he finds himself embroiled in the affairs of the factory and its owners, the Broom family and one of the dead man's colleagues becomes the prime suspect.</desc>
+    <credits>
+      <director>Craig Viveiros</director>
+      <producer>Dan McCulloch</producer>
+    </credits>
+    <date>2013</date>
+    <category lang="en">Drama Series</category>
+    <category lang="en">Crime Drama</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F9927588~~2FEP017214850003,imi:2821920638e5884561610ab76296cb29e1a59388/posterTile?imageVersion=BcnhWg&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S1 E3</episode-num>
+  </programme>
+  <programme start="20260911090000 +0000" stop="20260911100000 +0000" channel="Virgin.Media.Three.HD.ie">
     <title lang="en">Posh Pawn</title>
     <sub-title lang="en">Episode 2</sub-title>
-    <desc lang="en">A retired couple decide it's time to part with their colossal back garden railway. Meanwhile, a mother and son hope to secure a loan against a 71-carat tanzanite ring that they bought from a home shopping channel.</desc>
+    <desc lang="en">A mother from Newcastle wants to pawn her diamond jewellery to pay for her children's private school fees. Plus, a music producer looks to sell a crystallised drum kit used on a Kylie Minogue tour.</desc>
     <credits>
       <director>Paul Nelson</director>
       <producer>Tess Cuming</producer>
     </credits>
-    <date>2015</date>
+    <date>2014</date>
     <category lang="en">Documentary</category>
     <category lang="en">Reality</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F12063940~~2FEP019022550018,imi:9cb7238b98b8687f2206469112dfd783ade7c936/posterTile?imageVersion=B2kMxA&amp;w=200" />
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F11047111~~2FEP019022550008,imi:6ac10721f2e23394377071aedbb5a1cea109f772/posterTile?imageVersion=UZXgxw&amp;w=200" />
     <country lang="en">GB</country>
-    <episode-num system="onscreen">S4 E2</episode-num>
+    <episode-num system="onscreen">S2 E2</episode-num>
   </programme>
-  <programme start="20260907140000 +0000" stop="20260907150000 +0000" channel="Virgin.Media.Two.HD.ie">
-    <title lang="en">The Finish Line</title>
-    <sub-title lang="en">Episode 20</sub-title>
-    <desc lang="en">Roman Kemp and sidekick Sarah Greene host the quiz show where contestants race on moving podiums across the studio floor. Correct answers get the players moving, while wrong answers will stop them in their tracks.</desc>
+  <programme start="20260911100000 +0000" stop="20260911110500 +0000" channel="Virgin.Media.Three.HD.ie">
+    <title lang="en">River Monsters</title>
+    <sub-title lang="en">Alaska's Cold Water Killer</sub-title>
+    <desc lang="en">For years fishermen have been vanishing in Alaska's remote wilderness. For Jeremy Wade, a recent incident sends him on a search for possible suspects.</desc>
     <credits>
-      <producer>Adam Adler</producer>
-      <producer>Chris Jones</producer>
-      <producer>Martin Scott</producer>
+      <producer>Lisa Bosak Lucas</producer>
+      <producer>Harry Marshall</producer>
     </credits>
-    <date>2024</date>
-    <category lang="en">Game Show</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F27422261~~2FEP048355930045,imi:9550203795e432e42157b0c5ff5a5be70b675b74/posterTile?imageVersion=Mt49XA&amp;w=200" />
+    <date>2015</date>
+    <category lang="en">Reality</category>
+    <category lang="en">Documentary</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F11626942~~2FEP012944030073,imi:b9bd843dd2c756aeb305f78051862c992815cecd/posterTile?imageVersion=4Eoa9Q&amp;w=200" />
     <country lang="en">GB</country>
-    <episode-num system="onscreen">S2 E20</episode-num>
+    <episode-num system="onscreen">S7 E4</episode-num>
   </programme>
-  <programme start="20260907150000 +0000" stop="20260907160000 +0000" channel="Virgin.Media.Two.HD.ie">
-    <title lang="en">Tipping Point</title>
-    <sub-title lang="en">Episode 23</sub-title>
-    <desc lang="en">Contestants play a large coin-drop machine, provided they answer questions correctly. Answer incorrectly and the players could be eliminated. The last contestant standing has an opportunity to win the machine's £10,000 jackpot.</desc>
+  <programme start="20260911110500 +0000" stop="20260911114000 +0000" channel="Virgin.Media.Three.HD.ie">
+    <title lang="en">Don't Look Back in Anger</title>
+    <sub-title lang="en">2018</sub-title>
+    <desc lang="en">The year 2018 is re-imagined, reconstructed and revisited through archive footage of the biggest news stories of the year with the popular music from that year accompanying it.</desc>
+    <date>2018</date>
+    <category lang="en">Documentary</category>
+    <category lang="en">History</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F17702506~~2FEP030507810021,imi:0d513403e6c2641fc5c3c9184cb911bd350e81c7/posterTile?imageVersion=DtTKmA&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S1 E21</episode-num>
+  </programme>
+  <programme start="20260911114000 +0000" stop="20260911124500 +0000" channel="Virgin.Media.Three.HD.ie">
+    <title lang="en">Heartbeat</title>
+    <sub-title lang="en">Manoeuvres in the Dark</sub-title>
+    <desc lang="en">Gina helps an old flame who has deserted the army. David ends up with more than just egg on his face when Greengrass arranges a gourmet dinner at the pub.</desc>
     <credits>
-      <director>Richard van't Riet</director>
-      <producer>Hugh Rycroft</producer>
-      <producer>Kate Lownds</producer>
-      <producer>Sara Doyle</producer>
+      <director>Gerry Mill</director>
+      <director>Paul Walker</director>
+      <producer>Keith Richardson</producer>
     </credits>
-    <date>2021</date>
-    <category lang="en">Game Show</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F22094109~~2FEP015829261385,imi:1eb82d298126461f9a0bebc7000b97b515a12f3b/posterTile?imageVersion=IBfe8w&amp;w=200" />
+    <date>1999</date>
+    <category lang="en">Crime Drama</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F1685561~~2FEP012587610106,imi:d7ce27c91c3506de0453ffd5f02cd932c1cbaa09/posterTile?imageVersion=9RpC7w&amp;w=200" />
     <country lang="en">GB</country>
-    <episode-num system="onscreen">S12 E23</episode-num>
+    <episode-num system="onscreen">S9 E1</episode-num>
   </programme>
-  <programme start="20260907160000 +0000" stop="20260907170000 +0000" channel="Virgin.Media.Two.HD.ie">
-    <title lang="en">Tipping Point</title>
-    <sub-title lang="en">Episode 99</sub-title>
-    <desc lang="en">Contestants play a large coin-drop machine, provided they answer questions correctly. Answer incorrectly and the players could be eliminated. The last contestant standing has an opportunity to win the machine's £10,000 jackpot.</desc>
+  <programme start="20260911124500 +0000" stop="20260911134500 +0000" channel="Virgin.Media.Three.HD.ie">
+    <title lang="en">The Hotel Inspector</title>
+    <sub-title lang="en">Westward Ho! Hotel, Folkestone</sub-title>
+    <desc lang="en">Jon was left a 13-bed hotel with stunning views by his late mother, but occupancy is flagging, and he has fallen out with the young couple who live in and manage the property. Alex must mediate a massive fall-out to try to get everyone back onboard.</desc>
     <credits>
-      <director>Richard van't Riet</director>
-      <producer>Hugh Rycroft</producer>
-      <producer>Kate Lownds</producer>
-      <producer>Sara Doyle</producer>
+      <director>Tom Weston</director>
+      <producer>Stuart Derrick</producer>
+      <producer>Dan Adamson</producer>
+      <producer>Tom Weston</producer>
     </credits>
-    <date>2021</date>
-    <category lang="en">Game Show</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F23039006~~2FEP015829261425,imi:ce112346c5da49b302c3e9386737ec2de47af0f6/posterTile?imageVersion=tclQpQ&amp;w=200" />
+    <date>2018</date>
+    <category lang="en">Travel</category>
+    <category lang="en">Home Improvement</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F15633320~~2FEP013069470132,imi:032a32711e9b5c12f88d336b0dbf37c17f63a416/posterTile?imageVersion=4NMz-w&amp;w=200" />
     <country lang="en">GB</country>
-    <episode-num system="onscreen">S12 E99</episode-num>
+    <episode-num system="onscreen">S14 E4</episode-num>
   </programme>
-  <programme start="20260907170000 +0000" stop="20260907180000 +0000" channel="Virgin.Media.Two.HD.ie">
-    <title lang="en">The Chase</title>
-    <sub-title lang="en">Episode 16</sub-title>
-    <desc lang="en">Kieron from Newcastle, Angie from Stevenage, Lynn from Birmingham and Tom from Leeds work together in the hope that as a team they can take on The Chaser and leave with thousands of pounds.</desc>
+  <programme start="20260911134500 +0000" stop="20260911144000 +0000" channel="Virgin.Media.Three.HD.ie">
+    <title lang="en">The Hotel Inspector</title>
+    <sub-title lang="en">Warwick Hall</sub-title>
+    <desc lang="en">Life at this 11-bed country house may be idyllic, but the business is not. Retirees Val and Nick need to rebrand and rejuvenate, but Alex has a job convincing them of it before the reviewers arrive.</desc>
     <credits>
-      <producer>Martin Scott</producer>
-      <producer>Michael Kelpie</producer>
-      <producer>Helen Tumbridge</producer>
+      <director>Tom Weston</director>
+      <producer>Tom Weston</producer>
+      <producer>Sharon Ryan</producer>
+      <producer>Dan Adamson</producer>
     </credits>
-    <date>2022</date>
-    <category lang="en">Game Show</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F21939563~~2FEP012896312197,imi:30986df951e23c83f65adac15cb34aefd6f95719/posterTile?imageVersion=cBD4Xw&amp;w=200" />
+    <date>2018</date>
+    <category lang="en">Travel</category>
+    <category lang="en">Home Improvement</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F15668696~~2FEP013069470133,imi:6ca621ba856991252578768a29c8d924403e72b0/posterTile?imageVersion=Xvfrfw&amp;w=200" />
     <country lang="en">GB</country>
-    <episode-num system="onscreen">S15 E16</episode-num>
+    <episode-num system="onscreen">S14 E5</episode-num>
   </programme>
-  <programme start="20260907180000 +0000" stop="20260907190000 +0000" channel="Virgin.Media.Two.HD.ie">
-    <title lang="en">The Chase</title>
-    <sub-title lang="en">Episode 17</sub-title>
-    <desc lang="en">Tracey from Middlesex, Geoff from Southport, Duran from Sunderland and Nick from Belfast take on the challenge of The Chase. Hosted by Bradley Walsh.</desc>
+  <programme start="20260911144000 +0000" stop="20260911151000 +0000" channel="Virgin.Media.Three.HD.ie">
+    <title lang="en">Emmerdale</title>
+    <sub-title lang="en">Episode 177</sub-title>
+    <desc lang="en">Charity assigns Mack a specific task, Nicola's search uncovers deeper financial ruin, and Joe makes a decision about his son's future.</desc>
     <credits>
-      <producer>Martin Scott</producer>
-      <producer>Michael Kelpie</producer>
-      <producer>Helen Tumbridge</producer>
+      <director>Brett Fallis</director>
+      <producer>Iain Macleod</producer>
+      <producer>Laura Shaw</producer>
+      <producer>Sophie Roper</producer>
     </credits>
-    <date>2022</date>
-    <category lang="en">Game Show</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F22007974~~2FEP012896312207,imi:a724d6c90a67d9ea1974673c9af2edee18e557f7/posterTile?imageVersion=4g69xg&amp;w=200" />
+    <date>2026</date>
+    <category lang="en">Drama Series</category>
+    <category lang="en">Soap</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33894811~~2FEP012568688390,imi:1794e01ae2ada903cc7a27a0d29c9d6228b3344f/posterTile?imageVersion=kD7i1g&amp;w=200" />
     <country lang="en">GB</country>
-    <episode-num system="onscreen">S15 E17</episode-num>
+    <episode-num system="onscreen">E177</episode-num>
+    <rating system="IE">
+      <value>1</value>
+    </rating>
   </programme>
-  <programme start="20260907190000 +0000" stop="20260907200000 +0000" channel="Virgin.Media.Two.HD.ie">
-    <title lang="en">Double the Money</title>
+  <programme start="20260911151000 +0000" stop="20260911154000 +0000" channel="Virgin.Media.Three.HD.ie">
+    <title lang="en">Coronation Street</title>
+    <sub-title lang="en">Episode 178</sub-title>
+    <desc lang="en">Bethany questions Jodie's motive for visiting Sarah, Lucy explains her change of heart, Todd urges Kit to share his worries with his family, and Carla helps Betsy with her application.</desc>
+    <credits>
+      <director>Chantelle Kayll</director>
+      <producer>Kate Brooks</producer>
+    </credits>
+    <date>2026</date>
+    <category lang="en">Drama Series</category>
+    <category lang="en">Soap</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33825480~~2FEP012606069126,imi:623ad02bcb334829d8bac1888ec2830846173ff5/posterTile?imageVersion=8jPptA&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">E178</episode-num>
+  </programme>
+  <programme start="20260911154000 +0000" stop="20260911164500 +0000" channel="Virgin.Media.Three.HD.ie">
+    <title lang="en">Wycliffe</title>
+    <sub-title lang="en">Lone Voyager</sub-title>
+    <desc lang="en">When Wycliffe begins his investigation into the disappearance of a lone yachtswoman, he discovers that the missing boat has been scuttled on the seabed.</desc>
+    <credits>
+      <director>Michael Brayshaw</director>
+      <producer>Stephen Matthews</producer>
+    </credits>
+    <date>1997</date>
+    <category lang="en">Crime Drama</category>
+    <category lang="en">Mystery</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F1772265~~2FEP012695360012,imi:96d24b785b2481e9022e50be82428ab5bc521042/posterTile?imageVersion=dTgP3g&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S4 E4</episode-num>
+  </programme>
+  <programme start="20260911164500 +0000" stop="20260911185500 +0000" channel="Virgin.Media.Three.HD.ie">
+    <title lang="en">Agatha Christie's Poirot</title>
+    <sub-title lang="en">Hickory Dickory Dock</sub-title>
+    <desc lang="en">A spate of petty thefts is followed by a series of brutal murders at a student hostel in London. Even Poirot has trouble comprehending the significance of the evidence.</desc>
+    <credits>
+      <director>Andrew Grieve</director>
+      <producer>Brian Eastman</producer>
+      <producer>Sarah Wilson</producer>
+    </credits>
+    <date>1995</date>
+    <category lang="en">Mystery</category>
+    <category lang="en">Crime Drama</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F8271696~~2FEP012588780010,imi:47c7af78e2853c0d799b7d472258f047602d98d3/posterTile?imageVersion=w52YQA&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S6 E2</episode-num>
+  </programme>
+  <programme start="20260911185500 +0000" stop="20260911200000 +0000" channel="Virgin.Media.Three.HD.ie">
+    <title lang="en">Heartbeat</title>
+    <sub-title lang="en">Tricks of the Trade</sub-title>
+    <desc lang="en">A flu epidemic causes havoc in Aidensfield and Maggie is forced to make some tough decisions when baby Sam is put at risk. Greengrass plays a dangerous game when he poses as a fence.</desc>
+    <credits>
+      <director>Gerry Poulson</director>
+      <director>Paul Walker</director>
+      <producer>Keith Richardson</producer>
+    </credits>
+    <date>1999</date>
+    <category lang="en">Crime Drama</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F1685562~~2FEP012587610109,imi:56676cd8b33428cc8f61a4a6ee27215c0906af2b/posterTile?imageVersion=rsP-7Q&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S9 E2</episode-num>
+  </programme>
+  <programme start="20260911200000 +0000" stop="20260911210000 +0000" channel="Virgin.Media.Three.HD.ie">
+    <title lang="en">Tutankhamun</title>
     <sub-title lang="en">Episode 1</sub-title>
-    <desc lang="en">Sue Perkins hosts as pairs compete to double their money using their entrepreneurial skills to win £20k. From booty workouts to cocktail classes, the teams try to double their £250.</desc>
+    <desc lang="en">In 1905, Howard Carter finds evidence of the undiscovered tomb of Tutankhamun, but his dreams of making the find of the century are put in jeopardy by global events.</desc>
     <credits>
-      <producer>Caroline Davies</producer>
-      <producer>Rosie Franks</producer>
-      <producer>Melanie Leach</producer>
+      <director>Peter Webber</director>
+      <producer>Simon Lewis</producer>
     </credits>
-    <date>2024</date>
-    <category lang="en">Competition reality</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F27273594~~2FEP051137730001,imi:e9b1e3dd1e4f8990191277b474bdd16ab3180235/posterTile?imageVersion=_-IdMA&amp;w=200" />
+    <date>2016</date>
+    <category lang="en">Mini-Series</category>
+    <category lang="en">Historical Drama</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F13368168~~2FEP025290860001,imi:5e653c164f02f812fb936051fd8562c9d104145f/posterTile?imageVersion=r_rPvg&amp;w=200" />
     <country lang="en">GB</country>
     <episode-num system="onscreen">S1 E1</episode-num>
   </programme>
-  <programme start="20260907200000 +0000" stop="20260907210000 +0000" channel="Virgin.Media.Two.HD.ie">
-    <title lang="en">Trauma Room One</title>
-    <sub-title lang="en">Episode 6</sub-title>
-    <desc lang="en">Fifty-year-old Theresa has been rushed in to A&amp;E after sudden, severe neck pain and weakness in her arms and legs. Surgeons fear that without urgent surgery, she could be paralysed.</desc>
-    <date>2023</date>
-    <category lang="en">Documentary</category>
-    <category lang="en">Medical</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F26082826~~2FEP048997440006,imi:c5bbfac06c2b4c9ea9b479a2244862c5000450d7/posterTile?imageVersion=dynr0Q&amp;w=200" />
+  <programme start="20260911210000 +0000" stop="20260911213000 +0000" channel="Virgin.Media.Three.HD.ie">
+    <title lang="en">Coronation Street</title>
+    <sub-title lang="en">Episode 179</sub-title>
+    <desc lang="en">Shona is taken aback by the arrival of her father Doug in search of reconciliation, Lucy's antics create stress for Sally, and Betsy panics upon experiencing familiar symptoms.</desc>
+    <credits>
+      <director>Reece Dinsdale</director>
+      <producer>Kate Brooks</producer>
+    </credits>
+    <date>2026</date>
+    <category lang="en">Drama Series</category>
+    <category lang="en">Soap</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33825481~~2FEP012606069127,imi:0e6aef44a587b27b16ec7e9f2c60842381faa94b/posterTile?imageVersion=i8jAmA&amp;w=200" />
     <country lang="en">GB</country>
+    <episode-num system="onscreen">E179</episode-num>
+  </programme>
+  <programme start="20260911213000 +0000" stop="20260911220000 +0000" channel="Virgin.Media.Three.HD.ie">
+    <title lang="en">Emmerdale</title>
+    <sub-title lang="en">Episode 178</sub-title>
+    <desc lang="en">Charity shocks Cain, Nicola continues to struggle, and Joe struggles with grief.</desc>
+    <credits>
+      <director>Pip Short</director>
+      <producer>Iain Macleod</producer>
+      <producer>Laura Shaw</producer>
+      <producer>Sophie Roper</producer>
+    </credits>
+    <date>2026</date>
+    <category lang="en">Drama Series</category>
+    <category lang="en">Soap</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33894663~~2FEP012568688387,imi:bf5f8055df1b0f097ff124f7f9095dbb15ac98f9/posterTile?imageVersion=0ZzlAA&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">E178</episode-num>
+    <rating system="IE">
+      <value>1</value>
+    </rating>
+  </programme>
+  <programme start="20260911220000 +0000" stop="20260911230500 +0000" channel="Virgin.Media.Three.HD.ie">
+    <title lang="en">After the Party</title>
+    <sub-title lang="en">Episode 6</sub-title>
+    <desc lang="en">Penny tries to apologise to Grace and Phil but learns they're moving to Scotland. When Ollie goes missing, she asks Tom to look for him but doesn't realise what this means for him. And Penny finally sees what was under her nose the whole time.</desc>
+    <credits>
+      <director>Peter Salmon</director>
+      <producer>Helen Bowden</producer>
+      <producer>Liz DiFiore</producer>
+    </credits>
+    <date>2023</date>
+    <category lang="en">Drama Series</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F27288242~~2FEP052150550006,imi:bc8ec04f4e1ce222e4f32401bb20158ab3db7730/posterTile?imageVersion=Xhkg4g&amp;w=200" />
+    <country lang="en">NZ</country>
     <episode-num system="onscreen">S1 E6</episode-num>
   </programme>
-  <programme start="20260907210000 +0000" stop="20260907213000 +0000" channel="Virgin.Media.Two.HD.ie">
-    <title lang="en">Friends</title>
-    <sub-title lang="en">The One Where They're Going to Party!</sub-title>
-    <desc lang="en">Monica upsets Phoebe by stopping the catering business before it has started after she gets the head chef job at a restaurant where the staff all hate her. Rachel's boss is killed in a car accident before she can make Rachel a junior buyer.</desc>
+  <programme start="20260911230500 +0000" stop="20260912001500 +0000" channel="Virgin.Media.Three.HD.ie">
+    <title lang="en">The Serpent</title>
+    <sub-title lang="en">Episode 5</sub-title>
+    <desc lang="en">Herman and Charles engage in an exhausting battle of wits as Herman continues to pile pressure on the Thai police to prosecute the suspects, while Charles perfects his escape plan.</desc>
     <credits>
-      <producer>Kevin Bright</producer>
-      <producer>Marta Kauffman</producer>
-      <producer>David Crane</producer>
+      <director>Tom Shankland</director>
+      <producer>Stephen Smallwood</producer>
     </credits>
-    <date>1997</date>
-    <category lang="en">Sitcoms</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F1712334~~2FEP012597240088,imi:0b36abdd5bab45210713a831e36a4cf6ce46a473/posterTile?imageVersion=cWj9WA&amp;w=200" />
-    <country lang="en">US</country>
-    <episode-num system="onscreen">S4 E9</episode-num>
-  </programme>
-  <programme start="20260907213000 +0000" stop="20260907220000 +0000" channel="Virgin.Media.Two.HD.ie">
-    <title lang="en">Friends</title>
-    <sub-title lang="en">The One With the Girl From Poughkeepsie</sub-title>
-    <desc lang="en">Ross struggles to maintain a long-distance relationship, Chandler's well-intended attempts to get Rachel a date seem to miss the mark, and Monica's plan to assert some authority at her new restaurant goes away.</desc>
-    <credits>
-      <producer>Kevin Bright</producer>
-      <producer>Marta Kauffman</producer>
-      <producer>David Crane</producer>
-    </credits>
-    <date>1997</date>
-    <category lang="en">Sitcoms</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F1712335~~2FEP012597240089,imi:6d155ff510651c2dab29a28f30d7fb44e04be115/posterTile?imageVersion=LKc4Dw&amp;w=200" />
-    <country lang="en">US</country>
-    <episode-num system="onscreen">S4 E10</episode-num>
-  </programme>
-  <programme start="20260907220000 +0000" stop="20260907230000 +0000" channel="Virgin.Media.Two.HD.ie">
-    <title lang="en">Olivia Attwood's Bad Boyfriends</title>
-    <sub-title lang="en">Episode 4</sub-title>
-    <desc lang="en">A test by Olivia sees how compatible the couples really are. Carly's savage honesty upsets Tom J. The biggest argument yet occurs when Tom T and Viktor clash.</desc>
-    <credits>
-      <director>Roman Green</director>
-      <producer>Colin Whitaker</producer>
-      <producer>Laura Clarke Jeavons</producer>
-    </credits>
-    <date>2024</date>
-    <category lang="en">Reality</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F28123863~~2FEP052626520004,imi:f5958ae584cb223378fc6eb9b0659a04b442da49/posterTile?imageVersion=E8luug&amp;w=200" />
+    <date>2021</date>
+    <category lang="en">Mini-Series</category>
+    <category lang="en">Crime Drama</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F19285969~~2FEP037082570005,imi:0d275aa5e9211a49f17fd085d9980bbae597ad8f/posterTile?imageVersion=tfIOpw&amp;w=200" />
     <country lang="en">GB</country>
-    <episode-num system="onscreen">S1 E4</episode-num>
-  </programme>
-  <programme start="20260907230000 +0000" stop="20260907235500 +0000" channel="Virgin.Media.Two.HD.ie">
-    <title lang="en">The Real Housewives of New York City</title>
-    <sub-title lang="en">On an Island</sub-title>
-    <desc lang="en">Bethenny and Dorinda get straight to work when they arrive in Puerto Rico. Romano tries to make things right with Sonhja, and Luann begins planning a unique performance.</desc>
-    <credits>
-      <producer>Scott Dunlop</producer>
-    </credits>
-    <date>2018</date>
-    <category lang="en">Reality</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F15419979~~2FEP012861150196,imi:cf77438c24b19f8e20c12c8e77ca692fd53947ef/posterTile?imageVersion=7EDyOw&amp;w=200" />
-    <country lang="en">US</country>
-    <episode-num system="onscreen">S10 E7</episode-num>
-  </programme>
-  <programme start="20260907235500 +0000" stop="20260908004000 +0000" channel="Virgin.Media.Two.HD.ie">
-    <title lang="en">The Real Housewives of New York City</title>
-    <sub-title lang="en">A Frittered Friendship</sub-title>
-    <desc lang="en">The ladies make their annual visit to the Berkshires and prepare for a 1920s murder mystery dinner party taking place at Blue Stone Manor. Carole confides in Dorinda and Ramona about some tension with Bethenny.</desc>
-    <credits>
-      <producer>Scott Dunlop</producer>
-    </credits>
-    <date>2018</date>
-    <category lang="en">Reality</category>
-    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F15423387~~2FEP012861150197,imi:aaeda50caddc2feaab5c9a2e3b43d5255714c4b3/posterTile?imageVersion=BHgoGg&amp;w=200" />
-    <country lang="en">US</country>
-    <episode-num system="onscreen">S10 E8</episode-num>
+    <episode-num system="onscreen">S1 E5</episode-num>
   </programme>
   <programme start="20260908004000 +0000" stop="20260908012400 +0000" channel="Virgin.Media.Two.HD.ie">
     <title lang="en">Dress to Impress</title>
@@ -264899,6 +264500,313 @@ An international team of reporters will follow the guidance of Occam's Razor - t
     <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F25787157~~2FEP012609270608,imi:a4548f0a9914e254bbf056f04f1b7faa1212453e/posterTile?imageVersion=frxaug&amp;w=200" />
     <country lang="en">GB</country>
     <episode-num system="onscreen">S31 E8</episode-num>
+  </programme>
+  <programme start="20260911003000 +0000" stop="20260911011600 +0000" channel="Virgin.Media.Two.HD.ie">
+    <title lang="en">Born to Kill?</title>
+    <sub-title lang="en">The Sunset Strip Killers</sub-title>
+    <desc lang="en">In the summer of 1980, Douglas Clark and Carol Bundy trawled Sunset Strip in Los Angeles looking for prey. Acting out their darkest desires, they left a trail of bloodshed in their wake. What motivated this string of sickening murders?</desc>
+    <credits>
+      <director>Neil Edwards</director>
+      <producer>Neil Edwards</producer>
+    </credits>
+    <date>2014</date>
+    <category lang="en">Documentary</category>
+    <category lang="en">Crime</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F10645874~~2FEP013048510081,imi:5497f4b4948fa98147fc80a1f6d33560545ec5ee/posterTile?imageVersion=r-NLkQ&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S6 E4</episode-num>
+  </programme>
+  <programme start="20260911011600 +0000" stop="20260911060000 +0000" channel="Virgin.Media.Two.HD.ie">
+    <title lang="en">Channel Off Air</title>
+    <desc lang="en">Bringing the best in television.</desc>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F480440~~2FSH034728720000~~2Foffair,imi:5819a55d4d31c94e9ba7f9070331e0d2e9272812/posterTile?imageVersion=9Hacjw&amp;w=200" />
+    <country lang="en">US</country>
+  </programme>
+  <programme start="20260911060000 +0000" stop="20260911070000 +0000" channel="Virgin.Media.Two.HD.ie">
+    <title lang="en">The Finish Line</title>
+    <sub-title lang="en">Episode 8</sub-title>
+    <desc lang="en">Contestants Davina, Joe, Carol, Nick and Sam battle it out for the prize.</desc>
+    <credits>
+      <producer>Adam Adler</producer>
+      <producer>Chris Jones</producer>
+      <producer>Martin Scott</producer>
+    </credits>
+    <date>2024</date>
+    <category lang="en">Game Show</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F27320711~~2FEP048355930033,imi:3254c613364ec81a9baab450725f9a8322a3f3d4/posterTile?imageVersion=q2SmHQ&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S2 E8</episode-num>
+  </programme>
+  <programme start="20260911070000 +0000" stop="20260911080000 +0000" channel="Virgin.Media.Two.HD.ie">
+    <title lang="en">Riddiculous</title>
+    <sub-title lang="en">Episode 3</sub-title>
+    <desc lang="en">Clare and Matthew, Daniel and James, and Glenn and Mark take on The Riddlemaster and attempt to solve a series of riddles and make it through to the high stakes final.</desc>
+    <credits>
+      <director>Toby Baker</director>
+      <director>Julian Clarke-Smith</director>
+      <producer>Nathan Eastwood</producer>
+      <producer>Michelle Langer</producer>
+      <producer>Julie Kelling</producer>
+    </credits>
+    <date>2022</date>
+    <category lang="en">Game Show</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F23188636~~2FEP044976310003,imi:517972e93efafad409784b00be60ae74dd460518/posterTile?imageVersion=2sHVbg&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S1 E3</episode-num>
+  </programme>
+  <programme start="20260911080000 +0000" stop="20260911090000 +0000" channel="Virgin.Media.Two.HD.ie">
+    <title lang="en">The Chase</title>
+    <sub-title lang="en">Episode 64</sub-title>
+    <desc lang="en">Bradley Walsh hosts as Chris from the Isle of Man, Sian from Cwmbran, Lauryn from Weston-super-Mare and Tony from Birmingham take on one of the country's finest quiz brains and try to take home thousands of pounds.</desc>
+    <credits>
+      <producer>Martin Scott</producer>
+      <producer>Michael Kelpie</producer>
+      <producer>Helen Tumbridge</producer>
+    </credits>
+    <date>2023</date>
+    <category lang="en">Game Show</category>
+    <category lang="en">Entertainment</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F31183287~~2FEP012896312712,imi:3bdc09e1fa929958502033915ae41dd0ff3a8692/posterTile?imageVersion=bolWGg&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S17 E64</episode-num>
+  </programme>
+  <programme start="20260911090000 +0000" stop="20260911100000 +0000" channel="Virgin.Media.Two.HD.ie">
+    <title lang="en">The Chase</title>
+    <sub-title lang="en">Episode 65</sub-title>
+    <desc lang="en">Four strangers, Spiro from Epsom, Brittany originally from LA, Lou from Cricklade, Tony from Carrickfergus, work as a team in the hope of winning thousands of pounds. But, standing between them and the prize pot is a Chaser. Bradley Walsh hosts.</desc>
+    <credits>
+      <producer>Martin Scott</producer>
+      <producer>Michael Kelpie</producer>
+      <producer>Helen Tumbridge</producer>
+    </credits>
+    <date>2023</date>
+    <category lang="en">Game Show</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F32011267~~2FEP012896312756,imi:0d79fba8aaaa029df5d317a273e1cbc4937a5989/posterTile?imageVersion=JPRh1g&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S17 E65</episode-num>
+  </programme>
+  <programme start="20260911100000 +0000" stop="20260911110000 +0000" channel="Virgin.Media.Two.HD.ie">
+    <title lang="en">Riddiculous</title>
+    <sub-title lang="en">Episode 20</sub-title>
+    <desc lang="en">Ranvir Singh hosts the quiz where contestants take on the Riddlemaster in a bid to solve his riddles - how will Victoria and Luca, Hayley and Conor, and Ola and Luke cope?</desc>
+    <credits>
+      <director>Toby Baker</director>
+    </credits>
+    <date>2022</date>
+    <category lang="en">Game Show</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F23325843~~2FEP044976310020,imi:519e9076fc43bfc5ece402689292bd48c05b4015/posterTile?imageVersion=pmK3wQ&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S1 E20</episode-num>
+  </programme>
+  <programme start="20260911110000 +0000" stop="20260911120000 +0000" channel="Virgin.Media.Two.HD.ie">
+    <title lang="en">Moneyball</title>
+    <sub-title lang="en">Episode 1</sub-title>
+    <desc lang="en">Mo and Jabari, Andy and Josie, and Jane and Yuriy all step up to take on The Launcher, a massive money-making machine - tensions run high, and with only millimetres between winning and losing, where the ball lands is everything.</desc>
+    <credits>
+      <director>John L Spencer</director>
+      <producer>Barry Hart</producer>
+      <producer>Martin Scott</producer>
+      <producer>Michael Kelpie</producer>
+    </credits>
+    <date>2023</date>
+    <category lang="en">Entertainment</category>
+    <category lang="en">Game Show</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F25213772~~2FEP040684560009,imi:9b1a70cc0684ba4e4762427f81faec421b56de7c/posterTile?imageVersion=0nmwyA&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S2 E1</episode-num>
+  </programme>
+  <programme start="20260911120000 +0000" stop="20260911130000 +0000" channel="Virgin.Media.Two.HD.ie">
+    <title lang="en">How to Lose Weight Well</title>
+    <sub-title lang="en">Hanger, Booze and a Six Week Diet</sub-title>
+    <desc lang="en">Jonno and Alfie have two weeks to slim down for a family barbecue, Sonal and Surekha go on six-week dieting plans, and Xand pits alcoholic drinks against each other to find out which is the worst for calories.</desc>
+    <credits>
+      <producer>Ben Gale</producer>
+      <producer>Kurt Seywald</producer>
+    </credits>
+    <date>2019</date>
+    <category lang="en">Reality</category>
+    <category lang="en">Health</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F16485814~~2FEP023375560017,imi:19383e467ca95e245d45c87030858dac8ab7f60e/posterTile?imageVersion=ou5GEQ&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S4 E4</episode-num>
+  </programme>
+  <programme start="20260911130000 +0000" stop="20260911140000 +0000" channel="Virgin.Media.Two.HD.ie">
+    <title lang="en">Posh Pawn</title>
+    <sub-title lang="en">Episode 6</sub-title>
+    <desc lang="en">Claudia meets her match when a former fashionista approaches her about a selection of designer handbags. James has to make a quick decision regarding an Italian classic scooter.</desc>
+    <credits>
+      <director>Paul Nelson</director>
+      <producer>Tess Cuming</producer>
+    </credits>
+    <date>2015</date>
+    <category lang="en">Documentary</category>
+    <category lang="en">Reality</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F28115628~~2FEP019022550060,imi:1b0fc313f0abaeeb3f3aa1a10f2117546df64c47/posterTile?imageVersion=oqphEg&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S4 E6</episode-num>
+  </programme>
+  <programme start="20260911140000 +0000" stop="20260911150000 +0000" channel="Virgin.Media.Two.HD.ie">
+    <title lang="en">The Finish Line</title>
+    <sub-title lang="en">Episode 24</sub-title>
+    <desc lang="en">Roman Kemp and sidekick Sarah Greene host the quiz show where contestants race on moving podiums across the studio floor. Correct answers get the players moving, while wrong answers will stop them in their tracks.</desc>
+    <credits>
+      <producer>Adam Adler</producer>
+      <producer>Chris Jones</producer>
+      <producer>Martin Scott</producer>
+    </credits>
+    <date>2024</date>
+    <category lang="en">Game Show</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F27450600~~2FEP048355930049,imi:e5aae7bd13111cc047121dd6f9825a44cb5f2f5d/posterTile?imageVersion=q2SmHQ&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S2 E24</episode-num>
+  </programme>
+  <programme start="20260911150000 +0000" stop="20260911160000 +0000" channel="Virgin.Media.Two.HD.ie">
+    <title lang="en">Tipping Point</title>
+    <sub-title lang="en">Episode 24</sub-title>
+    <desc lang="en">Contestants play a large coin-drop machine, provided they answer questions correctly. Answer incorrectly and the players could be eliminated. The last contestant standing has an opportunity to win the machine's £10,000 jackpot.</desc>
+    <credits>
+      <director>Richard van't Riet</director>
+      <producer>Hugh Rycroft</producer>
+      <producer>Kate Lownds</producer>
+      <producer>Sara Doyle</producer>
+    </credits>
+    <date>2021</date>
+    <category lang="en">Game Show</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F22094110~~2FEP015829261386,imi:59784ba7bf2b843210544cf1d73ad4ee6d46d108/posterTile?imageVersion=FAP3wA&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S12 E24</episode-num>
+  </programme>
+  <programme start="20260911160000 +0000" stop="20260911170000 +0000" channel="Virgin.Media.Two.HD.ie">
+    <title lang="en">Tipping Point</title>
+    <sub-title lang="en">Episode 103</sub-title>
+    <desc lang="en">Ben Shephard hosts the quiz show in which four players take on an extraordinary machine in the hope of winning a cash jackpot.</desc>
+    <credits>
+      <director>Richard van't Riet</director>
+      <producer>Hugh Rycroft</producer>
+      <producer>Peter Usher</producer>
+      <producer>Sara Doyle</producer>
+    </credits>
+    <date>2021</date>
+    <category lang="en">Game Show</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F23630293~~2FEP015829261462,imi:b16ff3deefbba2a139926c57a72ce71b8e5add84/posterTile?imageVersion=x-zpGg&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S12 E103</episode-num>
+  </programme>
+  <programme start="20260911170000 +0000" stop="20260911180000 +0000" channel="Virgin.Media.Two.HD.ie">
+    <title lang="en">The Chase</title>
+    <sub-title lang="en">Episode 18</sub-title>
+    <desc lang="en">Claire from Glasgow, Gordon from Glossop, Elliott from South Shields and Risha from London join forces in an attempt to take home thousands of pounds. Just one thing stands in their way - The Chaser.</desc>
+    <credits>
+      <producer>Martin Scott</producer>
+      <producer>Michael Kelpie</producer>
+      <producer>Helen Tumbridge</producer>
+    </credits>
+    <date>2022</date>
+    <category lang="en">Game Show</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F22177149~~2FEP012896312223,imi:054721192b31b5512e407014fdf75f6988cd1fb9/posterTile?imageVersion=2DF3xQ&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S15 E18</episode-num>
+  </programme>
+  <programme start="20260911180000 +0000" stop="20260911183000 +0000" channel="Virgin.Media.Two.HD.ie">
+    <title lang="en">Heathrow: Britain's Busiest Airport</title>
+    <sub-title lang="en">Episode 5</sub-title>
+    <desc lang="en">Border Force pull over a Ghananian business man declaring a large sum of money in cash, there is love in the air with a blind date at the romantic venue of Terminal 5 arrivals, and it is the end of an era on the airfield for Chief Trainer Simon.</desc>
+    <date>2018</date>
+    <category lang="en">Reality</category>
+    <category lang="en">Documentary</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F15561647~~2FEP021906860014,imi:e406d158ebc47f9d2c716d9eded19f8195db09f6/posterTile?imageVersion=TvjCjA&amp;w=200" />
+    <country lang="en">GB</country>
+    <episode-num system="onscreen">S4 E5</episode-num>
+  </programme>
+  <programme start="20260911183000 +0000" stop="20260911213000 +0000" channel="Virgin.Media.Two.HD.ie">
+    <title lang="en">Live: SSE Airtricity Men's Premier Division</title>
+    <sub-title lang="en">St. Patrick's Athletic v Shamrock Rovers</sub-title>
+    <desc lang="en">A blockbuster Dublin derby sees St Pats take on Shamrock Rovers, with crucial points on the line in the League of Ireland title race.</desc>
+    <category lang="en">Sport</category>
+    <category lang="en">Soccer</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F33980455~~2FEP013976800296,imi:0394b929c1ef1d456dc1a8e52d2b91a75dc7a86b/posterTile?imageVersion=BkU2pw&amp;w=200" />
+    <episode-num system="onscreen">S2026 E91196</episode-num>
+    <premiere lang="en" />
+  </programme>
+  <programme start="20260911213000 +0000" stop="20260911220000 +0000" channel="Virgin.Media.Two.HD.ie">
+    <title lang="en">Friends</title>
+    <sub-title lang="en">The One With All the Rugby</sub-title>
+    <desc lang="en">Ross takes up rugby to impress Emily, and Chandler sets up a ruse to avoid his former girlfriend Janice.</desc>
+    <credits>
+      <producer>Kevin Bright</producer>
+      <producer>Marta Kauffman</producer>
+      <producer>David Crane</producer>
+    </credits>
+    <date>1997</date>
+    <category lang="en">Sitcoms</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F1712340~~2FEP012597240094,imi:277640b8d8b2c894b7f8ab34db821eb1ca50349a/posterTile?imageVersion=3dwihQ&amp;w=200" />
+    <country lang="en">US</country>
+    <episode-num system="onscreen">S4 E15</episode-num>
+  </programme>
+  <programme start="20260911220000 +0000" stop="20260911223000 +0000" channel="Virgin.Media.Two.HD.ie">
+    <title lang="en">Friends</title>
+    <sub-title lang="en">The One With the Fake Party</sub-title>
+    <desc lang="en">To become better acquainted with her crush Joshua, Rachel inadvertently thwarts Ross's plans. Phoebe's pregnancy cravings evoke a sympathetic response from Joey.</desc>
+    <credits>
+      <producer>Kevin Bright</producer>
+      <producer>Marta Kauffman</producer>
+      <producer>David Crane</producer>
+    </credits>
+    <date>1997</date>
+    <category lang="en">Sitcoms</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F1712342~~2FEP012597240095,imi:6106ae42862d1d89c89437b47e7912bd5e9d85f4/posterTile?imageVersion=NVpzXA&amp;w=200" />
+    <country lang="en">US</country>
+    <episode-num system="onscreen">S4 E16</episode-num>
+  </programme>
+  <programme start="20260911223000 +0000" stop="20260911230500 +0000" channel="Virgin.Media.Two.HD.ie">
+    <title lang="en">Austin</title>
+    <sub-title lang="en">The Bonding Process</sub-title>
+    <desc lang="en">On a bonding tour with Austin, Julian covertly starts making a documentary film about 'father and neurodivergent son quality time' in order to spring-clean his image.</desc>
+    <credits>
+      <producer>Joe Weatherstone</producer>
+      <producer>Catherine Nebauer</producer>
+      <producer>Darren Ashton</producer>
+    </credits>
+    <date>2024</date>
+    <category lang="en">Drama Series</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F27594943~~2FEP052171140003,imi:4aa48e03c118fede255303c228919f40e9106f93/posterTile?imageVersion=a-Efaw&amp;w=200" />
+    <country lang="en">AU</country>
+    <episode-num system="onscreen">S1 E3</episode-num>
+  </programme>
+  <programme start="20260911230500 +0000" stop="20260911234000 +0000" channel="Virgin.Media.Two.HD.ie">
+    <title lang="en">Austin</title>
+    <sub-title lang="en">Get it All on Camera</sub-title>
+    <desc lang="en">Julian's documentary, capturing his growing relationship with Austin, is now out in the open, and Julian engages an award-winning film-maker to finish the job.</desc>
+    <credits>
+      <producer>Joe Weatherstone</producer>
+      <producer>Catherine Nebauer</producer>
+      <producer>Darren Ashton</producer>
+    </credits>
+    <date>2024</date>
+    <category lang="en">Drama Series</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F27658103~~2FEP052171140004,imi:9df4cbb44955ba861c3fe814aead0dce5a09bda9/posterTile?imageVersion=onsyaA&amp;w=200" />
+    <country lang="en">AU</country>
+    <episode-num system="onscreen">S1 E4</episode-num>
+  </programme>
+  <programme start="20260911234000 +0000" stop="20260912001500 +0000" channel="Virgin.Media.Two.HD.ie">
+    <title lang="en">Bump</title>
+    <sub-title lang="en">Love in the Time of Chaos</sub-title>
+    <desc lang="en">Rosa's boys are resisting their new stepfather, while Oly and Santi manage to find a new connection. In the meantime, Dom thinks about next steps, and Rosa comes to a big decision.</desc>
+    <credits>
+      <director>Geoff Bennett</director>
+      <director>Gracie Otto</director>
+      <producer>Claudia Karvan</producer>
+      <producer>John Edwards</producer>
+      <producer>Dan Edwards</producer>
+    </credits>
+    <date>2022</date>
+    <category lang="en">Drama Series</category>
+    <category lang="en">Comedy</category>
+    <icon src="https://staticqbr-prod-ie.gnp.cloud.virginmediatv.ie/image-service/intent/crid:~~2F~~2Fgn.tv~~2F23584401~~2FEP038624800028,imi:389bd1b7f8a3bc3cd4c46ae3e15ff414634f8236/posterTile?imageVersion=Wg2dPg&amp;w=200" />
+    <country lang="en">AU</country>
+    <episode-num system="onscreen">S3 E8</episode-num>
   </programme>
   <programme channel="viva-cinema.click" start="20260903201500 +0800" stop="20260903221500 +0800">
     <title>Bridesmaids (1997)</title>
