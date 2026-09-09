@@ -1,7 +1,9 @@
 {
-  "channels_with_epg_count": 280,
+  "channels_with_epg_count": 278,
   "channels_without_epg": [
     "buko",
+    "cinemaone.ph",
+    "pl_sdi10",
     "solar-flix.click",
     "truefm_tv"
   ],
@@ -20,8 +22,8 @@
   "failed_sources": [
     "ClickTheCity Cinema One"
   ],
-  "generated_at": "2026-09-09T00:27:36.318557+00:00",
-  "programme_count": 26803,
+  "generated_at": "2026-09-09T12:22:17.687595+00:00",
+  "programme_count": 26713,
   "requested_channel_count": 283,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -55,11 +57,11 @@
     "AMC.HD.us2": "EPGShare US",
     "ANC": "StarHub",
     "ANIPLUS.HD.sg": "epg.pw Aniplus HD",
-    "Amazon.US.BBCFood": "Amazon FAST",
-    "Amazon.US.BilliardTV": "Amazon FAST",
+    "Amazon.US.BBCFood": "previous published output",
+    "Amazon.US.BilliardTV": "previous published output",
     "Amazon.US.CBSNewsChicago": "Amazon FAST",
     "Amazon.US.CBSNewsNewYork": "Amazon FAST",
-    "Amazon.US.HBOBoxing": "Amazon FAST",
+    "Amazon.US.HBOBoxing": "previous published output",
     "Animax HD": "StarHub",
     "Arena.Esport.hr": "EPGShare Croatia Arena Sports",
     "Arena.Fight.hr": "EPGShare Croatia Arena Sports",
@@ -241,7 +243,6 @@
     "cgtn": "Mediaquest Cignal",
     "cgtn-test": "Mediaquest Cignal",
     "channelnewsasia": "Mediaquest Cignal",
-    "cinemaone.ph": "previous published output",
     "cinemo.global": "custom recurring schedule",
     "cinemo.ph": "custom recurring schedule",
     "cltv36.ph": "custom recurring schedule",
@@ -285,7 +286,6 @@
     "net-25.click": "Cignal fallback",
     "onenews_hd1": "Mediaquest Cignal",
     "oneph_sd": "Mediaquest Cignal",
-    "pl_sdi10": "previous published output",
     "plex.tv.ANIME.x.HIDIVE.plex": "EPGShare Plex",
     "premiersports2hd": "Mediaquest Cignal",
     "romedynow.jio": "JioTV selected channels",
