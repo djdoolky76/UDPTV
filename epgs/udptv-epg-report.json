@@ -1,8 +1,7 @@
 {
-  "channels_with_epg_count": 278,
+  "channels_with_epg_count": 279,
   "channels_without_epg": [
     "buko",
-    "cinemaone.ph",
     "pl_sdi10",
     "solar-flix.click",
     "truefm_tv"
@@ -17,13 +16,12 @@
     "untv.ph": "https://russel.fandom.com/wiki/UNTV_Program_Schedule"
   },
   "dynamic_schedule_sources": {
+    "cinemaone.ph": "https://www.clickthecity.com/tv/channels/cinema-one",
     "metrochannel.ph": "https://www.ontvtonight.com/guide/listings/channel/1473142439/metro-channel-philippines.html"
   },
-  "failed_sources": [
-    "ClickTheCity Cinema One"
-  ],
-  "generated_at": "2026-09-09T12:22:17.687595+00:00",
-  "programme_count": 26713,
+  "failed_sources": [],
+  "generated_at": "2026-09-10T00:22:49.494722+00:00",
+  "programme_count": 27123,
   "requested_channel_count": 283,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -57,11 +55,11 @@
     "AMC.HD.us2": "EPGShare US",
     "ANC": "StarHub",
     "ANIPLUS.HD.sg": "epg.pw Aniplus HD",
-    "Amazon.US.BBCFood": "previous published output",
-    "Amazon.US.BilliardTV": "previous published output",
+    "Amazon.US.BBCFood": "Amazon FAST",
+    "Amazon.US.BilliardTV": "Amazon FAST",
     "Amazon.US.CBSNewsChicago": "Amazon FAST",
     "Amazon.US.CBSNewsNewYork": "Amazon FAST",
-    "Amazon.US.HBOBoxing": "previous published output",
+    "Amazon.US.HBOBoxing": "Amazon FAST",
     "Animax HD": "StarHub",
     "Arena.Esport.hr": "EPGShare Croatia Arena Sports",
     "Arena.Fight.hr": "EPGShare Croatia Arena Sports",
@@ -243,6 +241,7 @@
     "cgtn": "Mediaquest Cignal",
     "cgtn-test": "Mediaquest Cignal",
     "channelnewsasia": "Mediaquest Cignal",
+    "cinemaone.ph": "ClickTheCity Cinema One",
     "cinemo.global": "custom recurring schedule",
     "cinemo.ph": "custom recurring schedule",
     "cltv36.ph": "custom recurring schedule",
