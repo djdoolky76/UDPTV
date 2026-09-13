@@ -1,6 +1,8 @@
 {
-  "channels_with_epg_count": 279,
+  "channels_with_epg_count": 277,
   "channels_without_epg": [
+    "Amazon.US.BilliardTV",
+    "Amazon.US.HBOBoxing",
     "buko",
     "pl_sdi10",
     "solar-flix.click",
@@ -20,8 +22,8 @@
     "metrochannel.ph": "https://www.ontvtonight.com/guide/listings/channel/1473142439/metro-channel-philippines.html"
   },
   "failed_sources": [],
-  "generated_at": "2026-09-12T12:20:13.472248+00:00",
-  "programme_count": 27414,
+  "generated_at": "2026-09-13T00:24:20.221813+00:00",
+  "programme_count": 27721,
   "requested_channel_count": 283,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -56,10 +58,8 @@
     "ANC": "StarHub",
     "ANIPLUS.HD.sg": "epg.pw Aniplus HD",
     "Amazon.US.BBCFood": "Amazon FAST",
-    "Amazon.US.BilliardTV": "Amazon FAST",
-    "Amazon.US.CBSNewsChicago": "previous published output",
-    "Amazon.US.CBSNewsNewYork": "previous published output",
-    "Amazon.US.HBOBoxing": "Amazon FAST",
+    "Amazon.US.CBSNewsChicago": "Amazon FAST",
+    "Amazon.US.CBSNewsNewYork": "Amazon FAST",
     "Animax HD": "StarHub",
     "Arena.Esport.hr": "EPGShare Croatia Arena Sports",
     "Arena.Fight.hr": "EPGShare Croatia Arena Sports",
