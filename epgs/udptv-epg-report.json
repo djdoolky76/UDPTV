@@ -1,11 +1,10 @@
 {
-  "channels_with_epg_count": 277,
+  "channels_with_epg_count": 278,
   "channels_without_epg": [
-    "Amazon.US.BilliardTV",
-    "Amazon.US.HBOBoxing",
     "buko",
     "pl_sdi10",
     "solar-flix.click",
+    "TAPACTIONFLIX.ph",
     "truefm_tv"
   ],
   "custom_schedule_sources": {
@@ -22,8 +21,8 @@
     "metrochannel.ph": "https://www.ontvtonight.com/guide/listings/channel/1473142439/metro-channel-philippines.html"
   },
   "failed_sources": [],
-  "generated_at": "2026-09-13T00:24:20.221813+00:00",
-  "programme_count": 27721,
+  "generated_at": "2026-09-13T12:20:17.624817+00:00",
+  "programme_count": 27606,
   "requested_channel_count": 283,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -58,8 +57,10 @@
     "ANC": "StarHub",
     "ANIPLUS.HD.sg": "epg.pw Aniplus HD",
     "Amazon.US.BBCFood": "Amazon FAST",
+    "Amazon.US.BilliardTV": "Amazon FAST",
     "Amazon.US.CBSNewsChicago": "Amazon FAST",
     "Amazon.US.CBSNewsNewYork": "Amazon FAST",
+    "Amazon.US.HBOBoxing": "Amazon FAST",
     "Animax HD": "StarHub",
     "Arena.Esport.hr": "EPGShare Croatia Arena Sports",
     "Arena.Fight.hr": "EPGShare Croatia Arena Sports",
@@ -178,7 +179,6 @@
     "StarMoviesSelect.in": "epg.pw Star Movies Select HD",
     "Stories.by.AMC.us2": "EPGShare US",
     "Syfy.HD.us2": "EPGShare US",
-    "TAPACTIONFLIX.ph": "EPGShare Philippines",
     "TBS.HD.(Pacific).us2": "EPGShare US",
     "TNT.HD.us2": "EPGShare US",
     "TNT.Sports.1.HD.uk": "EPGShare UK",
