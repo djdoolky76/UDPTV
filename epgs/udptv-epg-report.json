@@ -1,6 +1,7 @@
 {
-  "channels_with_epg_count": 278,
+  "channels_with_epg_count": 277,
   "channels_without_epg": [
+    "Amazon.US.BBCFood",
     "buko",
     "pl_sdi10",
     "solar-flix.click",
@@ -21,8 +22,8 @@
     "metrochannel.ph": "https://www.ontvtonight.com/guide/listings/channel/1473142439/metro-channel-philippines.html"
   },
   "failed_sources": [],
-  "generated_at": "2026-09-15T12:22:01.073322+00:00",
-  "programme_count": 27732,
+  "generated_at": "2026-09-16T00:22:43.058240+00:00",
+  "programme_count": 27752,
   "requested_channel_count": 283,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -56,7 +57,6 @@
     "AMC.HD.us2": "EPGShare US",
     "ANC": "StarHub",
     "ANIPLUS.HD.sg": "epg.pw Aniplus HD",
-    "Amazon.US.BBCFood": "previous published output",
     "Amazon.US.BilliardTV": "Amazon FAST",
     "Amazon.US.CBSNewsChicago": "Amazon FAST",
     "Amazon.US.CBSNewsNewYork": "Amazon FAST",
