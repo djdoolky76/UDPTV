@@ -18,12 +18,13 @@
     "untv.ph": "https://russel.fandom.com/wiki/UNTV_Program_Schedule"
   },
   "dynamic_schedule_sources": {
-    "cinemaone.ph": "https://www.clickthecity.com/tv/channels/cinema-one",
     "metrochannel.ph": "https://www.ontvtonight.com/guide/listings/channel/1473142439/metro-channel-philippines.html"
   },
-  "failed_sources": [],
-  "generated_at": "2026-09-16T00:22:43.058240+00:00",
-  "programme_count": 27752,
+  "failed_sources": [
+    "ClickTheCity Cinema One"
+  ],
+  "generated_at": "2026-09-16T12:22:22.256504+00:00",
+  "programme_count": 27593,
   "requested_channel_count": 283,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -57,10 +58,10 @@
     "AMC.HD.us2": "EPGShare US",
     "ANC": "StarHub",
     "ANIPLUS.HD.sg": "epg.pw Aniplus HD",
-    "Amazon.US.BilliardTV": "Amazon FAST",
-    "Amazon.US.CBSNewsChicago": "Amazon FAST",
-    "Amazon.US.CBSNewsNewYork": "Amazon FAST",
-    "Amazon.US.HBOBoxing": "Amazon FAST",
+    "Amazon.US.BilliardTV": "previous published output",
+    "Amazon.US.CBSNewsChicago": "previous published output",
+    "Amazon.US.CBSNewsNewYork": "previous published output",
+    "Amazon.US.HBOBoxing": "previous published output",
     "Animax HD": "StarHub",
     "Arena.Esport.hr": "EPGShare Croatia Arena Sports",
     "Arena.Fight.hr": "EPGShare Croatia Arena Sports",
@@ -241,7 +242,7 @@
     "cgtn": "Mediaquest Cignal",
     "cgtn-test": "Mediaquest Cignal",
     "channelnewsasia": "Mediaquest Cignal",
-    "cinemaone.ph": "ClickTheCity Cinema One",
+    "cinemaone.ph": "previous published output",
     "cinemo.global": "custom recurring schedule",
     "cinemo.ph": "custom recurring schedule",
     "cltv36.ph": "custom recurring schedule",
