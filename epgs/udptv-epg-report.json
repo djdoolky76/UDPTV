@@ -1,7 +1,10 @@
 {
-  "channels_with_epg_count": 277,
+  "channels_with_epg_count": 274,
   "channels_without_epg": [
     "Amazon.US.BBCFood",
+    "Amazon.US.CBSNewsChicago",
+    "Amazon.US.CBSNewsNewYork",
+    "Arena.Sport.8.HD.hr",
     "buko",
     "pl_sdi10",
     "solar-flix.click",
@@ -23,8 +26,8 @@
   "failed_sources": [
     "ClickTheCity Cinema One"
   ],
-  "generated_at": "2026-09-16T12:22:22.256504+00:00",
-  "programme_count": 27593,
+  "generated_at": "2026-09-17T00:22:52.551960+00:00",
+  "programme_count": 27395,
   "requested_channel_count": 283,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -58,10 +61,8 @@
     "AMC.HD.us2": "EPGShare US",
     "ANC": "StarHub",
     "ANIPLUS.HD.sg": "epg.pw Aniplus HD",
-    "Amazon.US.BilliardTV": "previous published output",
-    "Amazon.US.CBSNewsChicago": "previous published output",
-    "Amazon.US.CBSNewsNewYork": "previous published output",
-    "Amazon.US.HBOBoxing": "previous published output",
+    "Amazon.US.BilliardTV": "Amazon FAST",
+    "Amazon.US.HBOBoxing": "Amazon FAST",
     "Animax HD": "StarHub",
     "Arena.Esport.hr": "EPGShare Croatia Arena Sports",
     "Arena.Fight.hr": "EPGShare Croatia Arena Sports",
@@ -73,7 +74,6 @@
     "Arena.Sport.5.HD.hr": "EPGShare Croatia Arena Sports",
     "Arena.Sport.6.HD.hr": "EPGShare Croatia Arena Sports",
     "Arena.Sport.7.HD.hr": "EPGShare Croatia Arena Sports",
-    "Arena.Sport.8.HD.hr": "EPGShare Croatia Arena Sports",
     "Arena.Sport.9.HD.hr": "EPGShare Croatia Arena Sports",
     "BBC Lifestyle": "StarHub",
     "Big.Ten.Network.HD.us2": "EPGShare US",
