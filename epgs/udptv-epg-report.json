@@ -1,8 +1,14 @@
 {
-  "channels_with_epg_count": 276,
+  "channels_with_epg_count": 270,
   "channels_without_epg": [
     "Amazon.US.BBCFood",
+    "Arena.Sport.4.HD.hr",
+    "Arena.Sport.5.HD.hr",
+    "Arena.Sport.6.HD.hr",
+    "Arena.Sport.7.HD.hr",
+    "Arena.Sport.8.HD.hr",
     "buko",
+    "heartofasia.ph",
     "iheartmovies.ph",
     "pl_sdi10",
     "solar-flix.click",
@@ -19,14 +25,14 @@
     "untv.ph": "https://russel.fandom.com/wiki/UNTV_Program_Schedule"
   },
   "dynamic_schedule_sources": {
+    "cinemaone.ph": "https://www.clickthecity.com/tv/channels/cinema-one",
     "metrochannel.ph": "https://www.ontvtonight.com/guide/listings/channel/1473142439/metro-channel-philippines.html"
   },
   "failed_sources": [
-    "KAO TV GMA",
-    "ClickTheCity Cinema One"
+    "KAO TV GMA"
   ],
-  "generated_at": "2026-09-19T12:20:38.211936+00:00",
-  "programme_count": 27124,
+  "generated_at": "2026-09-20T00:38:31.609544+00:00",
+  "programme_count": 27076,
   "requested_channel_count": 283,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -71,11 +77,6 @@
     "Arena.Sport.10.HD.hr": "EPGShare Croatia Arena Sports",
     "Arena.Sport.2.HD.hr": "EPGShare Croatia Arena Sports",
     "Arena.Sport.3.HD.hr": "EPGShare Croatia Arena Sports",
-    "Arena.Sport.4.HD.hr": "EPGShare Croatia Arena Sports",
-    "Arena.Sport.5.HD.hr": "EPGShare Croatia Arena Sports",
-    "Arena.Sport.6.HD.hr": "EPGShare Croatia Arena Sports",
-    "Arena.Sport.7.HD.hr": "EPGShare Croatia Arena Sports",
-    "Arena.Sport.8.HD.hr": "EPGShare Croatia Arena Sports",
     "Arena.Sport.9.HD.hr": "EPGShare Croatia Arena Sports",
     "BBC Lifestyle": "StarHub",
     "Big.Ten.Network.HD.us2": "EPGShare US",
@@ -244,7 +245,7 @@
     "cgtn": "Mediaquest Cignal",
     "cgtn-test": "Mediaquest Cignal",
     "channelnewsasia": "Mediaquest Cignal",
-    "cinemaone.ph": "previous published output",
+    "cinemaone.ph": "ClickTheCity Cinema One",
     "cinemo.global": "custom recurring schedule",
     "cinemo.ph": "custom recurring schedule",
     "cltv36.ph": "custom recurring schedule",
@@ -269,7 +270,6 @@
     "gsat.ALLTV": "GSAT",
     "gsat.GT9_PBO": "GSAT",
     "gtv.click": "Cignal fallback",
-    "heartofasia.ph": "previous published output",
     "hits_hd1": "Mediaquest Cignal",
     "hits_movies": "Mediaquest Cignal",
     "ibc-tv-13.click": "Cignal fallback",
