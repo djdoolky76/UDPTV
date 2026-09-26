@@ -1,5 +1,5 @@
 {
-  "channels_with_epg_count": 273,
+  "channels_with_epg_count": 275,
   "channels_without_epg": [
     "Amazon.US.BBCFood",
     "buko",
@@ -7,8 +7,6 @@
     "iheartmovies.ph",
     "pl_sdi10",
     "solar-flix.click",
-    "StarMovies.in",
-    "StarMoviesSelect.in",
     "TAPACTIONFLIX.ph",
     "truefm_tv"
   ],
@@ -28,8 +26,8 @@
   "failed_sources": [
     "KAO TV GMA"
   ],
-  "generated_at": "2026-09-25T12:29:52.774400+00:00",
-  "programme_count": 26677,
+  "generated_at": "2026-09-26T00:22:13.566076+00:00",
+  "programme_count": 26766,
   "requested_channel_count": 283,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -116,10 +114,10 @@
     "GMA.Life.TV.us2": "EPGShare US",
     "GMA.News.TV.hk": "epg.pw GMA News TV",
     "GMA.Pinoy.TV.us2": "EPGShare US",
-    "Go3.Sport.1.HD.lv": "previous published output",
-    "Go3.Sport.2.HD.lv": "previous published output",
-    "Go3.Sport.3.HD.lv": "previous published output",
-    "Go3.Sport.Open.HD.lv": "previous published output",
+    "Go3.Sport.1.HD.lv": "EPGShare Latvia Go3 Sports",
+    "Go3.Sport.2.HD.lv": "EPGShare Latvia Go3 Sports",
+    "Go3.Sport.3.HD.lv": "EPGShare Latvia Go3 Sports",
+    "Go3.Sport.Open.HD.lv": "EPGShare Latvia Go3 Sports",
     "Golf.Channel.HD.ca2": "EPGShare Canada",
     "Golf.Channel.HD.us2": "EPGShare US",
     "HBO Family HD": "StarHub",
@@ -181,6 +179,8 @@
     "Sportsnet.Ontario.HD.ca2": "EPGShare Canada",
     "Sportsnet.West.HD.ca2": "EPGShare Canada",
     "Sportsnet.World.ca2": "EPGShare Canada",
+    "StarMovies.in": "epg.pw Star Movies HD",
+    "StarMoviesSelect.in": "epg.pw Star Movies Select HD",
     "Stories.by.AMC.us2": "EPGShare US",
     "Syfy.HD.us2": "EPGShare US",
     "TBS.HD.(Pacific).us2": "EPGShare US",
