@@ -20,14 +20,14 @@
     "untv.ph": "https://russel.fandom.com/wiki/UNTV_Program_Schedule"
   },
   "dynamic_schedule_sources": {
-    "cinemaone.ph": "https://www.clickthecity.com/tv/channels/cinema-one",
     "metrochannel.ph": "https://www.ontvtonight.com/guide/listings/channel/1473142439/metro-channel-philippines.html"
   },
   "failed_sources": [
-    "KAO TV GMA"
+    "KAO TV GMA",
+    "ClickTheCity Cinema One"
   ],
-  "generated_at": "2026-10-05T12:30:01.207417+00:00",
-  "programme_count": 27398,
+  "generated_at": "2026-10-06T00:28:01.751860+00:00",
+  "programme_count": 27593,
   "requested_channel_count": 283,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -245,7 +245,7 @@
     "cgtn": "Mediaquest Cignal",
     "cgtn-test": "Mediaquest Cignal",
     "channelnewsasia": "Mediaquest Cignal",
-    "cinemaone.ph": "ClickTheCity Cinema One",
+    "cinemaone.ph": "previous published output",
     "cinemo.global": "custom recurring schedule",
     "cinemo.ph": "custom recurring schedule",
     "cltv36.ph": "custom recurring schedule",
