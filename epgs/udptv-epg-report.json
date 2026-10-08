@@ -1,7 +1,10 @@
 {
-  "channels_with_epg_count": 275,
+  "channels_with_epg_count": 272,
   "channels_without_epg": [
     "Amazon.US.BBCFood",
+    "Amazon.US.BilliardTV",
+    "Amazon.US.CBSNewsChicago",
+    "Amazon.US.CBSNewsNewYork",
     "buko",
     "heartofasia.ph",
     "iheartmovies.ph",
@@ -26,8 +29,8 @@
   "failed_sources": [
     "KAO TV GMA"
   ],
-  "generated_at": "2026-10-08T00:28:32.144187+00:00",
-  "programme_count": 27521,
+  "generated_at": "2026-10-08T12:25:07.211950+00:00",
+  "programme_count": 27199,
   "requested_channel_count": 283,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -61,10 +64,7 @@
     "AMC.HD.us2": "EPGShare US",
     "ANC": "StarHub",
     "ANIPLUS.HD.sg": "epg.pw Aniplus HD",
-    "Amazon.US.BilliardTV": "Amazon FAST",
-    "Amazon.US.CBSNewsChicago": "Amazon FAST",
-    "Amazon.US.CBSNewsNewYork": "Amazon FAST",
-    "Amazon.US.HBOBoxing": "Amazon FAST",
+    "Amazon.US.HBOBoxing": "previous published output",
     "Animax HD": "StarHub",
     "Arena.Esport.hr": "EPGShare Croatia Arena Sports",
     "Arena.Fight.hr": "EPGShare Croatia Arena Sports",
