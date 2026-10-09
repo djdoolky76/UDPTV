@@ -1,9 +1,7 @@
 {
-  "channels_with_epg_count": 273,
+  "channels_with_epg_count": 275,
   "channels_without_epg": [
     "Amazon.US.BBCFood",
-    "Amazon.US.CBSNewsChicago",
-    "Amazon.US.CBSNewsNewYork",
     "buko",
     "heartofasia.ph",
     "iheartmovies.ph",
@@ -22,14 +20,14 @@
     "untv.ph": "https://russel.fandom.com/wiki/UNTV_Program_Schedule"
   },
   "dynamic_schedule_sources": {
+    "cinemaone.ph": "https://www.clickthecity.com/tv/channels/cinema-one",
     "metrochannel.ph": "https://www.ontvtonight.com/guide/listings/channel/1473142439/metro-channel-philippines.html"
   },
   "failed_sources": [
-    "KAO TV GMA",
-    "ClickTheCity Cinema One"
+    "KAO TV GMA"
   ],
-  "generated_at": "2026-10-09T00:38:04.474444+00:00",
-  "programme_count": 26676,
+  "generated_at": "2026-10-09T12:29:43.837818+00:00",
+  "programme_count": 26491,
   "requested_channel_count": 283,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -64,6 +62,8 @@
     "ANC": "StarHub",
     "ANIPLUS.HD.sg": "epg.pw Aniplus HD",
     "Amazon.US.BilliardTV": "Amazon FAST",
+    "Amazon.US.CBSNewsChicago": "Amazon FAST",
+    "Amazon.US.CBSNewsNewYork": "Amazon FAST",
     "Amazon.US.HBOBoxing": "Amazon FAST",
     "Animax HD": "StarHub",
     "Arena.Esport.hr": "EPGShare Croatia Arena Sports",
@@ -245,7 +245,7 @@
     "cgtn": "Mediaquest Cignal",
     "cgtn-test": "Mediaquest Cignal",
     "channelnewsasia": "Mediaquest Cignal",
-    "cinemaone.ph": "previous published output",
+    "cinemaone.ph": "ClickTheCity Cinema One",
     "cinemo.global": "custom recurring schedule",
     "cinemo.ph": "custom recurring schedule",
     "cltv36.ph": "custom recurring schedule",
