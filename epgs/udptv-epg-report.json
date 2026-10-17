@@ -27,8 +27,8 @@
     "KAO TV GMA",
     "StarHub"
   ],
-  "generated_at": "2026-10-16T12:50:45.301471+00:00",
-  "programme_count": 26522,
+  "generated_at": "2026-10-17T00:36:09.909357+00:00",
+  "programme_count": 26421,
   "requested_channel_count": 283,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -63,8 +63,8 @@
     "ANC": "previous published output",
     "ANIPLUS.HD.sg": "epg.pw Aniplus HD",
     "Amazon.US.BilliardTV": "Amazon FAST",
-    "Amazon.US.CBSNewsChicago": "previous published output",
-    "Amazon.US.CBSNewsNewYork": "previous published output",
+    "Amazon.US.CBSNewsChicago": "Amazon FAST",
+    "Amazon.US.CBSNewsNewYork": "Amazon FAST",
     "Amazon.US.HBOBoxing": "Amazon FAST",
     "Animax HD": "previous published output",
     "Arena.Esport.hr": "EPGShare Croatia Arena Sports",
