@@ -1,9 +1,8 @@
 {
-  "channels_with_epg_count": 274,
+  "channels_with_epg_count": 275,
   "channels_without_epg": [
     "Amazon.US.BBCFood",
     "buko",
-    "cinemaone.ph",
     "heartofasia.ph",
     "iheartmovies.ph",
     "pl_sdi10",
@@ -21,15 +20,15 @@
     "untv.ph": "https://russel.fandom.com/wiki/UNTV_Program_Schedule"
   },
   "dynamic_schedule_sources": {
+    "cinemaone.ph": "https://www.clickthecity.com/tv/channels/cinema-one",
     "metrochannel.ph": "https://www.ontvtonight.com/guide/listings/channel/1473142439/metro-channel-philippines.html"
   },
   "failed_sources": [
     "KAO TV GMA",
-    "StarHub",
-    "ClickTheCity Cinema One"
+    "StarHub"
   ],
-  "generated_at": "2026-10-20T12:36:52.988843+00:00",
-  "programme_count": 25552,
+  "generated_at": "2026-10-21T00:37:21.482198+00:00",
+  "programme_count": 25401,
   "requested_channel_count": 283,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -181,8 +180,8 @@
     "Sportsnet.Ontario.HD.ca2": "EPGShare Canada",
     "Sportsnet.West.HD.ca2": "EPGShare Canada",
     "Sportsnet.World.ca2": "EPGShare Canada",
-    "StarMovies.in": "epg.pw Star Movies HD",
-    "StarMoviesSelect.in": "epg.pw Star Movies Select HD",
+    "StarMovies.in": "previous published output",
+    "StarMoviesSelect.in": "previous published output",
     "Stories.by.AMC.us2": "EPGShare US",
     "Syfy.HD.us2": "EPGShare US",
     "TBS.HD.(Pacific).us2": "EPGShare US",
@@ -247,6 +246,7 @@
     "cgtn": "Mediaquest Cignal",
     "cgtn-test": "Mediaquest Cignal",
     "channelnewsasia": "Mediaquest Cignal",
+    "cinemaone.ph": "ClickTheCity Cinema One",
     "cinemo.global": "custom recurring schedule",
     "cinemo.ph": "custom recurring schedule",
     "cltv36.ph": "custom recurring schedule",
