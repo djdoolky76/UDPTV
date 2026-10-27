@@ -1,10 +1,8 @@
 {
-  "channels_with_epg_count": 254,
+  "channels_with_epg_count": 256,
   "channels_without_epg": [
     "543174",
     "Amazon.US.BBCFood",
-    "Amazon.US.CBSNewsChicago",
-    "Amazon.US.CBSNewsNewYork",
     "ANC",
     "Animax HD",
     "BBC Lifestyle",
@@ -48,8 +46,8 @@
     "KAO TV GMA",
     "StarHub"
   ],
-  "generated_at": "2026-10-26T14:43:14.910594+00:00",
-  "programme_count": 24583,
+  "generated_at": "2026-10-27T00:36:55.634765+00:00",
+  "programme_count": 25179,
   "requested_channel_count": 283,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -82,6 +80,8 @@
     "AMC.HD.us2": "EPGShare US",
     "ANIPLUS.HD.sg": "epg.pw Aniplus HD",
     "Amazon.US.BilliardTV": "Amazon FAST",
+    "Amazon.US.CBSNewsChicago": "Amazon FAST",
+    "Amazon.US.CBSNewsNewYork": "Amazon FAST",
     "Amazon.US.HBOBoxing": "Amazon FAST",
     "Arena.Esport.hr": "EPGShare Croatia Arena Sports",
     "Arena.Fight.hr": "EPGShare Croatia Arena Sports",
