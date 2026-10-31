@@ -47,8 +47,8 @@
     "StarHub",
     "ClickTheCity Cinema One"
   ],
-  "generated_at": "2026-10-30T12:47:37.657189+00:00",
-  "programme_count": 24677,
+  "generated_at": "2026-10-31T00:57:41.642971+00:00",
+  "programme_count": 23990,
   "requested_channel_count": 283,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -245,7 +245,7 @@
     "cg_uaap_cplay_sd": "Mediaquest Cignal",
     "cgnl_nba": "Mediaquest Cignal",
     "cgtn": "Mediaquest Cignal",
-    "cgtn-test": "Mediaquest Cignal",
+    "cgtn-test": "previous published output",
     "channelnewsasia": "Mediaquest Cignal",
     "cinemo.global": "custom recurring schedule",
     "cinemo.ph": "custom recurring schedule",
@@ -265,7 +265,7 @@
     "dzmm.teleradyo.ph": "custom recurring schedule",
     "dzrhnewstv.ph": "custom recurring schedule",
     "fashiontvhd": "Mediaquest Cignal",
-    "fifafast": "Mediaquest Cignal",
+    "fifafast": "previous published output",
     "globaltrekker": "Mediaquest Cignal",
     "gma.click": "Cignal fallback",
     "gsat.ALLTV": "GSAT",
