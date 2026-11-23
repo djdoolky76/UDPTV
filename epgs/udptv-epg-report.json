@@ -57,8 +57,8 @@
     "StarHub",
     "ClickTheCity Cinema One"
   ],
-  "generated_at": "2026-11-22T12:53:52.501167+00:00",
-  "programme_count": 25196,
+  "generated_at": "2026-11-23T01:02:22.908120+00:00",
+  "programme_count": 25289,
   "requested_channel_count": 283,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -90,10 +90,10 @@
     "ABC.News.Live.us2": "EPGShare US",
     "AMC.HD.us2": "EPGShare US",
     "ANIPLUS.HD.sg": "epg.pw Aniplus HD",
-    "Amazon.US.BilliardTV": "Amazon FAST",
+    "Amazon.US.BilliardTV": "Cignal fallback",
     "Amazon.US.CBSNewsChicago": "Cignal fallback",
     "Amazon.US.CBSNewsNewYork": "Cignal fallback",
-    "Amazon.US.HBOBoxing": "Amazon FAST",
+    "Amazon.US.HBOBoxing": "Cignal fallback",
     "Arena.Esport.hr": "EPGShare Croatia Arena Sports",
     "Arena.Fight.hr": "EPGShare Croatia Arena Sports",
     "Arena.Sport.1.HD.hr": "EPGShare Croatia Arena Sports",
