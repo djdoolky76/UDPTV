@@ -1,8 +1,10 @@
 {
-  "channels_with_epg_count": 245,
+  "channels_with_epg_count": 243,
   "channels_without_epg": [
     "543174",
     "Amazon.US.BBCFood",
+    "Amazon.US.BilliardTV",
+    "Amazon.US.HBOBoxing",
     "ANC",
     "anc.click",
     "Animax HD",
@@ -57,8 +59,8 @@
     "StarHub",
     "ClickTheCity Cinema One"
   ],
-  "generated_at": "2026-11-23T01:02:22.908120+00:00",
-  "programme_count": 25289,
+  "generated_at": "2026-11-23T13:14:45.874098+00:00",
+  "programme_count": 25108,
   "requested_channel_count": 283,
   "selected_source_by_channel": {
     "100.astro": "Astro",
@@ -90,10 +92,8 @@
     "ABC.News.Live.us2": "EPGShare US",
     "AMC.HD.us2": "EPGShare US",
     "ANIPLUS.HD.sg": "epg.pw Aniplus HD",
-    "Amazon.US.BilliardTV": "Cignal fallback",
     "Amazon.US.CBSNewsChicago": "Cignal fallback",
     "Amazon.US.CBSNewsNewYork": "Cignal fallback",
-    "Amazon.US.HBOBoxing": "Cignal fallback",
     "Arena.Esport.hr": "EPGShare Croatia Arena Sports",
     "Arena.Fight.hr": "EPGShare Croatia Arena Sports",
     "Arena.Sport.1.HD.hr": "EPGShare Croatia Arena Sports",
